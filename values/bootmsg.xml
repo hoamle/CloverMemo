@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="B0000">
+\n
+□ Clover Paint released\n
+\n
+Newly developed is Clover Paint multiple layers and corresponding mask of selection, Cut, Paste in the selected range.\n
+If you need these advanced editing features, please consider purchasing.\n
+Paint version enhancements will continue in the future.\n
+(In memo versin are only scheduled to be introduced only common UI related improvements were added in the Paint version)\n
+    </string>
+<!--
+    <string name="B1150">
+\n
+□ Version 1.15\n
+\n
+- Add the navigation view\n
+ Will display the entire canvas, make sure your layout is available at any time at the big image.\n
+\n
+A navi-view Clover makes by [View > +Navi.view] button, and then tap the Clover.\n
+Of course, the usual common navigation specification with a scroll function that will be created by default, but you can navigate with the ability to overlay option settings.\n
+Please refer to the Web site for details.\n
+\n
+- Added the feature to create Undo / Redo shortcut Clover\n
+- Even when the status is UI-OFF, add to option in the Clover setting force-icon-visible\n
+- Implemented Auto Save\n
+ Optionally, you can set the operation time as a start condition and no edits\n
+- Improve the problem of texture and layers are disturbed during stroke movement in the some android terminal\n
+- Bug fix: Auto-rotation shift 90 degrees in some tablet that default is landscape mode(ex. GN10.1)\n
+- Add to option setting, visible the cursor while hovering\n
+- Other minor bug fixes and adjustments\n
+\n
+    </string>
+
+    <string name="B1151">
+\n
+□ Version 1.15.1\n
+\n
+- BugFix: When you move to the gallery immediately after auto save, modified image are not saved.
+\n
+    </string>
+
+    <string name="B1160">
+\n
+□ Version 1.16(almost for Clover Paint)\n
+\n
+- support PSD image format(import/export)\n
+(File>Import>Image>PSD / File>Export>Image>PSD)\n
+- Improved the reading speed of a thumbnail in the gallery\n
+- The size optimization processing of native image data\n
+- Specification extension of the "Clipping group" in layer settings\n
+- Delay processing of the refresh canvas\n
+- Other many minor bug fixes and adjustments\n
+
+\n
+    </string>
+
+    <string name="B1165">
+\n
+□ Version 1.16.5\n
+\n
+- Added option: Extend min scale limit Optimal by edit frame size\n
+- Added: new command [View > Init. > Center]\n
+- Bug fix: Can not read psd image exist(rarely) \n
+\n
+    </string>
+
+    <string name="B1166">
+\n
+□ version 1.16.6\n
+\n
+- Bug fix: Wrong offset calc at time of PSD output\n
+- Bug fix: Memory leak\n
+- Canvas view optimized at state of zoom-out\n
+\n
+    </string>
+
+    <string name="B1167">
+\n
+□ version 1.16.7\n
+\n
+- Bug fix: Freeze at the boot auto save\n
+- Optimize about speed of memory management\n
+\n
+    </string>
+
+    <string name="B1170">
+\n
+□ version 1.17(for Clover Paint)\n
+\n
+- Added: Transform tool\n
+- Added: Axis conversion function in the Move tool\n
+- Added: UI Scale adjustment\n
+(Gallery > Option > UI Scale)\n
+- Other many minor bug fixes and adjustments\n
+\n
+    </string>
+
+    <string name="B1171">
+\n
+□ version 1.17.1\n
+\n
+- Bug fix:Num.inp of the Transform tool is not working\n
+\n
+    </string>
+-->
+    <string name="B1180">
+\n
+□ version 1.18\n
+\n
+- Added: New key configuration(Gallery>KeyConf.)\n
+It is very comprehensive, support full keyboard and gamepad\n
+- Deprecated:Clover list menu/back/vol↑/↓ button\n
+- Added: Create view>cam.Xxx setting clover\n
+- Added: Create Sel.tool>Edit>Xxx command clover\n
+- Other many minor bug fixes and adjustments\n
+\n
+    </string>
+
+    <string name="B1181">
+\n
+□ version 1.18.1\n
+\n
+- Bug fix: Transform/Move tool rebar displayed wrong locate while main menu button vanish\n
+- Bug fix: Error cell sometimes occur in the output image\n
+\n
+    </string>
+
+    <string name="B1182">
+\n
+□ version 1.18.2\n
+\n
+- Bug fix: Canvas break when filling with not full transparent\n
+- Bug fix: Button hit is difficult in some terminal\n
+\n
+    </string>
+
+    <string name="B1183">
+\n
+□ version 1.18.3\n
+\n
+- Added: Option of force touch event interval fixing(for the speed effect of a brush)\n
+- Bug fix: Copy&amp;Paste was missing in the KeyConf\n
+- Other some minor bug fixes and adjustments\n
+\n
+    </string>
+
+    <string name="B1184">
+\n
+□ version 1.18.4\n
+\n
+- Speed Effect quality improvement of the Brush\n
+- Bug fix: Not detect stylus btn-1 at HTC Flyer\n
+\n
+    </string>
+
+    <string name="B1185">
+\n
+□ version 1.18.5\n
+\n
+- Bug fix: When Smoothing option is off, the Speed Effect generate wrong result\n
+\n
+    </string>
+
+    <string name="B1186">
+\n
+□ version 1.18.6\n
+\n
+- Bug fix: The cursor does not disappear in the Paint mode even if Hovering cursor option is off\n
+\n
+    </string>
+
+    <string name="B11807">
+\n
+□ version 1.18.7\n
+\n
+- Bug fix: In non-Fullscreen mode, The hovering cursor appear away from the nib of stylus in some terminals\n
+\n
+    </string>
+
+    <string name="B11900">
+\n
+□ version 1.19\n
+\n
+- Can use a part of the low-latency stroke drawing feature of the Clover SC in Clover Paint(※)\n
+[Brush… → Using one-shot undo]\n
+- Added: Create clover and shortcut of the canvas fill feature\n
+- Added: Can set the layer construction when you create a new canvas from the Gallery\n
+- Other some minor bug fixes and adjustments\n
+\n
+※ It is a bonus feature of the Clover SC(donation). If you purchase the donation version, and once you are running it, will be open this feature.\n
+ However, in the Clover Memo Lite version, it works even if you have not purchased a donation version for confirmation of the operation condition of the terminal in use.\n
+\n
+    </string>
+
+    <string name="B11905">
+\n
+□ version 1.19.5\n
+\n
+- Supported HEX3 Jaja Stylus\n
+(Need to install a plug-in. It is able to download from the Google play)\n
+\n
+\n
+    </string>
+
+    <string name="B11910">
+\n
+□ version 1.19.10\n
+\n
+- Added: High frequency Scan rate mode\n
+(If you need old type scan rate, Unchecked [Option > Scan rate])\n
+\n
+\n
+    </string>
+
+    <string name="B11920">
+\n
+□ version 1.19.20\n
+\n
+- Added codes measures, holding-shortcut problem of the Samsung terminal in the higher than JB\n
+- Bug fix: App is halt when return from sleep mode with other than the portrait mode\n
+\n
+\n
+    </string>
+
+    <string name="B11921">
+\n
+□ version 1.19.21\n
+\n
+- Fixed: All button icon and text is invisible on Android 4.3\n
+(This is the first aid. Currently, responding to Android 4.3 is not complete)\n
+\n
+\n
+    </string>
+
+    <string name="B11922">
+\n
+□ version 1.19.22\n
+\n
+- Some bug fixes\n
+\n
+\n
+    </string>
+
+    <string name="B11930">
+\n
+□ version 1.19.30\n
+\n
+- Modify:Current state of the brush is maintained also when you create the Clover in the list selected brush Clover\n
+- Modify:A brush Clover icon on the canvas began to ignore the position adjustment in the opening and closing of the window\n
+- Bug fix:Hang-up when you touch sandbox before first stroke drawing finished\n
+\n
+\n
+    </string>
+
+    <string name="B11931">
+\n
+□ version 1.19.31\n
+\n
+- Bug fix:Hang-up when call eyedropper clover\n
+\n
+\n
+    </string>
+
+    <string name="B12000">
+\n
+□ version 1.20\n
+\n
+■ Implemented CBSv2(Clover Brush Synthesizer version 2)\n
+ - User-defined texture pattern spot\n
+ - Rotation of the spot\n
+ - The effect of orientation and tilt of the stylus(for Cintiq)\n
+ - …and more features and improvement\n
+ - Import and Export of the brush\n
+ - New built-in brush sets for CBSv2\n
+(These are only Clover Paint)\n
+\n
+ - Advanced setting for system or brush cursor\n
+ - Add a background pattern set to the default setting of the canvas\n
+\n
+    </string>
+
+    <string name="B12001">
+\n
+□ version 1.20.01\n
+\n
+ - Bug fix of brush import\n
+\n
+    </string>
+
+    <string name="B12002">
+\n
+□ version 1.20.02\n
+\n
+ - Fixed some bugs that occur in the KitKat\n
+ - Some other bug fixes and improvements\n
+\n
+    </string>
+
+    <string name="B12003">
+\n
+□ version 1.20.03\n
+\n
+ - Added "Move canvas" option to "Action on Canvas with Single finger" at the stylus settings\n
+\n
+    </string>
+
+    <string name="B12004">
+\n
+□ version 1.20.04\n
+\n
+ - Changed calculate method of the screen layout\n
+\n
+    </string>
+
+    <string name="B12050">
+\n
+□ version 1.20.50\n
+\n
+ - Implemented: Preview version of the EfT (Extension for Tablet)\n
+※ Can use it if you purchase Clover SC(donation) and install it\n
+※ This is a temporary measure. After implementation of official EfT, it is deleted\n
+※ EfT is optimizing for a digitizer stylus.\n
+(EfT functions are need to setting the Option - [UI/View])\n
+\n
+    </string>
+
+    <string name="B12051">
+\n
+□ version 1.20.51\n
+\n
+ - Improved: Synchronization process of the drawing\n
+ - Bug fix: The raster-based draw-tools instability\n
+\n
+    </string>
+
+    <string name="B12052">
+\n
+□ version 1.20.52\n
+\n
+ - Bug fix of the Move tool\n
+ - Improved of the synchronous process of the the drawing thread\n
+\n
+    </string>
+
+    <string name="B12100">
+\n
+□ version 1.21\n
+\n
+■ Implemented Extension for Tablet (EfT)\n
+ - Add new UI for the tablet size terminal with digitizer stylus\n
+ - It is necessary to purchase (2,000 yen) from the option setting to use it(can try it to January 31)\n
+(Clover Paint)\n
+\n
+    </string>
+
+    <string name="B12101">
+\n
+□ version 1.21.01\n
+ - Bug fix: Halt at using Transform tool\n
+ - Bug fix: Display of Clover icon docking\n
+ - Bug fix: Display of floating window caption\n
+\n
+    </string>
+
+    <string name="B12105" formatted="false">
+\n
+□ version 1.21.05\n
+  - [EfT] Implemented: [Shift Hue Circle] range bar was added to the Color picker\n
+ - [EfT] Implemented: [Window trans-hide button] was added to the window option\n
+\n
+    </string>
+
+
+</resources>

@@ -1,0 +1,2125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xml:space="preserve">
+    <string name="app_memo_name">Cloverメモ</string>
+    <string name="app_memo_lite_name">Cloverメモ Lite</string>
+    <string name="app_memo_lite_stylus_name">Cloverメモ Lite(for Stylus)</string>
+    <string name="app_debug_name">Cloverメモ(debug)</string>
+    <string name="app_paint_name">Clover Paint</string>
+    <string name="app_test_name">Clover Test(deb)</string>
+    <string name="app_test_rel_name">Clover Test(rel)</string>
+    <string name="app_memo_desc">CloverMemo</string>
+    <string name="app_memo_lite_desc">CloverMemoLite</string>
+    <string name="app_memo_lite_stylus_desc">CloverMemoLiteStylus</string>
+    <string name="app_debug_desc">CloverDebug</string>
+    <string name="app_paint_desc">CloverPaint</string>
+    <string name="dialog_Return">閉じる</string>
+    <string name="dialog_Accept">同意する</string>
+    <string name="dialog_Purchase">購入する</string>
+    <string name="dialog_TryOut">試用する</string>
+    <string name="dialog_Cancel">キャンセル</string>
+    <string name="NotShowNextTime">次回から表示しない</string>
+    <string name="MainOption_TouchCorrect_Name">タッチ補正</string>
+    <string name="MainOption_TouchCorrect_On">描画タッチ開始時のブレを補正</string>
+    <string name="MainOption_TouchCorrect_Off">描画タッチ時のブレ補正は無効</string>
+    <string name="MainOption_Smoothing_Name">スムージング</string>
+    <string name="MainOption_Smoothing_On">ペンの描線を補正し滑らかにする</string>
+    <string name="MainOption_Smoothing_Off">ペンの描線補正は無効</string>
+    <string name="MainOption_HighScanRateMode_Name">スキャンレート</string>
+    <string name="MainOption_HighScanRateMode_On">高品位スキャンポイントデータを利用</string>
+    <string name="MainOption_HighScanRateMode_Off">UI品位のスキャンポイントデータを利用</string>
+    <string name="MainOption_FixEventInterval_Name">イベント間隔固定</string>
+    <string name="MainOption_FixEventInterval_None">受け取ったタッチイベント間隔をそのまま利用</string>
+    <string name="MainOption_FixEventInterval_16ms">タッチイベント間隔を強制的に16msとして扱う</string>
+    <string name="MainOption_FixEventInterval_8ms">タッチイベント間隔を強制的に8msとして扱う</string>
+    <string name="MainOption_UpdateDispMode_Name">描画の更新</string>
+    <string name="MainOption_UpdateDispMode_On">ワーカースレッドで行う</string>
+    <string name="MainOption_UpdateDispMode_Off">メインスレッドで行う</string>
+    <string name="MainOption_DispTileDelay_Name">キャンバス表示の遅延を利用</string>
+    <string name="MainOption_DispTileDelay_On">未完了の処理をスキップして次回表示する</string>
+    <string name="MainOption_DispTileDelay_Off">未完了の処理をブロックして待つ</string>
+    <string name="MainOption_FullScreen_Name">フルスクリーン</string>
+    <string name="MainOption_FullScreen_On">フルスクリーンにする(*要再起動)</string>
+    <string name="MainOption_FullScreen_Off">通知領域等を表示する(*要再起動)</string>
+    <string name="MainOption_ScreenRotate_Name">スクリーン回転 [要EfT]</string>
+    <string name="MainOption_ScreenRotate_Free">端末の回転に合わせる</string>
+    <string name="MainOption_ScreenRotate_0">↓0°に固定(Portrait)</string>
+    <string name="MainOption_ScreenRotate_1">←90°に固定(Landscape)</string>
+    <string name="MainOption_ScreenRotate_2">↑180°に固定</string>
+    <string name="MainOption_ScreenRotate_3">→270°に固定</string>
+    <string name="MainOption_UIRotate_Name">UIの回転</string>
+    <string name="MainOption_UIRotate_Auto">端末の回転に合わせる</string>
+    <string name="MainOption_UIRotate_0">↓0°に固定(Portrait)</string>
+    <string name="MainOption_UIRotate_1">←90°に固定(Landscape)</string>
+    <string name="MainOption_UIRotate_2">↑180°に固定</string>
+    <string name="MainOption_UIRotate_3">→270°に固定</string>
+    <string name="MainOption_UIScale_Name">UIサイズ調整(*要再起動)</string>
+    <string name="MainOption_UseCloverDock_Name">Cloverドッキング [要EfT]</string>
+    <string name="MainOption_UseCloverDock_On">Cloverショートカットのドッキング機能を利用(*要再起動)</string>
+    <string name="MainOption_UseCloverDock_Off">Cloverショートカットのドッキングはしない(*要再起動)</string>
+    <string name="MainOption_UseUIofEfT_Name">タブレット用UI [要EfT]</string>
+    <string name="MainOption_UseUIofEfT_On">デジタイザー付きタブレット用のUIを利用(*要再起動)</string>
+    <string name="MainOption_UseUIofEfT_Off">通常のUIを利用(*要再起動)</string>
+    <string name="MainOption_NeedBuyEfTDlgTitle">「タブレット用機能拡張」の購入が必要な機能です</string>
+    <string name="MainOption_NeedBuyEfTDlgDesc">※ 2014年1月31日まで試用可能</string>
+    <string name="MainOption_BuyEfTKey">購入手続きへ</string>
+    <string name="MainOption_UseLimitedLicense">試用する</string>
+    <string name="MainOption_ExtendBrush_Name">ペンブラシ設定拡張</string>
+    <string name="MainOption_ExtendBrush_On">Paint版ブラシ設定を有効にする(*将来廃止)</string>
+    <string name="MainOption_ExtendBrush_Off">Paint版ブラシ設定を無効にする</string>
+    <string name="MainOption_PenSlideMode_Name">ペン先表示</string>
+    <string name="MainOption_PenSlideMode_Right">指先用(右利き)</string>
+    <string name="MainOption_PenSlideMode_Left">指先用(左利き)</string>
+    <string name="MainOption_PenSlideMode_PenRight">スタイラス用(右利き)</string>
+    <string name="MainOption_PenSlideMode_PenLeft">スタイラス用(左利き)</string>
+    <string name="MainOption_VanishUIWhileStroke_Name">UI非表示</string>
+    <string name="MainOption_VanishUIWhileStroke_On">ストローク中UIを非表示にする</string>
+    <string name="MainOption_VanishUIWhileStroke_Off">UI非表示はしない</string>
+    <string name="MainOption_PenOuterCursor_Name">ペンカーソル円不透明度(外)</string>
+    <string name="MainOption_PenInnerCursor_Name">ペンカーソル円不透明度(内)</string>
+    <string name="MainOption_PinchMove_Name" >画面の移動操作</string>
+    <string name="MainOption_PinchMove_Off">ピンチ操作での移動操作は無効</string>
+    <string name="MainOption_PinchMove_ThrsNone">ピンチ操作で画面を移動する</string>
+    <string name="MainOption_PinchMove_ThrsLow">画面を移動する(開始敷居値:弱)</string>
+    <string name="MainOption_PinchMove_ThrsHigh">画面を移動する(開始敷居値:強)</string>
+    <string name="MainOption_PinchScale_Name" >画面の倍率操作</string>
+    <string name="MainOption_PinchScale_Off">ピンチ操作での倍率操作は無効</string>
+    <string name="MainOption_PinchScale_ThrsNone">ピンチ操作で画面スケールを変化させる</string>
+    <string name="MainOption_PinchScale_ThrsLow">画面スケールを変化させる(開始敷居値:弱)</string>
+    <string name="MainOption_PinchScale_ThrsHigh">画面スケールを変化させる(開始敷居値:強)</string>
+    <string name="MainOption_SnapScale_Name">倍率のスナップ</string>
+    <string name="MainOption_SnapScale_Free">スナップなし</string>
+    <string name="MainOption_SnapScale_1">1%刻みでスナップ</string>
+    <string name="MainOption_SnapScale_5">5%刻みでスナップ</string>
+    <string name="MainOption_SnapScale_10">10%刻みでスナップ</string>
+    <string name="MainOption_PinchRoll_Name" >画面の回転操作</string>
+    <string name="MainOption_PinchRoll_Off">ピンチ操作での回転は無効</string>
+    <string name="MainOption_PinchRoll_ThrsNone">ピンチ操作で画面を回転させる</string>
+    <string name="MainOption_PinchRoll_ThrsLow">画面を回転させる(開始敷居値:弱)</string>
+    <string name="MainOption_PinchRoll_ThrsHigh">画面を回転させる(開始敷居値:強)</string>
+    <string name="MainOption_SnapRoll_Name">回転のスナップ</string>
+    <string name="MainOption_SnapRoll_Free">スナップなし</string>
+    <string name="MainOption_SnapRoll_120">120分周でスナップ</string>
+    <string name="MainOption_SnapRoll_72">72分周でスナップ</string>
+    <string name="MainOption_SnapRoll_24">24分周でスナップ</string>
+    <string name="MainOption_SpriteBlend_Name">スプライトの合成タイプ</string>
+    <string name="MainOption_SpriteBlend_FixTexColor">テクスチャの固定色を利用</string>
+    <string name="MainOption_SpriteBlend_FixMaterial">マテリアルの固定色を利用</string>
+    <string name="MainOption_SpriteBlend_VertexColor">頂点カラーを利用</string>
+    <string name="MainOption_ImageViewMode_Name" >イメージ拡大方法</string>
+    <string name="MainOption_ImageViewMode_Nearest" >補間なし(*要再起動)</string>
+    <string name="MainOption_ImageViewMode_Linear" >線形補間(*要再起動)</string>
+    <string name="MainOption_FlipByTriFinger_Name" >簡易反転操作(指)</string>
+    <string name="MainOption_FlipByTriFinger_On">3本指タッチで反転する</string>
+    <string name="MainOption_FlipByTriFinger_Off">3本指タッチで反転は無効</string>
+    <string name="MainOption_FlipByViewBtn_Name" >簡易反転操作(UI)</string>
+    <string name="MainOption_FlipByViewBtn_On">表示ボタンで反転する</string>
+    <string name="MainOption_FlipByViewBtn_Off">表示ボタンでの反転は無効</string>
+    <string name="MainOption_PinchIndication_Name" >ピンチテキスト表示</string>
+    <string name="MainOption_PinchIndication_On">回転/倍率のパラメータテキストを表示する</string>
+    <string name="MainOption_PinchIndication_Off">回転/倍率のパラメータテキストを表示しない</string>
+    <string name="MainOption_ScaleMinLimit_Name" >最小倍率制限</string>
+    <string name="MainOption_ScaleMinLimit50" >0.50倍</string>
+    <string name="MainOption_ScaleMinLimit75" >0.75倍</string>
+    <string name="MainOption_ScaleMinLimit100" >1.00倍</string>
+    <string name="MainOption_ScaleMinLimit150" >1.50倍</string>
+    <string name="MainOption_ScaleMinLimit200" >2.00倍</string>
+    <string name="MainOption_ExtMinLimitByEditRect_Name" >縮小制限拡張</string>
+    <string name="MainOption_ExtMinLimitByEditRect_On">編集枠のサイズで最適化(*要再起動)</string>
+    <string name="MainOption_ExtMinLimitByEditRect_Off">縮小制限拡張なし(*要再起動)</string>
+    <string name="MainOption_ScaleMaxLimit_Name" >最大倍率制限</string>
+    <string name="MainOption_ScaleMaxLimit16" >16倍</string>
+    <string name="MainOption_ScaleMaxLimit32" >32倍</string>
+    <string name="MainOption_ScaleMaxLimit64" >64倍</string>
+    <string name="MainOption_ScaleMaxLimit128" >128倍</string>
+    <string name="MainOption_ScaleMaxLimit256" >256倍</string>
+    <string name="MainOption_SCutKeyMenu_Name" >Menuキー機能</string>
+    <string name="MainOption_SCutKeyVolU_Name" >Vol↑キー機能</string>
+    <string name="MainOption_SCutKeyVolD_Name" >Vol↓キー機能</string>
+    <string name="MainOption_SCutKeyBack_Name" >Backキー機能</string>
+    <string name="MainOption_SCutKeyMenuLong_Name" >Menu長押し</string>
+    <string name="MainOption_SCutKeyVolULong_Name" >Vol↑長押し</string>
+    <string name="MainOption_SCutKeyVolDLong_Name" >Vol↓長押し</string>
+    <string name="MainOption_SCutKeyBackLong_Name" >Back長押し</string>
+    <string name="MainOption_SCutItemNop" >なし</string>
+    <string name="MainOption_SCutItemAppEnd" >アプリケーション終了</string>
+    <string name="MainOption_SCutItemViewMode3" >表示モードの切り替え(3モード)</string>
+    <string name="MainOption_SCutItemViewMode2" >表示モードの切り替え(2モード)</string>
+    <string name="MainOption_SCutItemUndo" >元に戻す(Undo)</string>
+    <string name="MainOption_SCutItemRedo" >やり直し(Redo)</string>
+    <string name="MainOption_SCutItemBrushSetting" >ブラシ設定画面を立ち上げる</string>
+    <string name="MainOption_SCutItemColorSetting" >カラー設定画面を立ち上げる</string>
+    <string name="MainOption_SCutItemImage" >イメージツールを選択</string>
+    <string name="MainOption_SCutItemFile" >ファイルツールを選択</string>
+    <string name="MainOption_SCutItemSave" >作業ファイルにセーブする</string>
+    <string name="MainOption_SCutKeyMenuTouch_Name">Menu+タッチ</string>
+    <string name="MainOption_SCutKeyVolUTouch_Name">Volume↑+タッチ</string>
+    <string name="MainOption_SCutKeyVolDTouch_Name">Volume↓+タッチ</string>
+    <string name="MainOption_SCutKeyBackTouch_Name">Back+タッチ</string>
+    <string name="MainOption_SCutTouchNop"   >なし</string>
+    <string name="MainOption_SCutTouchSpuit" >スポイト</string>
+    <string name="MainOption_SCutTouchEraser">消しゴム</string>
+    <string name="MainOption_SCutTouchCamera">画面移動</string>
+    <string name="MainOption_SCutTouchFreeCamera">画面 移動/回転/倍率</string>
+    <string name="MainOption_SCutTouchColHistory">カラー履歴表示</string>
+    <string name="MainOption_BGColor_Name">背景色</string>
+    <string name="MainOption_BGColor_Desc">背景色を設定する</string>
+    <string name="MainOption_EditFrameView_Name">編集枠表示</string>
+    <string name="MainOption_EditFrameView_On">編集枠を表示する</string>
+    <string name="MainOption_EditFrameView_Off">編集枠を表示しない</string>
+    <string name="MainOption_EditFrameColor_Name">編集枠色</string>
+    <string name="MainOption_EditFrameColor_Desc">編集枠を表示するときの色を設定する</string>
+    <string name="MainOption_TouchEffect_Name">タッチエフェクト</string>
+    <string name="MainOption_TouchEffect_On">画面タッチ時の波紋エフェクトを表示</string>
+    <string name="MainOption_TouchEffect_Off">画面タッチ時の波紋エフェクトは非表示</string>
+    <string name="MainOption_AutoSaveEdit_Name">自動セーブ(編集回数)</string>
+    <string name="MainOption_AutoSaveEdit_None">自動セーブなし</string>
+    <string name="MainOption_AutoSaveEdit_3">3回編集後</string>
+    <string name="MainOption_AutoSaveEdit_10">10回編集後</string>
+    <string name="MainOption_AutoSaveEdit_20">20回編集後</string>
+    <string name="MainOption_AutoSaveEdit_50">50回編集後</string>
+    <string name="MainOption_AutoSaveTime_Name">自動セーブ(無操作時間)</string>
+    <string name="MainOption_AutoSaveTime_None">自動セーブなし</string>
+    <string name="MainOption_AutoSaveTime_3">最後の操作から3秒経過後</string>
+    <string name="MainOption_AutoSaveTime_15">最後の操作から15秒経過後</string>
+    <string name="MainOption_AutoSaveTime_60">最後の操作から一分経過後</string>
+    <string name="MainOption_AutoSaveTime_120">最後の操作から二分経過後</string>
+    <string name="MainOption_TouchPressure_Name">筆圧感知</string>
+    <string name="MainOption_TouchPressure_On">筆圧感知を使う</string>
+    <string name="MainOption_TouchPressure_Off">筆圧感知は無効</string>
+    <string name="MainOption_TouchPressMin_Name">筆圧範囲最小</string>
+    <string name="MainOption_TouchPressMax_Name">筆圧範囲最大</string>
+    <string name="MainOption_TouchPressPower_Name">筆圧硬さ(柔らか← →硬い)</string>
+    <string name="MainOption_TouchPressRatio_Name">筆圧適用率</string>
+    <string name="MainOption_TouchPressTest_Name">筆圧設定テスト領域</string>
+    <string name="MainOption_TouchPressTest_Desc">- </string>
+    <string name="MainOption_TouchPressAuto_Name">半自動筆圧範囲設定領域</string>
+    <string name="MainOption_TouchPressAuto_Desc">強弱をつけながらここをタッチ</string>
+    <string name="MainOption_TouchPressAuto_Desc2">筆圧範囲を検出中です… あと%d秒</string>
+    <string name="MainOption_FingerAction_Name">一本指でのキャンバス操作</string>
+    <string name="MainOption_FingerAction_None">すべての操作を禁止</string>
+    <string name="MainOption_FingerAction_Draw">キャンバスに描画</string>
+    <string name="MainOption_FingerAction_CanvasMove">キャンバスを移動</string>
+    <string name="MainOption_NoFingerUI_Name">指でのUI操作を禁止</string>
+    <string name="MainOption_NoFingerUI_On">画面内UIを指で操作するのを禁止する</string>
+    <string name="MainOption_NoFingerUI_Off">画面内UIはスタイラスと指の両方で操作可能</string>
+    <string name="MainOption_DrawCancelByClick_Name">描画ストローク中止</string>
+    <string name="MainOption_DrawCancelByClick_None">なし</string>
+    <string name="MainOption_DrawCancelByClick_1">ボタン1を押した時に中止</string>
+    <string name="MainOption_DrawCancelByClick_2">ボタン2(S-Pen)を押した時に中止</string>
+    <string name="MainOption_DrawCancelByClick_3">ボタン3を押した時に中止</string>
+    <string name="MainOption_TouchStylusBtn1_Name">ボタン1機能(タッチ)</string>
+    <string name="MainOption_TouchStylusBtn2_Name">ボタン2(S-Pen)機能(タッチ)</string>
+    <string name="MainOption_TouchStylusBtn3_Name">ボタン3機能(タッチ)</string>
+    <string name="MainOption_TouchStylusBtn_None">なし</string>
+    <string name="MainOption_TouchStylusBtn_Spuit">スポイト</string>
+    <string name="MainOption_TouchStylusBtn_Undo">元に戻す(Undo)</string>
+    <string name="MainOption_TouchStylusBtn_Eraser">消しゴム</string>
+    <string name="MainOption_TouchStylusBtn_Camera">画面移動</string>
+    <string name="MainOption_HoverToolType2_Name">ボタン2(S-Pen)機能(ホバー中)</string>
+    <string name="MainOption_HoverToolType2_None">なし</string>
+    <string name="MainOption_HoverToolType2_Spuit">スポイト</string>
+    <string name="MainOption_HoverToolType2_Undo">元に戻す(Undo)</string>
+    <string name="MainOption_SelDrawBrushCsr_Name">ブラシカーソル(描画時)</string>
+    <string name="MainOption_MinDrawBrushCsrSize_Name">ブラシカーソル(描画時)の最小サイズ</string>
+    <string name="MainOption_MinDrawBrushCsr_Name">最小サイズ以下の時のカーソル</string>
+    <string name="MainOption_SelHoverBrushCsr_Name">ブラシカーソル(ホバー時)</string>
+    <string name="MainOption_SelBrushCsr_Always">常に表示</string>
+    <string name="MainOption_SelBrushCsr_Never">常に非表示</string>
+    <string name="MainOption_SelBrushCsr_AlwaysExcludeClover">表示・クローバーはその設定に従う</string>
+    <string name="MainOption_SelBrushCsr_NeverExcludeClover">非表示・クローバーはその設定に従う</string>
+    <string name="MainOption_HoverSysUICsr_Name">ホバー中システムカーソル(UI操作)</string>
+    <string name="MainOption_HoverSysOfsCsr_Name">ホバー中ツールカーソル(オフセット付き)</string>
+    <string name="MainOption_HoverSysCsr_None_Brush">ブラシ</string>
+    <string name="MainOption_HoverSysCsr_None">なし</string>
+    <string name="MainOption_HoverSysCsr_Cross">十字</string>
+    <string name="MainOption_HoverSysCsr_Dot">ドット</string>
+    <string name="MainOption_HoverSysCsr_LargeCross">十字(大きい)</string>
+    <string name="MainOption_HoverSysCsr_LargeDot">ドット(大きい)</string>
+    <string name="MainOption_Calibration_Name">スタイラスの補正</string>
+    <string name="MainOption_Calibration_Desc">スタイラスポインタのズレを補正します</string>
+    <string name="MainOption_ResetCal_Name">スタイラスの補正リセット</string>
+    <string name="MainOption_ResetCal_Desc">キャリブレーションデータを消去し補正を無くします</string>
+    <string name="MainOption_StylusOffsetX_Name">ブラシ中心オフセットX(スタイラス時)</string>
+    <string name="MainOption_StylusOffsetY_Name">ブラシ中心オフセットY(スタイラス時)</string>
+    <string name="MainOption_StylusHoverOffsetX_Name">ホバー中ツール中心オフセットX</string>
+    <string name="MainOption_StylusHoverOffsetY_Name">ホバー中ツール中心オフセットY</string>
+    <string name="StylusOption_CalibrationDesc">スタイラスで赤いマークの中心を順にタッチしてください</string>
+    <string name="MainOption_ModeShift_Name">モードシフト キー</string>
+    <string name="MainOption_ModeShift_Desc">他のキーと組み合わせるシフト キーの設定</string>
+    <string name="MainOption_CommandCancel_Desc">実行中コマンドのキャンセルキーを設定</string>
+    <string name="MainOption_LayerBtnVisible_Name">レイヤー表示ボタン</string>
+    <string name="MainOption_LayerBtnVisible_On">レイヤーリストの表示切り替えボタンを表示</string>
+    <string name="MainOption_LayerBtnVisible_Off">レイヤーリストの表示切り替えボタンは非表示</string>
+
+    <string name="MainOption_SplitStroke_Name">ペンストローク</string>
+    <string name="MainOption_SplitViewControl_Name">UI/表示</string>
+    <string name="MainOption_SplitEditFrame_Name">編集枠</string>
+    <string name="MainOption_SplitPinch_Name">ピンチ操作</string>
+    <string name="MainOption_SplitKeyConfig_Name">キーコンフィグ</string>
+    <string name="MainOption_SplitAutoSave_Name">自動セーブ</string>
+    <string name="MainOption_SplitPressure_Name">筆圧</string>
+    <string name="MainOption_SplitStylus_Name">スタイラス</string>
+    <string name="MainOption_SplitStylusButton_Name">ボタン</string>
+    <string name="MainOption_SplitRepeatSetting_Name">リピート</string>
+    <string name="MainOption_RepeatBeginTimeMs_Name">開始までの時間(ms)</string>
+    <string name="MainOption_RepeatIntervalTimeMs_Name">リピート間隔(ms)</string>
+    <string name="MainOption_SplitModeShift_Name">特殊</string>
+    <string name="MainOption_SplitDialog_Name">設定/ダイアログ</string>
+    <string name="MainOption_SplitGeneral_Name">一般</string>
+    <string name="MainOption_SplitCanvas_Name">キャンバス</string>
+    <string name="MainOption_MoveCircleSize_Name">操作円大きさ設定</string>
+    <string name="MainOption_MoveCenter_Name">操作円の中心</string>
+    <string name="MainOption_MoveCenter_On">操作円の中心をホバーカーソルに合わせる</string>
+    <string name="MainOption_MoveCenter_Off">操作円の中心は画面中央</string>
+    <string name="MainOption_SplitPaintSystem_Name">ペイント - システム</string>
+    <string name="MainOption_SplitPaintBrush_Name">ペイント - ブラシ</string>
+    <string name="MainOption_SplitPaintSpuit_Name">ペイント - スポイト</string>
+    <string name="MainOption_SpuitGuideView_Name">取得色ガイド表示</string>
+    <string name="MainOption_SpuitGuideView_On">常に取得する色を表示する</string>
+    <string name="MainOption_SpuitGuideView_Off">トリガキーを押している間のみ表示する</string>
+    <string name="MainOption_SplitPaintView_Name">ペイント - UI表示</string>
+    <string name="MainOption_SplitPaintClover_Name">ペイント - Clover</string>
+    <string name="MainOption_SplitPaintLayer_Name">ペイント - レイヤー</string>
+    <string name="MainOption_SplitPaintOther_Name">ペイント - その他</string>
+    <string name="MainOption_PasteMode_Name">貼り付け後動作</string>
+    <string name="PasteMode_Move">移動ツールを選択</string>
+    <string name="PasteMode_Transform">変形ツールを選択</string>
+    <string name="PasteMode_Paint">ペイントモードヘ移動</string>
+    
+    <string name="NoticeDialogPurchase_ResetData">課金情報をリセットしました</string>
+    <string name="NoticeDialogPurchase_NeedBootCountDown" formatted="false">課金情報の更新が必要です: リセット猶予 %d/%d </string>
+    <string name="NoticeDialogPurchase_NeedUpdate">ネットに接続し課金情報を更新してください</string>
+    <string name="NoticeDialogPurchase_UpdatedState">課金情報の定期チェック完了</string>
+    <string name="NoticeDialogPurchase_RecognizedPurchaseEfT">EfT課金を確認しました</string>
+    <string name="NoticeDialogPurchase_RecognizedRefundEfT">EfT課金の払い戻しを確認しました</string>
+
+    <string name="MainDispDlg_DispDlgDiscardImage_Name">ギャラリー移動時のイメージ破棄確認</string>
+    <string name="MainDispDlg_DispDlgDiscardImage_On"  >表示する</string>
+    <string name="MainDispDlg_DispDlgDiscardImage_Off" >表示しない</string>
+    <string name="MainDispDlg_DlgExportBrush_Name"     >ブラシ出力時の注意書き</string>
+    <string name="MainDispDlg_DlgExportBrush_On"       >表示する</string>
+    <string name="MainDispDlg_DlgExportBrush_Off"      >表示しない</string>
+
+    <string name="DtPen_Undo">ペン描画</string>
+    <string name="DtMove_Undo">プレーンの移動</string>
+    <string name="DtBucket_Undo">-</string>
+    <string name="IntentImageAndClearEditPlane_Undo">-</string>
+    <string name="IntentImage_Undo">-</string>
+    <string name="DtRect_Undo">-</string>
+    <string name="DtLine_Undo">-</string>
+    <string name="swapPlane_Undo">-</string>
+    <string name="setBGPattern_Undo">-</string>
+    <string name="setBGPtnSize_Undo">-</string>
+    <string name="setBGPtnMove_Undo">-</string>
+    <string name="flipColor_Undo">-</string>
+    <string name="convLinearImagePlane_Undo">-</string>
+    <string name="mergePlane_Undo">-</string>
+    <string name="setCmiBlend_Undo">-</string>
+    <string name="BgColor_Undo">-</string>
+    <string name="clearPlane_Undo">-</string>
+    <string name="setSrcOpacity_Undo">-</string>
+    <string name="inputLayerName_Undo">-</string>
+    <string name="deleteLayer_Undo">-</string>
+    <string name="swapLayer_Undo">-</string>
+    <string name="toggleVisible_Undo">-</string>
+    <string name="EditAddNewLayer_Undo">-</string>
+    <string name="EditAddCpyLayer_Undo">-</string>
+    <string name="EditMergeDown_Undo">-</string>
+    <string name="EditMergeAll_Undo">-</string>
+    <string name="LayerParam_Undo">-</string>
+    <string name="MoveCutAndPaste_Undo">-</string>
+    <string name="MoveCopyAndPaste_Undo">-</string>
+
+    <string name="MBtnFile_File">ファイル</string>
+    <string name="MBtnFile_Save">セーブ</string>
+    <string name="MBtnFile_Import">入力▽</string>
+    <string name="MBtnFile_ImportImage">イメージ</string>
+    <string name="MBtnFile_ImportPSD">PSD</string>
+    <string name="MBtnFile_ImportCamera">カメラ</string>
+    <string name="MBtnFile_ImportClear">クリア</string>
+    <string name="MBtnFile_Export">出力▽</string>
+    <string name="MBtnFile_ExportImage">イメージ</string>
+    <string name="MBtnFile_ExportPSD">PSD</string>
+    <string name="MBtnFile_ExportPSDAs">PSD命名</string>
+    <string name="MBtnFile_ExportSend">転送</string>
+
+    <string name="MBtnTool_Tool">ツール選択</string>
+    <string name="MBtnTool_File">ファイル</string>
+    <string name="MBtnTool_Pen">ペン</string>
+    <string name="MBtnTool_PenEraser">消しゴム</string>
+    <string name="MBtnTool_PenBlur">ぼかし</string>
+    <string name="MBtnTool_PenFinger">指先</string>
+    <string name="MBtnTool_PenMosaic">モザイク</string>
+    <string name="MBtnTool_PenDodging">覆い焼き</string>
+
+    <string name="MBtnTool_ShapeLine">ライン</string>
+    <string name="MBtnTool_ShapeRect">矩形</string>
+    <string name="MBtnTool_ShapeEllipse">楕円</string>
+    <string name="MBtnTool_Bucket">バケツ</string>
+    <string name="MBtnTool_Image">イメージ</string>
+    <string name="MBtnTool_Move">移動</string>
+    <string name="MBtnTool_SelRect">矩形選択</string>
+    <string name="MBtnTool_SelEllipse">楕円選択</string>
+    <string name="MBtnTool_SelFree">自由選択</string>
+    <string name="MBtnTool_SelAuto">自動選択</string>
+    <string name="MBtnTool_MoveCutPaste">切り取り→</string>
+    <string name="MBtnTool_MoveCopyPaste">コピ－→</string>
+    <string name="MBtnTool_MoveTransform">変形</string>
+
+    <string name="MBtnPen_Pen">ペン</string>
+    <string name="MBtnPen_Brush">ブラシ…</string>
+    <string name="MBtnPen_BrushExport">ブラシ出力</string>
+    <string name="MBtnPen_BrushImport">ブラシ入力</string>
+    <string name="MBtnPen_Color">色…</string>
+    <string name="MBtnPen_NewClover">Clover化</string>
+    <string name="MBtnPen_CopyClover">Clover複製</string>
+
+    <string name="MBtnBlur_Blur">ぼかし</string>
+    <string name="MBtnBlur_Brush">ブラシ…</string>
+    <string name="MBtnBlur_NewClover">Clover化</string>
+    <string name="MBtnBlur_CopyClover">Clover複製</string>
+
+    <string name="MBtnBucket_Bucket">バケツ</string>
+    <string name="MBtnBucket_Setting">設定…</string>
+    <string name="MBtnBucket_Color">色…</string>
+    <string name="MBtnBucket_NewClover">Clover化</string>
+    <string name="MBtnBucket_CopyClover">Clover複製</string>
+
+    <string name="MBtnEllipse_Ellipse">楕円</string>
+    <string name="MBtnEllipse_Brush">ブラシ…</string>
+    <string name="MBtnEllipse_Color">色…</string>
+    <string name="MBtnEllipse_NewClover">Clover化</string>
+    <string name="MBtnEllipse_CopyClover">Clover複製</string>
+
+    <string name="MBtnEraser_Eraser">消しゴム</string>
+    <string name="MBtnEraser_Brush">ブラシ…</string>
+    <string name="MBtnEraser_NewClover">Clover化</string>
+    <string name="MBtnEraser_CopyClover">Clover複製</string>
+
+    <string name="MBtnFinger_Finger">指先</string>
+    <string name="MBtnFinger_Brush">ブラシ…</string>
+    <string name="MBtnFinger_NewClover">Clover化</string>
+    <string name="MBtnFinger_CopyClover">Clover複製</string>
+
+    <string name="MBtnGallery">ギャラリー</string>
+    <string name="MBtnGalleryDesc">設定▽</string>
+    <string name="MBtnOption">オプション</string>
+    <string name="MBtnOption_Dialog">ダイアログ</string>
+    <string name="MBtnStylus">スタイラス</string>
+    <string name="MBtnKeyConf">キー設定</string>
+    <string name="MBtnSpuit">スポイト▽</string>
+    <string name="MBtnSpuit_Opacity">不透明度取得</string>
+    <string name="MBtnSpuit_OpacityRGBA">RGBA取得</string>
+    <string name="MBtnSpuit_OpacityA255">A=255</string>
+    <string name="MBtnSpuit_OpacityRGB">A維持</string>
+    <string name="MBtnSpuit_GetFrom">取得元▽</string>
+    <string name="MBtnSpuit_FromDisp">表示面から</string>
+    <string name="MBtnSpuit_FromEdit">編集面から</string>
+
+    <string name="MBtnGallery_New">新規</string>
+    <string name="MBtnGallery_CustomNew">設定</string>
+    <string name="MBtnGallery_Copy">コピー</string>
+    <string name="MBtnGallery_Delete">削除</string>
+    <string name="MBtnGallery_AppExit">終了</string>
+
+    <string name="MBtnImage_CallMergetPlane">編集面を画像面に統合してクリアしました</string>
+    <string name="MBtnImage_FlipDialog">編集面の色を反転中です…</string>
+    <string name="MBtnImage_LinearDialog">リニア化処理中です…</string>
+    <string name="MBtnImage_MergeDownDialog">編集面を１つ下へ統合処理中です…</string>
+    <string name="MBtnImage_MergeAllDialog">表示中のレイヤーをすべて統合処理中です…</string>
+    <string name="MBtnImage_CutAndPasteDialog">切り取り画像生成中です…</string>
+    <string name="MBtnImage_CopyAndPasteDialog">コピー画像生成中です…</string>
+    <string name="MBtnImage_MergeDialog">編集面を画像面へ統合処理中です…</string>
+    <string name="MBtnImage_SwapPlane">画像面と編集面を入れ替えました</string>
+
+    <string name="MBtnImage_Image">イメージ</string>
+    <string name="MBtnImage_BGPlane">BG▽</string>
+    <string name="MBtnImage_BGColor">色…</string>
+    <string name="MBtnImage_BGPattern">図柄</string>
+    <string name="MBtnImage_BGPtnFill">ベタ</string>
+    <string name="MBtnImage_BGPtnLine">罫線</string>
+    <string name="MBtnImage_BGPtnCross">方眼</string>
+    <string name="MBtnImage_BGPtnCheck">市松</string>
+    <string name="MBtnImage_BGSize">サイズ▽</string>
+    <string name="MBtnImage_BGSize16">16</string>
+    <string name="MBtnImage_BGSize32">32</string>
+    <string name="MBtnImage_BGSize64">64</string>
+    <string name="MBtnImage_BGSize128">128</string>
+    <string name="MBtnImage_BGSize256">256</string>
+    <string name="MBtnImage_BGSize512">512</string>
+    <string name="MBtnImage_BGPtnMove">追従▽</string>
+    <string name="MBtnImage_BGPtnMoveAll">完全追従</string>
+    <string name="MBtnImage_BGPtnMoveFix">完全固定</string>
+    <string name="MBtnImage_BGPtnMoveNoMove">移動固定</string>
+    <string name="MBtnImage_ImagePlane">画像面▽</string>
+    <string name="MBtnImage_ImageClear">クリア</string>
+    <string name="MBtnImage_ImageFlip">⇄編集面</string>
+    <string name="MBtnImage_Blend">合成▽</string>
+    <string name="MBtnImage_BlendBasic">色合成▽</string>
+    <string name="MBtnImage_BlendColNormal">通常</string>
+    <string name="MBtnImage_BlendColMul">乗算</string>
+    <string name="MBtnImage_BlendColAdd">加算</string>
+    <string name="MBtnImage_BlendColSub">減算</string>
+    <string name="MBtnImage_BlendColScreen">スクリーン</string>
+    <string name="MBtnImage_BlendColOverlay">オーバレイ</string>
+    <string name="MBtnImage_BlendColExclusion">除外</string>
+    <string name="MBtnImage_BlendColDifference">差の絶対値</string>
+    <string name="MBtnImage_BlendColDarken">比較(暗)</string>
+    <string name="MBtnImage_BlendColLighten">比較(明)</string>
+    <string name="MBtnImage_BlendColBack">背景</string>
+    <string name="MBtnImage_BlendAlpha">α合成▽</string>
+    <string name="MBtnImage_BlendAlpModulate">変調</string>
+    <string name="MBtnImage_BlendAlpLerp">線形</string>
+    <string name="MBtnImage_BlendAlpAddSat">加算sat</string>
+    <string name="MBtnImage_BlendAlpAddNorm">加算norm</string>
+    <string name="MBtnImage_BlendAlpMax">最大</string>
+    <string name="MBtnImage_BlendClip">クリップ▽</string>
+    <string name="MBtnImage_BlendClipImage">画像面で</string>
+    <string name="MBtnImage_EditPlane">編集面▽</string>
+    <string name="MBtnImage_EditLayer">レイヤー▽</string>
+    <string name="MBtnImage_EditLayerDelete">削除</string>
+    <string name="MBtnImage_EditLayerAdd">追加▽</string>
+    <string name="MBtnImage_EditLayerAddNew">新規</string>
+    <string name="MBtnImage_EditLayerAddCpy">複製</string>
+    <string name="MBtnImage_EditLayerMerge">統合▽</string>
+    <string name="MBtnImage_EditLayerMergeDown">１つ下へDown</string>
+    <string name="MBtnImage_EditLayerMergeAll">すべて</string>
+    <string name="MBtnImage_EditFill">塗潰し▽</string>
+    <string name="MBtnImage_EditFillFGCol">前景色</string>
+    <string name="MBtnImage_EditFillBGCol">背景色</string>
+    <string name="MBtnImage_EditFillClear">クリア</string>
+    <string name="MBtnImage_CloverFillFGCol">+前景色</string>
+    <string name="MBtnImage_CloverFillBGCol">+背景色</string>
+    <string name="MBtnImage_CloverFillClear">+クリア</string>
+    <string name="MBtnImage_EditColor">色▽</string>
+    <string name="MBtnImage_EditColorFlip">反転</string>
+    <string name="MBtnImage_EditColorLinear">リニア化</string>
+    <string name="MBtnImage_EditMerge">統合▽</string>
+    <string name="MBtnImage_EditMergeImage">画像面へ</string>
+    <string name="MBtnImage_Setting">設定▽</string>
+    <string name="MBtnImage_SetBound">編集枠▽</string>
+    <string name="MBtnImage_SetBoundFix">固定…</string>
+    <string name="MBtnImage_SetBoundFree">自動拡張</string>
+
+    <string name="MBtnLine_Line">ライン</string>
+    <string name="MBtnLine_Setting">設定…</string>
+    <string name="MBtnLine_Brush">ブラシ…</string>
+    <string name="MBtnLine_Color">色…</string>
+    <string name="MBtnLine_NewClover">Clover化</string>
+    <string name="MBtnLine_CopyClover">Clover複製</string>
+
+    <string name="MBtnOutput_ExtSend">転送</string>
+    <string name="MBtnOutput_ExtSave">保存</string>
+    <string name="MBtnOutput_ExtSaveAs">別名保存</string>
+    <string name="MBtnOutput_SizSize">サイズ</string>
+    <string name="MBtnOutput_SizTypical">定形▽</string>
+    <string name="MBtnOutput_SizHistory">履歴▽</string>
+    <string name="MBtnOutput_SizOther">その他…</string>
+    <string name="MBtnOutput_Format">形式</string>
+    <string name="MBtnOutput_FmtPNG">PNG</string>
+    <string name="MBtnOutput_FmtJPEG">JPEG</string>
+    <string name="MBtnOutput_FmtBG">BG保存</string>
+    <string name="MBtnOutput_FmtFilter">フィルタ▽</string>
+    <string name="MBtnOutput_FmtJpegLow">低:20</string>
+    <string name="MBtnOutput_FmtJpegNormal">通常:50</string>
+    <string name="MBtnOutput_FmtJpegHigh">高:80</string>
+    <string name="MBtnOutput_FmtJpegSuper">超高:95</string>
+    <string name="MBtnOutput_FmtJpegPerfect">最高:100</string>
+    <string name="MBtnOutput_FmtJpegCustom">カスタム…</string>
+    <string name="MBtnOutput_FmtFltNearest">Nearest</string>
+    <string name="MBtnOutput_FmtFltBilinear">Bilinear</string>
+    <string name="MBtnOutput_FmtFltBicubic">Bicubic</string>
+    <string name="MBtnOutput_FmtFltLanczos2">Lanczos2</string>
+    <string name="MBtnOutput_FmtFltLanczos3">Lanczos3</string>
+    <string name="MBtnOutput_Modify">操作</string>
+    <string name="MBtnOutput_ModSnap">スナップ▽</string>
+    <string name="MBtnOutput_ModSnapPosition">移動▽</string>
+    <string name="MBtnOutput_ModSnapPosNone">なし</string>
+    <string name="MBtnOutput_ModSnapPos1pix">1pix</string>
+    <string name="MBtnOutput_ModSnapPos2pix">2pix</string>
+    <string name="MBtnOutput_ModSnapPos8pix">8pix</string>
+    <string name="MBtnOutput_ModSnapPos10pix">10pix</string>
+    <string name="MBtnOutput_ModSnapRotate">回転▽</string>
+    <string name="MBtnOutput_ModSnapRotNone">なし</string>
+    <string name="MBtnOutput_ModSnapRotR360">360分周</string>
+    <string name="MBtnOutput_ModSnapRotR120">120分周</string>
+    <string name="MBtnOutput_ModSnapRotR72">72分周</string>
+    <string name="MBtnOutput_ModSnapRotR24">24分周</string>
+    <string name="MBtnOutput_ModSnapScale">倍率▽</string>
+    <string name="MBtnOutput_ModSnapSclNone">なし</string>
+    <string name="MBtnOutput_ModSnapScl1per">1%</string>
+    <string name="MBtnOutput_ModSnapScl2per">2%</string>
+    <string name="MBtnOutput_ModSnapScl5per">5%</string>
+    <string name="MBtnOutput_ModSnapScl10per">10%</string>
+    <string name="MBtnOutput_ModFlip">反転</string>
+    <string name="MBtnOutput_ModRoll">回転▽</string>
+    <string name="MBtnOutput_ModRoll270">270°</string>
+    <string name="MBtnOutput_ModRoll0">0°</string>
+    <string name="MBtnOutput_ModRoll90">90°</string>
+    <string name="MBtnOutput_ModRoll180">180°</string>
+    <string name="MBtnOutput_ModScale">倍率▽</string>
+    <string name="MBtnOutput_ModSclPosOrigin">原点移動</string>
+    <string name="MBtnOutput_ModScl025">25%</string>
+    <string name="MBtnOutput_ModScl050">50%</string>
+    <string name="MBtnOutput_ModScl075">75%</string>
+    <string name="MBtnOutput_ModScl100">100%</string>
+    <string name="MBtnOutput_ModScl200">200%</string>
+    <string name="MBtnOutput_ModScl400">400%</string>
+    <string name="MBtnOutput_ModFit">フィット</string>
+    <string name="MBtnOutput_Return">戻る</string>
+
+    <string name="MBtnOutput_ModSnapPos">移動:</string>
+    <string name="MBtnOutput_ModSnapRot">回転:</string>
+    <string name="MBtnOutput_ModSnapScl">倍率:</string>
+    <string name="MBtnOutput_FmtBGSave">BGあり</string>
+    <string name="MBtnOutput_FmtBGNotSave">BGなし</string>
+
+    <string name="MBtnRect_Rect">矩形</string>
+    <string name="MBtnRect_Brush">ブラシ…</string>
+    <string name="MBtnRect_Color">色…</string>
+    <string name="MBtnRect_NewClover">Clover化</string>
+    <string name="MBtnRect_CopyClover">Clover複製</string>
+
+    <string name="MBtnUndo_Undo">元に戻す</string>
+    <string name="MBtnUndo_Redo">やり直し</string>
+    <string name="MBtnUndo_Swap">⇄入替</string>
+    <string name="MBtnUndo_Clear">消去</string>
+    <string name="MBtnUndo_ClvUndo">+元に戻す</string>
+    <string name="MBtnUndo_ClvRedo">+やり直し</string>
+
+    <string name="MBtnView_View">表示設定</string>
+    <string name="MBtnView_Flip">反転</string>
+    <string name="MBtnView_Roll">回転▽</string>
+    <string name="MBtnView_Roll270">270°</string>
+    <string name="MBtnView_Roll0">0°</string>
+    <string name="MBtnView_Roll90">90°</string>
+    <string name="MBtnView_Roll180">180°</string>
+    <string name="MBtnView_Scale">倍率▽</string>
+    <string name="MBtnView_Scale075">75%</string>
+    <string name="MBtnView_Scale100">100%</string>
+    <string name="MBtnView_Scale200">200%</string>
+    <string name="MBtnView_Scale400">400%</string>
+    <string name="MBtnView_Scale800">800%</string>
+    <string name="MBtnView_Scale1600">1600%</string>
+    <string name="MBtnView_Init">初期状態</string>
+    <string name="MBtnView_InitAdpt">中央表示</string>
+    <string name="MBtnView_FlipClv">+反転操作</string>
+    <string name="MBtnView_RollClv">+回転状態</string>
+    <string name="MBtnView_ScaleClv">+倍率状態</string>
+    <string name="MBtnView_AllClv">+全状態</string>
+    <string name="MBtnView_Navi">+ナビ表示</string>
+    <string name="MBtnView_Dock">ウインドウ</string>
+    <string name="MBtnView_DockTool">ツール</string>
+    <string name="MBtnView_DockInfo">情報</string>
+    <string name="MBtnView_DockTClover">Clover</string>
+    <string name="MBtnView_DockTBrush">ブラシ</string>
+    <string name="MBtnView_DockTPalMain">パレット</string>
+    <string name="MBtnView_DockTLayerList">レイヤー</string>
+    <string name="MBtnView_DockTHand">移動</string>
+    <string name="MBtnView_DockIInfoView">詳細</string>
+    <string name="MBtnView_DockINaviView">ナビ</string>
+    <string name="MBtnView_DockIHistory">履歴</string>
+
+    <string name="MBtnMove_Apply">適用</string>
+    <string name="MBtnMove_Mode">モード</string>
+    <string name="MBtnMove_Filter">フィルタ</string>
+    <string name="MBtnMove_Modify">操作</string>
+    <string name="MBtnMove_Return">戻る</string>
+    <string name="MBtnMove_Tool">移動</string>
+    <string name="MBtnMove_SelTool">移動方法</string>
+    <string name="MBtnMove_SelToolMove">移動</string>
+    <string name="MBtnMove_SelToolTransform">変形</string>
+
+    <string name="MoveRebar_Apply">適用</string>
+    <string name="MoveRebar_Rot180">180°</string>
+    <string name="MoveRebar_Rot090">90°</string>
+    <string name="MoveRebar_Rot270">270°</string>
+    <string name="MoveRebar_FlipH">水平反転</string>
+    <string name="MoveRebar_FlipV">垂直反転</string>
+    <string name="MoveRebar_Init">初期値</string>
+
+    <string name="MBtnTransform_Tool">変形</string>
+    <string name="MBtnTransform_Return">戻る</string>
+    <string name="MBtnTransform_SelTool">移動方法</string>
+    <string name="MBtnTransform_SelToolMove">移動</string>
+    <string name="MBtnTransform_SelToolTransform">変形</string>
+
+    <string name="TransformRebar_Apply">適用</string>
+    <string name="TransformRebar_Rotate">回転</string>
+    <string name="TransformRebar_Skew">傾き</string>
+    <string name="TransformRebar_Trape">パース</string>
+    <string name="TransformRebar_SelTrans">変形選択</string>
+    <string name="TransformRebar_NumInp">数値設定</string>
+    <string name="TransformRebar_Filter">フィルタ</string>
+    <string name="TransformRebar_FlipH">反転</string>
+    <string name="TransformRebar_Init">初期化</string>
+    <string name="TransformRebar_Nearest">Nearest</string>
+    <string name="TransformRebar_Bilinear">Bilinear</string>
+    <string name="TransformRebar_Bicubic">Bicubic</string>
+    <string name="TransformRebar_Lanczos2">Lncz.2</string>
+    <string name="TransformRebar_Lanczos3">Lncz.3</string>
+    <string name="TransformRebar_MipFilter">sw.mip</string>
+
+    <string name="Core_EventTrans_FmtFltPos" formatted="false">移動　:%7.2f,%7.2f</string>
+    <string name="Core_EventTrans_FmtFltRot" formatted="false">回転　:%s %7.2f</string>
+    <string name="Core_EventTrans_FmtFltScl" formatted="false">倍率　:%7.2f,%7.2f</string>
+    <string name="Core_EventTrans_FmtFltSkw" formatted="false">傾き　:%7.2f,%7.2f</string>
+    <string name="Core_EventTrans_FmtFltTrp" formatted="false">パース:%7.2f,%7.2f</string>
+    <string name="Core_EventTrans_FmtFlip"   formatted="false">反転　:[%s]%s</string>
+    <string name="Core_EventTrans_FltType"   formatted="false">フィルタ:[%s]</string>
+    <string name="Core_EventTrans_FltUseMip" formatted="false">Mipmap利用:[%s]</string>
+    <string name="Core_EventTrans_ConvOutImageEventError" formatted="false">レイヤーの変形に失敗しました(%d)</string>
+    <string name="Core_EventTrans_TransformProgress" formatted="false">レイヤー変形中です</string>
+    <string name="Core_EventTrans_ClipFromBound">大きいため編集枠でクリップします</string>
+    <string name="Core_EventTrans_NotValid">変形すべき有効なイメージが選択されていない</string>
+
+    <string name="MBtnSelect_SelTool">選択方法</string>
+    <string name="MBtnSelect_SelToolRect">矩形選択</string>
+    <string name="MBtnSelect_SelToolEllipse">楕円選択</string>
+    <string name="MBtnSelect_SelToolFree">自由選択</string>
+    <string name="MBtnSelect_SelToolAuto">自動選択</string>
+    <string name="MBtnSelect_Blend">合成方法</string>
+    <string name="MBtnSelect_Return">戻る</string>
+    <string name="MBtnSelect_OptSetting">設定</string>
+    <string name="MBtnSelect_SelEdit">編集▽</string>
+    <string name="MBtnSelect_SelEditAll">全選択</string>
+    <string name="MBtnSelect_SelEditFlip">選択反転</string>
+    <string name="MBtnSelect_SelEditClear">選択解除</string>
+    <string name="MBtnSelect_SelEditAllClv">+全選択</string>
+    <string name="MBtnSelect_SelEditFlipClv">+選択反転</string>
+    <string name="MBtnSelect_SelEditClearClv">+選択解除</string>
+    <string name="MBtnSelect_BldMov">置換</string>
+    <string name="MBtnSelect_BldMod">変調</string>
+    <string name="MBtnSelect_BldMul">乗算</string>
+    <string name="MBtnSelect_BldSub">減算</string>
+    <string name="MBtnSelect_BldAdd">加算</string>
+
+    <string name="BrushToolBar_PenSize">⇄太さ</string>
+    <string name="BrushToolBar_PenFlow">⇄流量</string>
+    <string name="BrushToolBar_PenOpacity">⇄不透明度</string>
+    <string name="BrushToolBar_PenSizeDesc">ペン太さ</string>
+    <string name="BrushToolBar_PenFlowDesc">ペン流量</string>
+    <string name="BrushToolBar_PenOpacityDesc">ペン合成不透明度</string>
+    <string name="BrushToolBar_PenSizeLabel">太さ</string>
+    <string name="BrushToolBar_PenFlowLabel">流量</string>
+    <string name="BrushToolBar_PenOpacityLabel">不透明度</string>
+    <string name="BrushToolBar_PenSizeFmt">%4.1f</string>
+    <string name="BrushToolBar_PenFlowFmt">%4.2f</string>
+    <string name="BrushToolBar_PenOpacityFmt">%4.2f</string>
+
+    <string name="CloverToolBar_RegistrationDialog">Cloverリスト登録操作</string>
+    <string name="CloverToolBar_OnlyEraserDialog">消しゴムツールのみ登録可能です</string>
+    <string name="CloverToolBar_LiteVerDialog">Lite版は%2d番までに制限されています</string>
+    <string name="CloverToolBar_HandlingSource">元クローバーの扱い</string>
+    <string name="CloverToolBar_CloseBtn">閉じる</string>
+
+    <string name="PaletteToolBar_Spuit">スポイト</string>
+    <string name="PaletteToolBar_LiteVerDialog">Lite版は%2d番までに制限されています</string>
+    <string name="PaletteToolBar_OperationDialog">パレット%02dへの操作を選択</string>
+    <string name="PaletteToolBar_LongDownHintDialog">長押しで現在の色を登録します</string>
+
+    <string name="PlaneToolBar_Image">画像</string>
+    <string name="PlaneToolBar_SwapImage">⇄編集</string>
+    <string name="PlaneToolBar_Edit">編集</string>
+    <string name="PlaneToolBar_SwapEdit">⇄画像</string>
+    <string name="PlaneToolBar_OpacitySlider">不透明度:%4.1f%%</string>
+
+    <string name="LayerToolBar_SettingDialog" formatted="false">レイヤー[%s%s]を操作</string>
+    <string name="LayerToolBar_SettingDialogEdit" formatted="false">レイヤー[%s%s]を編集</string>
+    <string name="LayerToolBar_SettingDialogAdd" formatted="false">レイヤー[%s%s]に追加</string>
+    <string name="LayerToolBar_SettingDialogMerge" formatted="false">レイヤー[%s%s]を統合</string>
+    <string name="FevMDBLayer_eEdit">編集</string>
+    <string name="FevMDBLayer_eAdd">追加</string>
+    <string name="FevMDBLayer_eMerge">統合</string>
+    <string name="FevMDBLayer_eDelete">削除</string>
+    <string name="FevMDBLayer_eAddNew">新規</string>
+    <string name="FevMDBLayer_eAddClone">複製</string>
+    <string name="FevMDBLayer_eMergeDown">下へ</string>
+    <string name="FevMDBLayer_eMergeAll">全て</string>
+
+    <string name="CloverMini_OperationDialog">クローバー[%s]に対する操作</string>
+    <string name="CloverMini_OpenDockSettingDialog">Cloverドッキングリストの設定</string>
+    <string name="CloverBucket_Label">バケツ</string>
+    <string name="CloverBucket_LeafRun">実行</string>
+    <string name="CloverBucket_LeafMove">移動</string>
+    <string name="CloverBucket_LeafClear">クリア</string>
+    <string name="CloverBucket_LeafThrsCol">境界色</string>
+    <string name="CloverBucketProp_Color">塗り潰し色の保存・設定</string>
+    <string name="CloverBucketProp_ColorTrue">塗り潰し色をクローバーに保存する</string>
+    <string name="CloverBucketProp_ColorFalse">塗り潰し色は保存しない</string>
+    <string name="CloverBucketProp_ThrsMode">境界判定モードの保存・設定</string>
+    <string name="CloverBucketProp_ThrsModeTrue">境界判定モードをクローバーに保存する</string>
+    <string name="CloverBucketProp_ThrsModeFalse">境界判定モードは保存しない</string>
+    <string name="CloverBucketProp_ThrsPlane">境界判定ソース</string>
+    <string name="CloverBucketProp_ThrsPlaneTrue">境界判定ソースをクローバーに保存する</string>
+    <string name="CloverBucketProp_ThrsPlaneFalse">境界判定ソースは保存しない</string>
+    <string name="CloverBucketProp_FuzzyRange">曖昧範囲</string>
+    <string name="CloverBucketProp_FuzzyRangeTrue">曖昧範囲をクローバーに保存する</string>
+    <string name="CloverBucketProp_FuzzyRangeFalse">曖昧範囲は保存しない</string>
+    <string name="CloverBucketProp_FuzzyMode">曖昧判定モード</string>
+    <string name="CloverBucketProp_FuzzyModeTrue">曖昧判定モードをクローバーに保存する</string>
+    <string name="CloverBucketProp_FuzzyModeFalse">曖昧判定モードは保存しない</string>
+    <string name="CloverBucketProp_UseAdjoin">隣接判定</string>
+    <string name="CloverBucketProp_UseAdjoinTrue">隣接判定をクローバーに保存する</string>
+    <string name="CloverBucketProp_UseAdjoinFalse">隣接判定は保存しない</string>
+    <string name="CloverBucketProp_ThrsColor">境界基準色</string>
+    <string name="CloverBucketProp_ThrsColorTrue">境界基準色をクローバーに保存する</string>
+    <string name="CloverBucketProp_ThrsColorFalse">境界基準色は保存しない</string>
+    
+    <string name="DockSetting_ProtectMove">ドッキングリスト移動の禁止</string>
+    <string name="DockSetting_ProtectMoveTrue">ドッキングリストの移動を禁止する</string>
+    <string name="DockSetting_ProtectMoveFalse">ドッキングリストの移動を許可する</string>
+    <string name="DockSetting_ForceVisible">ドッキングリストの強制表示</string>
+    <string name="DockSetting_ForceVisibleTrue">UI表示モードを無視して強制的に表示する</string>
+    <string name="DockSetting_ForceVisibleFalse">UI表示モードに従って表示を切り替える</string>
+    <string name="DockSetting_SelActionType">リストアイテム選択時の動作</string>
+    <string name="DockSetting_SAT_RunCmd">実行のみ</string>
+    <string name="DockSetting_SAT_SelItem">選択のみ</string>
+    <string name="DockSetting_SAT_RunAndSel">実行と選択</string>
+    <string name="DockSetting_SAT_RunAndSelOnlyBrush">実行と選択(ブラシの時のみ)</string>
+    
+    <string name="WinDock_FrameOperationDialog">このウインドウに対する操作</string>
+    
+    <string name="WinDockProp_ForceVisible">ウインドウの強制表示</string>
+    <string name="WinDockProp_ForceVisibleTrue">UI表示モードを無視して常に表示する(フロート時)</string>
+    <string name="WinDockProp_ForceVisibleFalse">UI表示モードに従って表示を切り替える</string>
+    <string name="WinDockProp_ProtectMove">ウインドウ移動の禁止</string>
+    <string name="WinDockProp_ProtectMoveTrue">ウインドウの移動を禁止する</string>
+    <string name="WinDockProp_ProtectMoveFalse">ウインドウの移動を許可する</string>
+    <string name="WinDockProp_ProtectDock">ウインドウのドッキング禁止</string>
+    <string name="WinDockProp_ProtectDockTrue">ウインドウのドッキングを禁止する</string>
+    <string name="WinDockProp_ProtectDockFalse">ウインドウのドッキングを許可する</string>
+    <string name="WinDockProp_ProtectResize">ウインドウのサイズ変更禁止</string>
+    <string name="WinDockProp_ProtectResizeTrue">ウインドウのサイズ変更を禁止する</string>
+    <string name="WinDockProp_ProtectResizeFalse">ウインドウのサイズ変更を許可する</string>
+    <string name="WinDockProp_UseTransBtn">ウインドウの一時透過ボタン</string>
+    <string name="WinDockProp_UseTransBtnTrue">ウインドウの一時透過ボタンを表示する</string>
+    <string name="WinDockProp_UseTransBtnFalse">ウインドウの一時透過ボタンを表示しない</string>
+    
+    <string name="ToolDock_PalSpuit_Opacity">不透明度</string>
+    <string name="ToolDock_PalSpuit_OpaGet">取得</string>
+    <string name="ToolDock_PalSpuit_Opa255">255</string>
+    <string name="ToolDock_PalSpuit_OpaSus">維持</string>
+    <string name="ToolDock_PalSpuit_GetFrom">取得元</string>
+    <string name="ToolDock_PalSpuit_GetDisp">表示面</string>
+    <string name="ToolDock_PalSpuit_GetEdit">編集面</string>
+    
+    <string name="ToolDock_LayerList_BarOpacity">不透明度</string>
+    <string name="ToolDock_LayerInfo_BtnVisible">レイヤー表示</string>
+    <string name="ToolDock_LayerInfo_BtnPlaneLock">レイヤー保護</string>
+    <string name="ToolDock_LayerInfo_BtnAlphaLock">不透明度保護</string>
+    <string name="ToolDock_LayerInfo_BtnColorBlend">合成：カラー</string>
+    <string name="ToolDock_LayerInfo_BtnAlphaBlend">合成：不透明度</string>
+    <string name="ToolDock_LayerInfo_BtnClipGroup">クリッピンググループ種類</string>
+    
+    <string name="ToolDock_PalPicker_PropCaption">カラーピッカー</string>
+    <string name="ToolDock_PalPicker_BarHueShift">色相環シフト</string>
+    
+    <string name="ToolDock_PalGrad_LongDownHintDialog">長押しで現在のグラデーションを登録します</string>
+    <string name="ToolDock_PalGrad_OperationDialog">グラデーション%02dへの操作を選択</string>
+    <string name="ToolDock_PalGrad_GammaR">R-ガンマ値</string>
+    <string name="ToolDock_PalGrad_GammaG">G-ガンマ値</string>
+    <string name="ToolDock_PalGrad_GammaB">B-ガンマ値</string>
+    
+    <string name="ToolDock_InfoView_TitleDrawProf">描画プロファイル</string>
+    <string name="ToolDock_InfoView_TitleCamera">カメラ</string>
+    <string name="ToolDock_InfoView_TitleDispCol">表示面</string>
+    <string name="ToolDock_InfoView_TitleEditCol">編集面</string>
+    <string name="ToolDock_InfoView_TitleCanvas">キャンバス</string>
+    <string name="ToolDock_InfoView_TitleSelRange">選択範囲</string>
+    <string name="ToolDock_InfoView_TitleTrans">変形</string>
+    <string name="ToolDock_InfoView_TitleMove">移動</string>
+    <string name="ToolDock_InfoView_InvTransPos" >"位置  ----.--  ----.--"</string>
+    <string name="ToolDock_InfoView_InvTransRot" >"回転   ---.--"</string>
+    <string name="ToolDock_InfoView_InvTransScl" >"倍率   ---.--"</string>
+    <string name="ToolDock_InfoView_InvTransSkew">"傾き   ---.--   ---.--"</string>
+    <string name="ToolDock_InfoView_InvTransPers">"パース ---.--   ---.--"</string>
+    <string name="ToolDock_InfoView_InvTransFlip">"反転 -----"</string>
+    <string name="ToolDock_InfoView_InvMovePos"  >"位置  -----  -----"</string>
+    <string name="ToolDock_InfoView_TransPos"  formatted="false">"位置  %7.2f %7.2f"</string>
+    <string name="ToolDock_InfoView_TransRot"  formatted="false">"回転   %6.2f"</string>
+    <string name="ToolDock_InfoView_TransScl"  formatted="false">"倍率   %6.2f  %6.2f"</string>
+    <string name="ToolDock_InfoView_TransSkew" formatted="false">"傾き   %6.2f  %6.2f"</string>
+    <string name="ToolDock_InfoView_TransPers" formatted="false">"パース %6.2f  %6.2f"</string>
+    <string name="ToolDock_InfoView_TransFlip" formatted="false">"反転 [ %c ]"</string>
+    <string name="ToolDock_InfoView_MovePos"   formatted="false">"位置 %6d %6d"</string>
+    <string name="ToolDock_InfoView_DrawProfLevel1">最高</string>
+    <string name="ToolDock_InfoView_DrawProfLevel2">快適</string>
+    <string name="ToolDock_InfoView_DrawProfLevel3">普通</string>
+    <string name="ToolDock_InfoView_DrawProfLevel4">重い</string>
+    <string name="ToolDock_InfoView_DrawProfLevel5">激重</string>
+    
+    <string name="ToolDock_NaviView_PropCaption">ナビ表示</string>
+    <string name="ToolDock_NaviView_ViewText">テキスト表示</string>
+    <string name="ToolDock_NaviView_ViewTextTrue">カメラ状態のテキストを表示する</string>
+    <string name="ToolDock_NaviView_ViewTextFalse">カメラ状態のテキストを表示しない</string>
+    <string name="ToolDock_NaviView_ViewCtrl">操作パネル表示</string>
+    <string name="ToolDock_NaviView_ViewCtrlTrue">カメラ操作ボタンのパネルを表示する</string>
+    <string name="ToolDock_NaviView_ViewCtrlFalse">カメラ操作ボタンのパネルを表示しない</string>
+    <string name="ToolDock_NaviView_SelFlipMode">画像反転モード</string>
+    <string name="ToolDock_NaviView_FlipMode_Never">なし</string>
+    <string name="ToolDock_NaviView_FlipMode_Canvas">キャンバスに合わせる</string>
+    <string name="ToolDock_NaviView_FlipMode_InvCanvas">キャンバスの逆</string>
+    <string name="ToolDock_NaviView_FlipMode_Always">つねに反転</string>
+    
+    <string name="ToolDock_Brush_PropCaption">ブラシ設定</string>
+    <string name="ToolDock_Brush_DispBarDescText">説明テキスト</string>
+    <string name="ToolDock_Brush_DispBarDescTextTrue">バーの説明テキストを表示する</string>
+    <string name="ToolDock_Brush_DispBarDescTextFalse">バーの説明テキストを表示しない</string>
+    <string name="ToolDock_Brush_BarLogSize">サイズ設定バーの対数値</string>
+    <string name="ToolDock_Brush_BarLogFlow">流量設定バーの対数値</string>
+    <string name="ToolDock_Brush_BarLogOpacity">不透明度設定バーの対数値</string>
+    
+    <string name="CloverDropper_Label">スポイト</string>
+    <string name="CloverDropper_LeafCancel">取消</string>
+    <string name="CloverDropper_LeafMove">移動</string>
+    <string name="CloverDropper_LeafGetCol">取得</string>
+
+    <string name="CloverEllipse_Label">楕円</string>
+    <string name="CloverEllipse_LeafMode">切替</string>
+    <string name="CloverEllipse_LeafMove">移動</string>
+    <string name="CloverEllipse_LeafPickUp">持つ</string>
+    <string name="CloverEllipse_LeafDraw">描画</string>
+
+    <string name="CloverLine_Label">ライン</string>
+    <string name="CloverLine_LeafModify">線修正</string>
+    <string name="CloverLine_LeafMove">移動</string>
+    <string name="CloverLine_LeafPickUp">持つ</string>
+    <string name="CloverLine_LeafDraw">描画</string>
+
+    <string name="CloverPen_LabelPen">ペン</string>
+    <string name="CloverPen_LabelEraser">消しゴム</string>
+    <string name="CloverPen_LabelBlur">ぼかし</string>
+    <string name="CloverPen_LabelFinger">指先</string>
+    <string name="CloverPen_LabelMosaic">モザイク</string>
+    <string name="CloverPen_LabelDodge">覆い焼き</string>
+    <string name="CloverPen_LeafDrawDot">描点</string>
+    <string name="CloverPen_LeafMove">移動</string>
+    <string name="CloverPen_LeafPickUp">持つ</string>
+    <string name="CloverPen_LeafErase">消す</string>
+    <string name="CloverPen_LeafDraw">描画</string>
+    <string name="CloverPenProp_PenCircle">ペンカーソルの表示</string>
+    <string name="CloverPenProp_PenCircleTrue">ペンカーソルを表示する</string>
+    <string name="CloverPenProp_PenCircleFalse">ペンカーソルを非表示にする</string>
+
+    <string name="CloverRect_Label">矩形</string>
+    <string name="CloverRect_LeafMode">切替</string>
+    <string name="CloverRect_LeafMove">移動</string>
+    <string name="CloverRect_LeafPickUp">持つ</string>
+    <string name="CloverRect_LeafDraw">描画</string>
+
+    <string name="CloverProp_ProtectMove">クローバーアイコン移動の禁止</string>
+    <string name="CloverProp_ProtectMoveTrue">アイコン移動を禁止する</string>
+    <string name="CloverProp_ProtectMoveFalse">アイコンの移動を許可する</string>
+    <string name="CloverProp_ForceVisible">クローバーアイコンの強制表示</string>
+    <string name="CloverProp_ForceVisibleTrue">UI表示モードを無視して強制的に表示する</string>
+    <string name="CloverProp_ForceVisibleFalse">UI表示モードに従って表示を切り替える</string>
+    <string name="CloverProp_ColorRGB">RGB値(色)の保存・設定</string>
+    <string name="CloverProp_ColorRGBTrue">RGB値(色)をクローバーに保存する</string>
+    <string name="CloverProp_ColorRGBFalse">RGB値(色)は変化させない</string>
+    <string name="CloverProp_ColorAlpha">不透明度の保存・設定</string>
+    <string name="CloverProp_ColorAlphaTrue">不透明度をクローバーに保存する</string>
+    <string name="CloverProp_ColorAlphaFalse">不透明度は変化させない</string>
+    <string name="CloverProp_PenSize">太さの保存・設定</string>
+    <string name="CloverProp_PenSizeTrue">太さをクローバーに保存する</string>
+    <string name="CloverProp_PenSizeFalse">太さは変化させない</string>
+    <string name="CloverProp_BlendOpacity">不透明度(合成)の保存・設定</string>
+    <string name="CloverProp_BlendOpacityTrue">不透明度(合成)をクローバーに保存する</string>
+    <string name="CloverProp_BlendOpacityFalse">不透明度(合成)は変化させない</string>
+    <string name="CloverProp_PenBlur">ぼかしの保存・設定</string>
+    <string name="CloverProp_PenBlurTrue">ぼかしをクローバーに保存する</string>
+    <string name="CloverProp_PenBlurFalse">ぼかしは変化させない</string>
+    <string name="CloverProp_StrokeBlend">ストローク合成の保存・設定</string>
+    <string name="CloverProp_StrokeBlendTrue">ストローク合成をクローバーに保存する</string>
+    <string name="CloverProp_StrokeBlendFalse">ストローク合成は変化させない</string>
+    <string name="CloverProp_PenFlow">流量の保存・設定</string>
+    <string name="CloverProp_PenFlowTrue">流量をクローバーに保存する</string>
+    <string name="CloverProp_PenFlowFalse">流量は変化させない</string>
+    <string name="CloverProp_PenExtend">その他パラメータの保存・設定</string>
+    <string name="CloverProp_PenExtendTrue">その他パラメータをクローバーに保存する</string>
+    <string name="CloverProp_PenExtendFalse">その他パラメータは変化させない</string>
+
+    <string name="Core_CloverPaintAppExitDialog">CloverPaintを終了します</string>
+    <string name="Core_CloverMemoLiteAppExitDialog">CloverメモLiteを終了します</string>
+    <string name="Core_CloverMemoAppExitDialog">Cloverメモを終了します</string>
+    <string name="Core_ConfirmSaveDialog">編集されたデータを保存しますか？</string>
+    <string name="Core_ConfirmDiscardDialog">編集中のデータが消えます。よろしいですか？</string>
+    <string name="Core_ToastReadImageError">画像データ読み込みに失敗しました</string>
+    <string name="Core_ToastAnalyzeImageError">画像データ解析に失敗しました[%d]</string>
+    <string name="Core_ToastSavedWorkingFile">作業ファイルに最新状態を書き込みました</string>
+    <string name="Core_ToastSaveFileOpenError">出力ファイルを作成できませんでした</string>
+    <string name="Core_ToastSaveImageError">ファイル出力に失敗しました</string>
+    <string name="Core_ToastSavedImage">ID=%dに画像を出力しました</string>
+    <string name="Core_BusyWorkerThread">ワーカースレッドは他の処理で使用中</string>
+    <string name="Core_SaveingWorkingFileDialog">作業ファイルへ現在状態をセーブ中…</string>
+    <string name="Core_CopyingImageFilesDialog">ギャラリー内のイメージをコピー中…</string>
+    <string name="Core_NoSDCardDialog">SDカードが利用できないため終了します</string>
+    <string name="Core_ToastCopyFromLite">Lite版のデータを引き継ぎました</string>
+    <string name="Core_ToastCopyFromMemoLite">Lite版のデータを引き継ぎました</string>
+    <string name="Core_ToastCopyFromMemo">Memo版のデータを引き継ぎました</string>
+    <string name="Core_ToastSelStylus0">スタイラス用の基本設定を行いました</string>
+    <string name="Core_ToastSelStylus1">さらに詳細な設定はギャラリー→スタイラスから行えます</string>
+    <string name="Core_ToastSelFinger">指用に設定しました</string>
+    <string name="Core_ConfirmTakeOverLiteDialog">Lite版のデータを引き継ぎますか？</string>
+    <string name="Core_ConfirmTakeOverMemoLiteDialog">Lite版のデータを引き継ぎますか？</string>
+    <string name="Core_ConfirmTakeOverMemoDialog">メモ版のデータを引き継ぎますか？</string>
+    <string name="Core_ConfirmInitEndRebootDialog">再起動してください</string>
+    <string name="Core_ConfirmApplyKeyConfDialog">キー設定を適用しますか？</string>
+    <string name="StyleOption_ConfirmResetCal">リセットしますか？</string>
+
+    <string name="EventGallery_DeleteFileDialog">ファイルを削除してよろしいですか</string>
+    <string name="EventGallery_EmptySaveAreaDialog">ファイル枠に空きがありません</string>
+    <string name="EventGallery_ToastCopiedImage">ID=%dに画像をコピーしました</string>
+    <string name="EventGallery_ToastOverSaveAreaLite">Lite版のファイル数制限を超えています</string>
+    <string name="EventGallery_ToastOverSaveArea">利用可能ファイル数上限を超えています</string>
+    <string name="EventGallery_ToastNeedDeleteFile">不要なファイルを削除してください</string>
+    <string name="EventGallery_ToastFileOperationError">ファイル操作エラー</string>
+
+    <string name="Core_EventOutput_ConvOutImageEventError">画像データ出力に失敗しました(%d)</string>
+    <string name="Core_EventOutput_FormatW4">幅:%4d</string>
+    <string name="Core_EventOutput_FormatH4">高:%4d</string>
+    <string name="Core_EventOutput_OnceADayDialog">Lite版は一日一回のみ出力できます</string>
+    <string name="Core_EventOutput_OutputProgress">画像変換/出力中です</string>
+    <string name="Core_EventOutput_TooBigDialog">大きな画像(%dKB)です.よろしいですか？</string>
+    <string name="Core_EventOutput_Portrait">縦</string>
+    <string name="Core_EventOutput_Landscape">横</string>
+    <string name="Core_EventOutput_EditFrame">編集枠</string>
+    <string name="Core_EventOutput_OverwriteDialog">ファイルの上書き確認</string>
+    <string name="Core_EventOutput_RoundDialog">移動座標を整数値にまるめますか？</string>
+
+    <string name="Core_EventMove_FmtIntPos" formatted="false">移動:%4d,%4d</string>
+    <string name="Core_EventMove_NotValid">移動すべき有効なイメージが選択されていない</string>
+
+    <string name="DispScreenTouchEffect_ScaleF7_2">倍率%7.2f%%</string>
+    <string name="DispScreenTouchEffect_RotateF7_2">回転%7.2f°</string>
+
+    <string name="CloverInfo_Copy">複製</string>
+    <string name="CloverInfo_Copy2">の複製</string>
+
+    <string name="DrawToolCamera_NowLoadingProgress">ロード処理中です…</string>
+    <string name="DrawToolCamera_ToastLoadingError">ロード中にエラー発生</string>
+    <string name="DrawToolCamera_ConfirmClearEditDialog">同時に編集面をクリアしますか？</string>
+    <string name="DrawToolCamera_ConfirmClearAllDialog">同時に既存イメージをクリアしますか？</string>
+    <string name="DrawToolCamera_ToastNotSupport">未対応のファイル形式です</string>
+    <string name="DrawToolCamera_ToastNotFoundLayer">有効なレイヤーが見つかりませんでした</string>
+    <string name="DrawToolCamera_TooBigImageDialog" formatted="false">画面より大きな画像(%d,%d)です</string>
+    <string name="DrawToolCamera_ConfirmShrink">縮小しますか？</string>
+
+    <string name="DtBucketCtx_FillDialog">塗り潰し処理中です…</string>
+
+    <string name="CSetRGBADialog_R">赤</string>
+    <string name="CSetRGBADialog_G">緑</string>
+    <string name="CSetRGBADialog_B">青</string>
+    <string name="CSetRGBADialog_A">不透明度</string>
+
+    <string name="SandBox_AutoUpdate">自動更新</string>
+    <string name="SandBox_Clear">クリア</string>
+
+    <string name="ViewFlip_CloverLabel">反転</string>
+    <string name="ViewRoll_CloverLabel">回転⇩</string>
+    <string name="ViewScale_CloverLabel">倍率⇩</string>
+    <string name="ViewAll_CloverLabel">全表示⇩</string>
+    <string name="NaviView_CloverLabel">ナビ表示</string>
+    <string name="Undo_CloverLabel">元に戻す</string>
+    <string name="Redo_CloverLabel">やり直し</string>
+    <string name="SelEditAll_CloverLabel">全選択</string>
+    <string name="SelEditFlip_CloverLabel">選択反転</string>
+    <string name="SelEditClear_CloverLabel">選択解除</string>
+    <string name="FillFGCol_CloverLabel">前景色</string>
+    <string name="FillBGCol_CloverLabel">背景色</string>
+    <string name="FillClear_CloverLabel">クリア</string>
+    
+    <string name="FevMsgDlgBox_Abort">中断</string>
+    <string name="FevMsgDlgBox_MoveInteger">整数化</string>
+    <string name="FevMsgDlgBox_NotMove">維持</string>
+    <string name="FevMsgDlgBox_TransImage">転送</string>
+    <string name="FevMsgDlgBox_Overwrite">上書き</string>
+    <string name="FevMsgDlgBox_AppExit">終了</string>
+    <string name="FevMsgDlgBox_SaveBucket">(保存)</string>
+    <string name="FevMsgDlgBox_TakeOver">引き継ぐ</string>
+    <string name="FevMsgDlgBox_NotTakeOver">引き継がない</string>
+    <string name="FevMsgDlgBox_Shrink">縮小</string>
+    <string name="FevMsgDlgBox_Original">原寸</string>
+    <string name="FevMsgDlgBox_MergeDown">↓結合</string>
+    <string name="FevMsgDlgBox_eOk">確認</string>
+    <string name="FevMsgDlgBox_eYes">する</string>
+    <string name="FevMsgDlgBox_eNo">しない</string>
+    <string name="FevMsgDlgBox_eCopy">コピー</string>
+    <string name="FevMsgDlgBox_eCut">移動</string>
+    <string name="FevMsgDlgBox_eInsert">挿入</string>
+    <string name="FevMsgDlgBox_eProperty">設定</string>
+    <string name="FevMsgDlgBox_eSaveOver">上書き</string>
+    <string name="FevMsgDlgBox_eSaveCopy">コピー</string>
+    <string name="FevMsgDlgBox_eDiscard">破棄</string>
+    <string name="FevMsgDlgBox_eAgree">同意する</string>
+    <string name="FevMsgDlgBox_eIgnore">無視</string>
+    <string name="FevMsgDlgBox_eRename">名前変更</string>
+    <string name="FevMsgDlgBox_eDelete">削除</string>
+    <string name="FevMsgDlgBox_eOverwrite">上書き</string>
+    <string name="FevMsgDlgBox_eAdd">追加</string>
+    <string name="FevMsgDlgBox_eReset">リセット</string>
+    <string name="FevMsgDlgBox_eUpdate">更新</string>
+    <string name="FevMsgDlgBox_eEdit">編集</string>
+    <string name="FevMsgDlgBox_eClose">閉じる</string>
+    <string name="FevMsgDlgBox_eCancel">戻る</string>
+    <string name="FevMsgDlgBox_StylusCheck">描画に利用するデバイス選択</string>
+    <string name="FevMsgDlgBox_StylusSelStylus">スタイラス</string>
+    <string name="FevMsgDlgBox_StylusSelFinger">指</string>
+
+    <string name="CmiBlend_ColorNormal">通常</string>
+    <string name="CmiBlend_ColorBack">背景</string>
+    <string name="CmiBlend_ColorMul">乗算</string>
+    <string name="CmiBlend_ColorAdd">加算</string>
+    <string name="CmiBlend_ColorSub">減算</string>
+    <string name="CmiBlend_ColorScreen">スクリーン</string>
+    <string name="CmiBlend_ColorOverlay">オーバーレイ</string>
+    <string name="CmiBlend_ColorDarkenLum">比較(L暗)</string>
+    <string name="CmiBlend_ColorLightenLum">比較(L明)</string>
+    <string name="CmiBlend_ColorDarken">比較(暗)</string>
+    <string name="CmiBlend_ColorLighten">比較(明)</string>
+    <string name="CmiBlend_ColorDifference">差の絶対値</string>
+    <string name="CmiBlend_ColorExclusion">除外</string>
+    <string name="CmiBlend_ColorUnknown">未対応</string>
+    <string name="CmiBlend_AlphaLerp">線形</string>
+    <string name="CmiBlend_AlphaAddNorm">加算norm</string>
+    <string name="CmiBlend_AlphaModulate">変調</string>
+    <string name="CmiBlend_AlphaAddSat">加算sat</string>
+    <string name="CmiBlend_AlphaMax">最大</string>
+    <string name="CmiBlend_AlphaUnknown">未対応</string>
+
+    <string name="CmiBlend_StColorNormal">通</string>
+    <string name="CmiBlend_StColorBack">背</string>
+    <string name="CmiBlend_StColorMul">乗</string>
+    <string name="CmiBlend_StColorAdd">加</string>
+    <string name="CmiBlend_StColorSub">減</string>
+    <string name="CmiBlend_StColorScreen">ス</string>
+    <string name="CmiBlend_StColorOverlay">オ</string>
+    <string name="CmiBlend_StColorDarkenLum">暗L</string>
+    <string name="CmiBlend_StColorLightenLum">明L</string>
+    <string name="CmiBlend_StColorDarken">暗</string>
+    <string name="CmiBlend_StColorLighten">明</string>
+    <string name="CmiBlend_StColorDifference">差</string>
+    <string name="CmiBlend_StColorExclusion">除</string>
+    <string name="CmiBlend_StColorUnknown">×</string>
+    <string name="CmiBlend_StAlphaLerp">線</string>
+    <string name="CmiBlend_StAlphaAddNorm">加N</string>
+    <string name="CmiBlend_StAlphaModulate">変</string>
+    <string name="CmiBlend_StAlphaAddSat">加S</string>
+    <string name="CmiBlend_StAlphaMax">大</string>
+    <string name="CmiBlend_StAlphaUnknown">×</string>
+
+    <string name="BucketSetting_ThrsMode">境界判定モード</string>
+    <string name="BucketSetting_ThrsModeFillNearColor">境界判定色の領域を塗り潰し</string>
+    <string name="BucketSetting_ThrsModeFillNearAlpha">境界判定色不透明度の領域を塗り潰し</string>
+    <string name="BucketSetting_ThrsModeStopThrsColor">境界色の領域で塗り潰しを停止</string>
+    <string name="BucketSetting_ThrsModeStopThrsAlpha">境界色不透明度の領域で塗り潰しを停止</string>
+
+    <string name="BucketSetting_ThrsPlane">境界判定元レイヤー</string>
+    <string name="BucketSetting_ThrsEdit">編集レイヤーの色で判定</string>
+    <string name="BucketSetting_ThrsVisible">表示されている色で判定</string>
+    <string name="BucketSetting_FuzzyRange">曖昧範囲</string>
+    <string name="BucketSetting_FuzzyMode">曖昧判定モード</string>
+    <string name="BucketSetting_FuzzyModeNear">指定値付近</string>
+    <string name="BucketSetting_FuzzyModeLower">指定色以下(暗い/薄い)のみ</string>
+    <string name="BucketSetting_FuzzyModeUpper">指定色以上(明るい/濃い)のみ</string>
+    <string name="BucketSetting_UseAdjoin">隣接判定</string>
+    <string name="BucketSetting_UseAdjoinTrue">隣接チェックを行う</string>
+    <string name="BucketSetting_UseAdjoinFalse">隣接を無視して全体塗り潰し</string>
+    <string name="BucketSetting_ThrsLowerBound">境界下限</string>
+    <string name="BucketSetting_ThrsUpperBound">境界上限</string>
+
+    <string name="ColorSetting_ColToolBar">カラー選択 ツールバー</string>
+    <string name="ColorSetting_DisplayColToolBar">ツールバーをペイント画面に表示する</string>
+    <string name="ColorSetting_NotDisplayColToolBar">ツールバーをペイント画面に表示しない</string>
+
+    <string name="CSetHexBase_White">純白</string>
+
+    <string name="BrushSetting_SpeedTo">速度</string>
+    <string name="BrushSetting_PressTo">筆圧</string>
+    <string name="BrushSetting_TimeTo">時間</string>
+    <string name="BrushSetting_TimeToUnit">秒</string>
+    <string name="BrushSetting_MoveLenTo">移動距離</string>
+    <string name="BrushSetting_MoveLenToUnit">Pixel</string>
+    <string name="BrushSetting_Size">ペン太さ</string>
+    <string name="BrushSetting_MoveFlow">ペン流量(移動トリガ)</string>
+    <string name="BrushSetting_SizeFlowToolBar">太さ/流量 ツールバー</string>
+    <string name="BrushSetting_DisplaySizeFlowToolBar">ツールバーをメイン画面に表示する</string>
+    <string name="BrushSetting_NotDisplaySizeFlowToolBar">ツールバーをメイン画面に表示しない</string>
+    <string name="BrushSetting_TimeFlow">ペン流量(時間トリガ)</string>
+    <string name="BrushSetting_TimeFlowStop">　- 停止流量</string>
+    <string name="BrushSetting_TimeFlowStart">　- 複合時開始遅延(秒)</string>
+    <string name="BrushSetting_Antialias">アンチエイリアス</string>
+    <string name="BrushSetting_AntialiasTrue">描画座標をサブピクセルで補間する</string>
+    <string name="BrushSetting_AntialiasFalse">アンチエイリアスは無効</string>
+    <string name="BrushSetting_BlurRatio">ぼかし(ペン先が円形で有効)</string>
+    <string name="BrushSetting_ItrpType">　- ぼかし補間法</string>
+    <string name="BrushSetting_ItrpTypeSquare">柔らか(square)</string>
+    <string name="BrushSetting_ItrpTypeLinear">普通(linear)</string>
+    <string name="BrushSetting_ItrpTypeRSquare">少し硬め(square^-1)</string>
+    <string name="BrushSetting_ItrpTypeRCube">鋭い(cube^-1)</string>
+    <string name="BrushSetting_CalcType">描画演算タイプ</string>
+    <string name="BrushSetting_CalcTypeMove">マスクなしで上書き</string>
+    <string name="BrushSetting_CalcTypeAdd">濃度マスク付き加算</string>
+    <string name="BrushSetting_CalcTypeDecay">濃度マスク透明度を乗算して加算</string>
+    <string name="BrushSetting_CalcTypeMax">濃度マスクして最大値を書き込む</string>
+    <string name="BrushSetting_CalcTypeSkip">常にマスクして上書きしない</string>
+    <string name="BrushSetting_CalcTypeMixCanvas">編集面の色と混合</string>
+    <string name="BrushSetting_Opacity">ペン合成不透明度</string>
+    <string name="BrushSetting_BlendTypeColor">ストローク合成：カラー</string>
+    <string name="BrushSetting_BlendTypeAlpha">ストローク合成：不透明度</string>
+    <string name="BrushSetting_MaskDstChA">編集レイヤーの不透明度でマスク</string>
+    <string name="BrushSetting_MaskDstChATrue">不透明度でマスクする</string>
+    <string name="BrushSetting_MaskDstChAFalse">不透明度でマスクしない</string>
+    <string name="BrushSetting_MixCDstInitVolume">　- 混合：画面色初期取得量</string>
+    <string name="BrushSetting_MixCPenInitVolume">　- 混合：ペン色初期取得量</string>
+    <string name="BrushSetting_MixCPenMinVolume">　- 混合：ペン色最低維持流量</string>
+    <string name="BrushSetting_MixCDstMoveVolume">　- 混合：画面色移動中取得量</string>
+    <string name="BrushSetting_MixCDstMvFlowMulAVolume">　- 混合：取得量-不透明度相関率</string>
+    <string name="BrushSetting_MixCDstMoveMixType">　　- 画面色混合タイミング</string>
+    <string name="BrushSetting_MixCDstMoveMixTypePreDraw">描画前に画面色を取得して混合</string>
+    <string name="BrushSetting_MixCDstMoveMixTypePostDraw">描画後に画面色を取得して混合</string>
+    <string name="BrushSetting_MixCDstMoveGetActive">　　- 画面色取得量変化</string>
+    <string name="BrushSetting_MixCDstMoveGADirect">取得量は他の影響を受けない</string>
+    <string name="BrushSetting_MixCDstMoveGAFlow">取得量を流量で変化させる</string>
+    <string name="BrushSetting_MixCDstMoveGAOpacity">取得量を不透明度で変化させる</string>
+    <string name="BrushSetting_MixCDstMoveGAFlowOpacity">取得量を流量×不透明度で変化させる</string>
+    <string name="BrushSetting_MixCDstMovePenFlow">　　- 取得ペン濃度調整</string>
+    <string name="BrushSetting_MixCDstMovePFLinear">取得量を単純加算</string>
+    <string name="BrushSetting_MixCDstMovePFModulate">取得量を変調加算</string>
+    <string name="BrushSetting_MixCDstMovePFModMulDstA">取得量×不透明度の変調加算</string>
+    <string name="BrushSetting_MixCDstBlur">　- 混合：画面色取得ぼかし</string>
+    <string name="BrushSetting_ShapeType">ペン先形状</string>
+    <string name="BrushSetting_ShapeTypeRect">四角</string>
+    <string name="BrushSetting_ShapeTypeCircle">円形</string>
+    <string name="BrushSetting_UseOutline">縁取り</string>
+    <string name="BrushSetting_UseOutlineTrue">背景色で縁取りする</string>
+    <string name="BrushSetting_UseOutlineFalse">縁取りは無効</string>
+    <string name="BrushSetting_RoughVolume">粗さ:強度</string>
+    <string name="BrushSetting_RoughFreq">粗さ:周波数</string>
+    <string name="BrushSetting_RoughPropPenSize">粗さ:周波数 - サイズ比例</string>
+    <string name="BrushSetting_RoughPropPenSizeTrue">ペンの太さに周波数を合わせる</string>
+    <string name="BrushSetting_RoughPropPenSizeFalse">ペンの太さによらず周波数は一定</string>
+    <string name="BrushSetting_RoughPower">粗さ:鋭さ</string>
+    <string name="BrushSetting_RoughSeed">粗さ:乱数初期化値</string>
+    <string name="BrushSetting_SandBrush">砂ブラシ</string>
+    <string name="BrushSetting_SandBrushTrue">ランダムな点で描画する</string>
+    <string name="BrushSetting_SandBrushFalse">通常の描画モード</string>
+    <string name="BrushSetting_SandBrushFlow">　- 砂ブラシ流量</string>
+    <string name="BrushSetting_AutoSpace">間隔自動調整</string>
+    <string name="BrushSetting_AutoSpaceTrue">ペンの太さによって描点間隔を調整する</string>
+    <string name="BrushSetting_AutoSpaceFalse">ペンの太さによらず描点間隔は一定</string>
+    <string name="BrushSetting_ActiveAutoSpace">動的な間隔自動調整</string>
+    <string name="BrushSetting_ActiveAutoSpaceTrue">ペンの太さの変化によって描点間隔を調整する</string>
+    <string name="BrushSetting_ActiveAutoSpaceFalse">ペンの太さの変化によらず描点間隔は一定</string>
+    <string name="BrushSetting_SpaceScale">間隔倍率</string>
+    <string name="BrushSetting_PosScatterU">位置拡散(横方向)</string>
+    <string name="BrushSetting_PosScatterV">位置拡散(進行方向)</string>
+    <string name="BrushSetting_DotPtn">破線タイプ</string>
+    <string name="BrushSetting_DotPtnNone">なし</string>
+    <string name="BrushSetting_DotPtnDotted">密な破線</string>
+    <string name="BrushSetting_DotPtnDashed">素な破線</string>
+    <string name="BrushSetting_DotPtnSingleDotChain">一点鎖線</string>
+    <string name="BrushSetting_DotPtnDoubleDotChain">二点鎖線</string>
+    <string name="BrushSetting_CtgLabelSize">太さ</string>
+    <string name="BrushSetting_CtgLabelOpacity">不透明度</string>
+    <string name="BrushSetting_CtgLabelFlow">流量</string>
+    <string name="BrushSetting_CtgLabelSandFlow">砂ブラシ流量</string>
+    <string name="BrushSetting_CtgLabelColor">色変化</string>
+    <string name="BrushSetting_CtgLabelDtMvDensity">編集面色混合量</string>
+    <string name="BrushSetting_FadeHead">開始(入り)</string>
+    <string name="BrushSetting_FadeTail">終了(抜き)</string>
+    <string name="BrushSetting_ActSpeedRangeMin">動的速度レンジ最小</string>
+    <string name="BrushSetting_ActSpeedRangeMax">動的速度レンジ最大</string>
+    <string name="BrushSetting_CorrelationRate">相関率</string>
+    <string name="BrushSetting_OfPower">の硬さ</string>
+    <string name="BrushSetting_InterpMin">　- 補間範囲最小</string>
+    <string name="BrushSetting_InterpMax">　- 補間範囲最大</string>
+    <string name="BrushSetting_PowerOfIntrp">　- 補間の硬さ</string>
+    <string name="BrushSetting_CallSubCalcTypeMix">混合モード設定</string>
+    <string name="BrushSetting_CallSubCalcTypeMixDesc">混合モード時の詳細なパラメータを設定</string>
+    <string name="BrushSetting_CallSubBlend">合成モード設定</string>
+    <string name="BrushSetting_CallSubBlendDesc">合成モードの詳細なパラメータを設定</string>
+    <string name="BrushSetting_CallSubRough">粗さ設定</string>
+    <string name="BrushSetting_CallSubRoughDesc">ノイズテクスチャのパラメータを設定</string>
+    <string name="BrushSetting_CallSubFadeHeadTail">入り抜き設定</string>
+    <string name="BrushSetting_CallSubFadeHeadTailDesc">ストローク末端での効果を設定</string>
+    <string name="BrushSetting_CallSubSpeedTo">速度効果</string>
+    <string name="BrushSetting_CallSubSpeedToDesc">ストローク速度変化による効果を設定</string>
+    <string name="BrushSetting_CallSubPressTo">筆圧効果</string>
+    <string name="BrushSetting_CallSubPressToDesc">筆圧変化による効果を設定</string>
+    <string name="BrushSetting_CallSubJitter">ジッター効果</string>
+    <string name="BrushSetting_CallSubJitterDesc">各種ランダム効果を設定</string>
+    <string name="BrushSetting_CallSubTimeTo">時間効果</string>
+    <string name="BrushSetting_CallSubTimeToDesc">ストローク時間経過による効果を設定</string>
+    <string name="BrushSetting_CallSubMoveLenTo">移動効果</string>
+    <string name="BrushSetting_CallSubMoveLenToDesc">ストローク移動距離による効果を設定</string>
+    <string name="BrushSetting_HoverCursorPressure">ホバー中ブラシカーソルに適用する筆圧値</string>
+    <string name="BrushSetting_UseOneShotUndo">ワンショットUndo</string>
+    <string name="BrushSetting_UseOneShotUndoTrue">描画遅延を少なくするためワンショットUndoを使う</string>
+    <string name="BrushSetting_UseOneShotUndoFalse">通常のストローク描画を行う</string>
+    <string name="BrushSetting_OneShotLimitSize">　- 限界サイズ</string>
+    <string name="BrushSetting_PredFactor">　- 予測強度</string>
+    <string name="BrushSetting_JitterPerSpotSize">サイズ ジッター(spot毎)</string>
+    <string name="BrushSetting_JitterPerSpotFlow">流量ジッター(spot毎)</string>
+    <string name="BrushSetting_JitterPerSpotColLerp">FG色->BG色 ジッター(spot毎)</string>
+    <string name="BrushSetting_JitterPerSpotHue">色相 ジッター(spot毎)</string>
+    <string name="BrushSetting_JitterPerSpotSat">彩度 ジッター(spot毎)</string>
+    <string name="BrushSetting_JitterPerSpotLum">輝度 ジッター(spot毎)</string>
+    <string name="BrushSetting_JitterPerSpotColOpacity">不透明度 ジッター(spot毎)</string>
+    <string name="BrushSetting_JitterPerStrokeSize">サイズ ジッター(stroke毎)</string>
+    <string name="BrushSetting_JitterPerStrokeFlow">流量ジッター(stroke毎)</string>
+    <string name="BrushSetting_JitterPerStrokeColLerp">FG色->BG色 ジッター(stroke毎)</string>
+    <string name="BrushSetting_JitterPerStrokeHue">色相 ジッター(stroke毎)</string>
+    <string name="BrushSetting_JitterPerStrokeSat">彩度 ジッター(stroke毎)</string>
+    <string name="BrushSetting_JitterPerStrokeLum">輝度 ジッター(stroke毎)</string>
+    <string name="BrushSetting_JitterPerStrokeColOpacity">不透明度 ジッター(stroke毎)</string>
+
+    <string name="JpegSetting_SamplingFactor">サンプリングファクタ</string>
+    <string name="JpegSetting_SamplingFactor4x2">非標準(4x2:1x1:1x1) 5/12</string>
+    <string name="JpegSetting_YQuality">輝度(Y)精度</string>
+    <string name="JpegSetting_YBaseline">輝度(Y)ベースライン</string>
+    <string name="JpegSetting_CbQuality">色差(Cb)精度</string>
+    <string name="JpegSetting_CbBaseline">色差(Cb)ベースライン</string>
+    <string name="JpegSetting_CrQuality">色差(Cr)精度</string>
+    <string name="JpegSetting_CrBaseline">色差(Cr)ベースライン</string>
+    <string name="JpegSetting_LowPassFilter">ローパス(ぼかし)フィルタ強度</string>
+    <string name="JpegSetting_UseAlpha">不透明度(α)を利用する(破壊的非標準)</string>
+    <string name="JpegSetting_UseAlphaTrue">不透明度チャンネルを生成する</string>
+    <string name="JpegSetting_UseAlphaFalse">不透明度チャンネルは生成しない</string>
+    <string name="JpegSetting_AQuality">不透明度(A)精度</string>
+    <string name="JpegSetting_ABaseline">不透明度(A)ベースライン</string>
+    <string name="JpegSetting_MaintainBaseline">ベースラインを維持</string>
+    <string name="JpegSetting_NotMaintainBaseline">ベースラインを維持しない</string>
+
+    <string name="LayerSetting_Visible">表示・非表示</string>
+    <string name="LayerSetting_VisibleTrue">レイヤーを表示する</string>
+    <string name="LayerSetting_VisibleFalse">レイヤーを表示しない</string>
+    <string name="LayerSetting_Opacity">不透明度</string>
+    <string name="LayerSetting_BlendTypeColor">合成：カラー</string>
+    <string name="LayerSetting_BlendTypeAlpha">合成：不透明度</string>
+    <string name="LayerSetting_PlaneLock">レイヤー保護</string>
+    <string name="LayerSetting_PlaneLockTrue">レイヤーの編集を禁止する</string>
+    <string name="LayerSetting_PlaneLockFalse">レイヤーの編集を許可する</string>
+    <string name="LayerSetting_AlphaLock">不透明度保護</string>
+    <string name="LayerSetting_AlphaLockTrue">レイヤーのアルファを保護する</string>
+    <string name="LayerSetting_AlphaLockFalse">レイヤーのアルファを保護しない</string>
+    <string name="LayerSetting_MaskType">クリッピンググループ種類</string>
+    <string name="LayerSetting_MaskTypeNone">クリップしない</string>
+    <string name="LayerSetting_MaskTypeDown">下のレイヤー不透明度でクリップ</string>
+    <string name="LayerSetting_MaskTypeMerge">下のレイヤーまでの統合不透明度でクリップ</string>
+    <string name="CanvasSetting_PlaneMode">レイヤー構成</string>
+    <string name="CanvasSetting_PlaneModeTransparent">透明レイヤーのみ</string>
+    <string name="CanvasSetting_PlaneModeSingleColor">単色レイヤーのみ</string>
+    <string name="CanvasSetting_PlaneModeTransAndCol">透明＋単色レイヤー</string>
+    <string name="CanvasSetting_Color">レイヤー色</string>
+    <string name="CanvasSetting_ColorDesc">単色レイヤーの色を設定</string>
+    <string name="CanvasSetting_UseFixEditFrame">編集サイズ固定</string>
+    <string name="CanvasSetting_UseFixEditFrameTrue">編集サイズを固定する</string>
+    <string name="CanvasSetting_UseFixEditFrameFalse">編集サイズは自由拡張</string>
+    <string name="CanvasSetting_FixSize">編集枠サイズ</string>
+    <string name="CanvasSetting_FixSizeDesc">固定時の編集枠サイズを設定</string>
+    <string name="CanvasSetting_BgSettings">BG面のパターン設定</string>
+    <string name="CanvasSetting_BgColor0">色0</string>
+    <string name="CanvasSetting_BgColor0Desc">背景に使われる色を設定</string>
+    <string name="CanvasSetting_BgColor1">色1</string>
+    <string name="CanvasSetting_BgColor1Desc">罫線等に使われる色を設定</string>
+    <string name="CanvasSetting_BgPtn">図柄</string>
+    <string name="CanvasSetting_BgSize">サイズ</string>
+    <string name="CanvasSetting_BgPtnMove">追従</string>
+    
+    <string name="CanvasSetting_NewBtn">新規作成</string>
+    <string name="CanvasSetting_SaveBtn">ディフォルトに設定</string>
+
+    <string name="LayerList_OpenBtn">レイヤー</string>
+    <string name="LayerParam_VisibleBtn">表示</string>
+    <string name="LayerParam_SettingBtn">設定</string>
+    <string name="LayerParam_OpacityDesc">レイヤー不透明度</string>
+    <string name="LayerParam_OpacitySlider">%4.1f%%</string>
+
+    <string name="inputCloverCaption">表示名</string>
+    <string name="inputCloverDescription">説明</string>
+    <string name="inputCloverName">クローバー名の表示設定</string>
+    <string name="inputCloverApply">設定</string>
+    <string name="inputCloverDiscard">キャンセル</string>
+    <string name="imageOutputSizeName">出力イメージサイズの設定</string>
+    <string name="imageOutputWidth">横幅(8-32768)</string>
+    <string name="imageOutputHeight">高さ(8-32768)</string>
+    <string name="imageFileName">出力画像ファイル名</string>
+    <string name="imageFileNameCaption">ファイル名</string>
+    <string name="inputLayerName">レイヤー名の設定</string>
+    <string name="inputLayerNameCaption">レイヤー名</string>
+    <string name="planeBoundSizeName">編集枠の設定</string>
+    <string name="planeBoundWidth">横幅(8-32768)</string>
+    <string name="planeBoundHeight">高さ(8-32768)</string>
+
+    <string name="transPosX">移動X</string>
+    <string name="transPosY">移動Y</string>
+    <string name="transRotate">回転</string>
+    <string name="transScaleX">倍率X</string>
+    <string name="transScaleY">倍率Y</string>
+    <string name="transSkewX">傾きX</string>
+    <string name="transSkewY">傾きY</string>
+    <string name="transTrapeX">パースX</string>
+    <string name="transTrapeY">パースY</string>
+
+    <string name="NaviView_TransMode">操作イベント透過</string>
+    <string name="NaviView_TransModeTrue">下にあるUI操作を許可する</string>
+    <string name="NaviView_TransModeFalse">UI操作は禁止してナビ枠操作を利用・移動する</string>
+    <string name="NaviView_ViewRectDrag">表示矩形ドラッグ</string>
+    <string name="NaviView_ViewRectDragTrue">表示矩形ドラッグで画面をスクロールさせる</string>
+    <string name="NaviView_ViewRectDragFalse">表示矩形ドラッグは無効</string>
+    <string name="NaviView_WndProtMove">ナビ表示ウインドウ移動の禁止</string>
+    <string name="NaviView_WndProtMoveTrue">ドラッグによるウインドウの移動を禁止する</string>
+    <string name="NaviView_WndProtMoveFalse">ドラッグによるウインドウの移動を許可する</string>
+    <string name="NaviView_VanishInStroke">ストローク中消去</string>
+    <string name="NaviView_VanishInStrokeTrue">ペンストローク中はウインドウの表示を消す</string>
+    <string name="NaviView_VanishInStrokeFalse">ペンストローク中もウインドウ表示は継続</string>
+    <string name="NaviView_ViewCursor">ペンカーソル表示</string>
+    <string name="NaviView_ViewCursorTrue">ペン位置カーソルを表示する</string>
+    <string name="NaviView_ViewCursorFalse">ペン位置カーソルは表示しない</string>
+    <string name="NaviView_ColBorderLabel">背景色</string>
+    <string name="NaviView_ColBorderDesc">編集画像のここでの背景色を設定</string>
+    <string name="NaviView_UseSameOfPaintBG">背景色流用</string>
+    <string name="NaviView_UseSameOfPaintBGTrue">BG色にペイントモードのBG色を利用</string>
+    <string name="NaviView_UseSameOfPaintBGFalse">ここのBG色は独立して設定</string>
+    <string name="NaviView_ColFrameLabel">フレーム色</string>
+    <string name="NaviView_ColFrameDesc">編集画像を囲うフレーム色を設定</string>
+    <string name="NaviView_ColViewEdgeLabel">表示エリア枠色</string>
+    <string name="NaviView_ColViewEdgeDesc">表示エリアを囲う枠線の色を設定</string>
+    <string name="NaviView_ColViewUpVctLabel">表示エリア上方向色</string>
+    <string name="NaviView_ColViewUpVctDesc">表示エリアの上方向を示すベクトル線色を設定</string>
+    <string name="NaviView_ColViewOuterLabel">表示エリア外色</string>
+    <string name="NaviView_ColViewOuterDesc">表示エリア外を覆うマスク色を設定</string>
+    <string name="NaviView_ColOriginLabel">原点表示色</string>
+    <string name="NaviView_ColOriginDesc">仮想イメージ座標原点の表示色を設定</string>
+    <string name="NaviView_FrameMargin">表示枠マージン(pixel)</string>
+    <string name="NaviView_Width">ウインドウ幅</string>
+    <string name="NaviView_Height">ウインドウ高さ</string>
+    <string name="NaviView_OffsX">ウインドウ位置X</string>
+    <string name="NaviView_OffsY">ウインドウ位置Y</string>
+    <string name="NaviView_CmImageOpacity">イメージ不透明度</string>
+    <string name="NaviView_SelIconOpacity">選択時のCloverアイコン不透明度</string>
+    <string name="NaviView_UnSelIconOpacity">非選択時のCloverアイコン不透明度</string>
+    <string name="NaviView_MixScaleDown">高精細な縮小</string>
+    <string name="NaviView_MixScaleDownTrue">ナビ画像表示用にミップマップ作成(要再起動)</string>
+    <string name="NaviView_MixScaleDownFalse">ナビ画像表示は通常テクスチャを利用(要再起動)</string>
+    
+    <string name="ImgIOPsd_Background">*背景</string>
+    <string name="ImgIOPsd_MergedImage">*統合された画像</string>
+    
+    <string name="GmMain_NowLoading">ロード中です…</string>
+    <string name="GmMain_NowSaving">セーブ中です…</string>
+    
+    <string name="CmOpType_none"			>None</string>
+    <string name="CmOpType_commandCancel"	>コマンドキャンセル キー</string>
+    <string name="CmOpType_modeShift"		>モードシフト キー</string>
+    <string name="CmOpType_back"			>戻る/キャンセル</string>
+    <string name="CmOpType_enter"			>決定</string>
+    <string name="CmOpType_undo"			>元に戻す(Undo)</string>
+    <string name="CmOpType_redo"			>やり直し(Redo)</string>
+    <string name="CmOpType_left"			>←左</string>
+    <string name="CmOpType_up"				>↑上</string>
+    <string name="CmOpType_right"			>→右</string>
+    <string name="CmOpType_down"			>↓下</string>
+    <string name="CmOpType_slideCamera"		>キャンバス移動</string>
+    <string name="CmOpType_slideRotCamera"	>キャンバス回転</string>
+    <string name="CmOpType_slideSclCamera"	>キャンバス倍率</string>
+    <string name="CmOpType_slideMixCamera"	>キャンバス操作(移動/回転/倍率)</string>
+    <string name="CmOpType_appExit"			>アプリケーション終了</string>
+    <string name="CmOpType_save"			>作業ファイルにセーブ</string>
+    <string name="CmOpType_returnPaint"		>ペイントへ戻る</string>
+    <string name="CmOpType_goGallery"		>ギャラリーへ移動</string>
+    <string name="CmOpType_moveNaviFrame"	>ナビ表示エリア移動</string>
+    <string name="CmOpType_selClover" formatted="false" >Clover選択%s</string>
+    <string name="CmOpType_selColor" formatted="false" >カラー選択%s</string>
+    <string name="CmOpType_swapColor"		>カラー入れ替え</string>
+    <string name="CmOpType_dragSpuit"		>スポイト</string>
+    <string name="CmOpType_slideColHistory"	>カラー履歴</string>
+    <string name="CmOpType_holdSelEraser"	>消しゴム</string>
+    <string name="CmOpType_slidePenSize"	>太さ調整</string>
+    <string name="CmOpType_toggleFixPenSize">ペン太さ固定の切り替え</string>
+    <string name="CmOpType_slideBlurRatio"	>ぼかし調整</string>
+    <string name="CmOpType_slideFlow"		>流量調整</string>
+    <string name="CmOpType_slidePenOpacity"	>ペン合成不透明度調整</string>
+    <string name="CmOpType_slideColorH"		>カラー調整 - 色相</string>
+    <string name="CmOpType_slideColorS"		>カラー調整 - 彩度</string>
+    <string name="CmOpType_slideColorV"		>カラー調整 - 輝度</string>
+    <string name="CmOpType_slideColorA"		>カラー調整 - 不透明度</string>
+    <string name="CmOpType_spuitGetRGBA"	>不透明度取得：レイヤーの値(RGBA取得)</string>
+    <string name="CmOpType_spuitGetA255"	>不透明度取得：完全不透明にする(A=255)</string>
+    <string name="CmOpType_spuitGetASus"	>不透明度取得：現在の不透明度を維持(A維持)</string>
+    <string name="CmOpType_spuitFromMerge"	>取得元：見えている色(BG面除く)</string>
+    <string name="CmOpType_spuitFromCur"	>取得元：選択されているレイヤー</string>
+    <string name="CmOpType_viewLayerList"	>レイヤーリスト開閉</string>
+    <string name="CmOpType_chgView3Mode"	>表示モード切り替え(3モード)</string>
+    <string name="CmOpType_chgView2Mode"	>表示モード切り替え(2モード)</string>
+    <string name="CmOpType_cloverAddNew"	>選択中ツールのClover作成</string>
+    <string name="CmOpType_cloverToggleOpen">大Clover化トグル</string>
+    <string name="CmOpType_cloverRename"	>Cloverの名前変更</string>
+    <string name="CmOpType_cloverMoveLock"	>Cloverの移動ロックトグル</string>
+    <string name="CmOpType_cloverMoveLeft"  >Cloverの移動(←左)</string>
+    <string name="CmOpType_cloverMoveUp"	>Cloverの移動(↑上)</string>
+    <string name="CmOpType_cloverMoveRight" >Cloverの移動(→右)</string>
+    <string name="CmOpType_cloverMoveDown"	>Cloverの移動(↓下)</string>
+    <string name="CmOpType_cloverDelete"	>Cloverの削除</string>
+    <string name="CmOpType_cloverSetting"	>Clover設定を開く</string>
+    <string name="CmOpType_viewCenter"		>中央表示</string>
+    <string name="CmOpType_viewCenter000"	>中央表示(↓0)</string>
+    <string name="CmOpType_viewCenter090"	>中央表示(←90)</string>
+    <string name="CmOpType_viewCenter180"	>中央表示(↑180)</string>
+    <string name="CmOpType_viewCenter270"	>中央表示(→270)</string>
+    <string name="CmOpType_viewFlipH"		>キャンバス反転</string>
+    <string name="CmOpType_viewScaleUp"		>倍率上げる</string>
+    <string name="CmOpType_viewScaleDown"	>倍率下げる</string>
+    <string name="CmOpType_viewScale0100"	>倍率 100%</string>
+    <string name="CmOpType_viewScale0400"	>倍率 400%</string>
+    <string name="CmOpType_viewScale1600"	>倍率 1600%</string>
+    <string name="CmOpType_viewRollLeft"	>回転 反時計廻り</string>
+    <string name="CmOpType_viewRollRight"	>回転 時計廻り</string>
+    <string name="CmOpType_viewRoll000"		>回転 0度</string>
+    <string name="CmOpType_viewRoll090"		>回転 90度</string>
+    <string name="CmOpType_viewRoll180"		>回転 180度</string>
+    <string name="CmOpType_viewRoll270"		>回転 270度</string>
+    <string name="CmOpType_newLayer"		>新規レイヤー作成</string>
+    <string name="CmOpType_copyLayer"		>コピーレイヤー作成</string>
+    <string name="CmOpType_downLayer"		>レイヤーを下に移動</string>
+    <string name="CmOpType_upLayer"			>レイヤーを上に移動</string>
+    <string name="CmOpType_delLayer"		>レイヤーを削除</string>
+    <string name="CmOpType_mergeDownLayer"	>レイヤーを下と統合</string>
+    <string name="CmOpType_mergeAllLayer"	>すべてのレイヤーを統合</string>
+    <string name="CmOpType_selUpLayer"		>上のレイヤーを選択</string>
+    <string name="CmOpType_selDownLayer"	>下のレイヤーを選択</string>
+    <string name="CmOpType_selTopLayer"		>一番上のレイヤーを選択</string>
+    <string name="CmOpType_selBottomLayer"	>一番下のレイヤーを選択</string>
+    <string name="CmOpType_toggleAlphaLock"	>不透明度保護の切り替え</string>
+    <string name="CmOpType_settingLayer"	>レイヤー設定画面起動</string>
+    <string name="CmOpType_fillFGCol"		>前景(描画)色で塗り潰し</string>
+    <string name="CmOpType_fillBGCol"		>背景色で塗り潰し</string>
+    <string name="CmOpType_fillClear"		>透明で塗り潰し</string>
+    <string name="CmOpType_selSelFreeTool"	>自由選択ツールを選択</string>
+    <string name="CmOpType_selSelAll"		>選択範囲 - すべて</string>
+    <string name="CmOpType_selSelEmpty"		>選択範囲 - 解除</string>
+    <string name="CmOpType_selSelFlip"		>選択範囲 - 反転</string>
+    <string name="CmOpType_selMoveTool"		>移動ツールを選択</string>
+    <string name="CmOpType_selTransTool"	>変形ツールを選択</string>
+    <string name="CmOpType_selCutAndPaste"	>切り取り→貼り付けを実行</string>
+    <string name="CmOpType_selCopyAndPaste"	>コピー→貼り付けを実行</string>
+    <string name="CmOpType_selImageTool"	>イメージツールを選択</string>
+    <string name="CmOpType_selFileTool"		>ファイルツールを選択</string>
+    <string name="CmOpType_settingBrush"	>ブラシ設定画面を起動</string>
+    <string name="CmOpType_settingColor"	>カラー設定画面を起動</string>
+    
+    <string name="CmOpTypeFlag_click"			>クリック</string>
+    <string name="CmOpTypeFlag_hoveringClick"	>ホバークリック</string>
+    <string name="CmOpTypeFlag_hoveringHolding"	>ホバー長押し中</string>
+    <string name="CmOpTypeFlag_holdClick"		>長押しトリガ</string>
+    <string name="CmOpTypeFlag_holding"			>長押し中</string>
+    <string name="CmOpTypeFlag_repeat"			>リピート</string>
+    <string name="CmOpTypeFlag_holdingTouch"	>押しながらタッチ</string>
+    <string name="CmOpTypeFlag_protect"			>#編集不可</string>
+    
+    <string name="KeySC_FlagClick"				>クリック</string>
+    <string name="KeySC_FlagHoveringClick"		>ホバー/クリック</string>
+    <string name="KeySC_FlagHoveringHolding"	>ホバー/長押し中</string>
+    <string name="KeySC_FlagHoldClick"			>長押しトリガ</string>
+    <string name="KeySC_FlagHolding"			>長押し中</string>
+    <string name="KeySC_FlagRepeat"				>リピート</string>
+    <string name="KeySC_FlagHoldingTouch"		>押しながらタッチ</string>
+    
+    <string name="KeySC_PressInputKey"			>呼び出しに利用する物理キーを押して下さい</string>
+    <string name="KeySC_OkayNoOverlapping"		>OK, 重複するキーはありません</string>
+    <string name="KeySC_SelectEventTrigger"		>下からイベントトリガを選択</string>
+    <string name="KeySC_OverlapSelf"			>既に同じキーが存在する</string>
+    <string name="KeySC_NoValidEvent"			>設定できる有効なイベントがない</string>
+    
+    <string name="KeySC_OverwriteSCKey"			>削除されます → </string>
+    <string name="KeySC_DeleteFollowingKeys"	>以下のトリガキーが削除されます</string>
+    
+    <string name="MainOption_FTWaitHoverEnd_Name"	>ホバー後Down待機時間(ms)</string>
+    <string name="MainOption_FTWaitBeginDown_Name"	>最低筆圧の待機時間(ms)</string>
+    <string name="MainOption_FTThrsPress_Name"		>スタイラスDown判定の最低筆圧(x0.1)</string>
+    <string name="MainOption_FTDelayBeginDown_Name"	>スタイラスDown処理の遅延(ms)</string>
+
+    <string name="TexBSCaption_SpotBasic">Spot基本設定</string>
+    <string name="TexBSCaption_StrokeBlend">ストローク合成</string>
+    <string name="TexBSCaption_FlowCalc">濃度演算</string>
+    <string name="TexBSCaption_SpotSpace">Spot間隔</string>
+    <string name="TexBSCaption_OneShotUndo">ワンショットUndo</string>
+    
+    <!-- Spot向けパラメータ -->
+    <string name="TexBS_Size">ペン太さ</string>
+    <string name="TexBS_FixSizeByAppearance">サイズ固定モード</string>
+    <string name="TexBS_FixSizeByAppearanceTrue">キャンバス上の見た目で固定</string>
+    <string name="TexBS_FixSizeByAppearanceFalse">ピクセルサイズで固定</string>
+    <string name="TexBS_Deform">変形</string>
+    <string name="TexBS_CenterShift">中心移動</string>
+    <string name="TexBS_ShapeType">ペン先形状</string>
+    <string name="TexBS_ShapeTypeRect">四角</string>
+    <string name="TexBS_ShapeTypeCircle">円形</string>
+    <string name="TexBS_BlurRatio">ぼかし(ペン先が円形で有効)</string>
+    
+    <string name="TexBS_ItrpType">ぼかし補間法</string>
+    <string name="TexBS_ItrpTypeSquare">柔らか(square)</string>
+    <string name="TexBS_ItrpTypeLinear">普通(linear)</string>
+    <string name="TexBS_ItrpTypeRSquare">少し硬め(square^-1)</string>
+    <string name="TexBS_ItrpTypeRCube">鋭い(cube^-1)</string>
+    <string name="TexBS_SpotFixRoll">中心回転</string>
+    <string name="TexBS_SpotRollAdjust">軸合わせ</string>
+    <string name="TexBS_SpotRollAdjustNone">軸合わせ無し</string>
+    <string name="TexBS_SpotRollAdjustCanvasAndUIAngle">キャンバス回転とUI方向</string>
+    <string name="TexBS_SpotRollAdjustCanvasAndPenDir">キャンバス回転とペン傾き方向(Cintiqのみ)</string>
+    <string name="TexBS_UseOutline">縁取り</string>
+    <string name="TexBS_UseOutlineTrue">背景色で縁取りする</string>
+    <string name="TexBS_UseOutlineFalse">縁取りは無効</string>
+    <string name="TexBS_Color">色変化</string>
+    <string name="TexBS_UseAntiAlias">アンチエイリアス</string>
+    <string name="TexBS_UseAntiAliasTrue">描画座標をサブピクセルで補間する</string>
+    <string name="TexBS_UseAntiAliasFalse">アンチエイリアスは無効</string>
+    
+    <!-- Stroke向けパラメータ -->
+    <string name="TexBS_MoveFlow">ペン流量(移動トリガ)</string>
+    <string name="TexBS_StopFlow">ペン流量(停止時トリガ)</string>
+    <string name="TexBS_Opacity">ペン合成不透明度</string>
+    <string name="TexBS_BlendTypeColor">ストローク合成：カラー</string>
+    <string name="TexBS_BlendTypeAlpha">ストローク合成：不透明度</string>
+    <string name="TexBS_UseMaskDstChA">編集レイヤーの不透明度でマスク</string>
+    <string name="TexBS_UseMaskDstChATrue">不透明度でマスクする</string>
+    <string name="TexBS_UseMaskDstChAFalse">不透明度でマスクしない</string>
+    <string name="TexBS_CalcTypeEx">描画演算タイプ</string>
+    <string name="TexBS_CalcExNorm">通常</string>
+    <string name="TexBS_CalcExCBuf">カラーバッファ</string>
+    <string name="TexBS_CalcExMove">常に上書き</string>
+    <string name="TexBS_CalcExSkip">上書きしない</string>
+    <string name="TexBS_CalcExMixCanvas">混合</string>
+    <string name="TexBS_UseAutoSpace">間隔自動調整</string>
+    <string name="TexBS_UseAutoSpaceTrue">ペンの太さによって描点間隔を調整する</string>
+    <string name="TexBS_UseAutoSpaceFalse">ペンの太さによらず描点間隔は一定</string>
+    <string name="TexBS_UseActiveAutoSpace">動的な間隔自動調整</string>
+    <string name="TexBS_UseActiveAutoSpaceTrue">ペンの太さの変化によって描点間隔を調整する</string>
+    <string name="TexBS_UseActiveAutoSpaceFalse">ペンの太さの変化によらず描点間隔は一定</string>
+    <string name="TexBS_SpaceScale">間隔倍率</string>
+    <string name="TexBS_UseAdjustSpaceByFlow">流量補正</string>
+    <string name="TexBS_UseAdjustSpaceByFlowTrue">濃度が線形変化するよう流量補正</string>
+    <string name="TexBS_UseAdjustSpaceByFlowFalse">流量補正しない</string>
+    <string name="TexBS_DotPtn">破線タイプ</string>
+    <string name="TexBS_DotPtnNone">なし</string>
+    <string name="TexBS_DotPtnDotted">密な破線</string>
+    <string name="TexBS_DotPtnDashed">素な破線</string>
+    <string name="TexBS_DotPtnSingleDotChain">一点鎖線</string>
+    <string name="TexBS_DotPtnDoubleDotChain">二点鎖線</string>
+    <string name="TexBS_HoverCursorPressure">ホバー中ブラシカーソルに適用する筆圧値</string>
+    <string name="TexBS_UseOneShotUndo">ワンショットUndo</string>
+    <string name="TexBS_UseOneShotUndoTrue">描画遅延を少なくするためワンショットUndoを使う</string>
+    <string name="TexBS_UseOneShotUndoFalse">通常のストローク描画を行う</string>
+    <string name="TexBS_OneShotLimitSize">限界サイズ</string>
+    <string name="TexBS_PredFactor">予測強度</string>
+    
+    <!--データカテゴリポインタ -->
+    <string name="TexBSPtr_SpotActiveRoll">Spot動的回転</string>
+    <string name="TexBSPtr_SpotActiveRollDesc">Spotの回転初期化とストローク進行方向による調整を設定</string>
+    <string name="TexBSPtr_AlphaTexture">テクスチャパターン</string>
+    <string name="TexBSPtr_AlphaTextureDesc">Spot形状をイメージで設定</string>
+    <string name="TexBSPtr_PerlinNoise">パーリンノイズ</string>
+    <string name="TexBSPtr_PerlinNoiseDesc">Spot濃度にパーリンノイズを適用</string>
+    <string name="TexBSPtr_ColorTexture">カラーテクスチャ</string>
+    <string name="TexBSPtr_ColorTextureDesc">カラーテクスチャ描画を適用</string>
+    <string name="TexBSPtr_SandSpot">砂ブラシ</string>
+    <string name="TexBSPtr_SandSpotDesc">ランダムドットで描画</string>
+    <string name="TexBSPtr_PostDensity">形状濃度ポストエフェクト</string>
+    <string name="TexBSPtr_PostDensityDesc">OUT = lerp(IN, IN*Bias+Offset, Ratio)</string>
+    <string name="TexBSPtr_TimeFlow">ペン流量(時間トリガ)</string>
+    <string name="TexBSPtr_TimeFlowDesc">時間により変化する流量を設定</string>
+    <string name="TexBSPtr_CalcExNormParam">通常時追加パラメータ</string>
+    <string name="TexBSPtr_CalcExNormParamDesc">通常時の追加パラメータをここで設定</string>
+    <string name="TexBSPtr_CalcExCBufParam">カラーバッファ時追加パラメータ</string>
+    <string name="TexBSPtr_CalcExCBufParamDesc">カラーバッファ時の追加パラメータをここで設定</string>
+    <string name="TexBSPtr_CalcExMixParam">混合時追加パラメータ</string>
+    <string name="TexBSPtr_CalcExMixParamDesc">混合時の追加パラメータをここで設定</string>
+    <string name="TexBSPtr_WholeActiveSpot">Spot単位ジッター</string>
+    <string name="TexBSPtr_WholeActiveSpotDesc">Spot単位のパラメータ揺らぎ効果をここで設定</string>
+    <string name="TexBSPtr_WholeActiveStroke">Stroke単位ジッター</string>
+    <string name="TexBSPtr_WholeActiveStrokeDesc">Stroke単位のパラメータ揺らぎ効果をここで設定</string>
+    
+    <!--ポインタ:AlphaTexture -->
+    <string name="TexBS_AT_ScaleRateX">ペンサイズ比例変化率X</string>
+    <string name="TexBS_AT_ScaleRateY">ペンサイズ比例変化率Y</string>
+    
+    <!--ポインタ:PerlinNoise -->
+    <string name="TexBS_PN_Type">種類</string>
+    <string name="TexBS_PN_PerlinType2D">2Dテクスチャ</string>
+    <string name="TexBS_PN_PerlinType1DH">1Dテクスチャ(水平)</string>
+    <string name="TexBS_PN_PerlinType1DV">1Dテクスチャ(垂直)</string>
+    <string name="TexBS_PN_Volume">強度</string>
+    <string name="TexBS_PN_Freq">周波数</string>
+    <string name="TexBS_PN_UseRoughPropPenSize">周波数 - サイズ比例</string>
+    <string name="TexBS_PN_UseRoughPropPenSizeTrue">ペンの太さで周波数を調整する</string>
+    <string name="TexBS_PN_UseRoughPropPenSizeFalse">ペンの太さによらず周波数は一定</string>
+    <string name="TexBS_PN_DeformAdaptRatio">変形による周波数の調整率</string>
+    <string name="TexBS_PN_Power">硬さ</string>
+    <string name="TexBS_PN_Seed">シード値</string>
+    <string name="TexBS_PN_Offset">オフセット</string>
+    
+    <!--ポインタ:ColorTexture -->
+    <!--
+    <string name="TexBS_CT_UVSrcType">マッピングタイプ</string>
+    <string name="TexBS_CT_UVSrcSpotLocal">Spotローカル</string>
+    <string name="TexBS_CT_UVSrcStrokeXYLocal">ストローク座標(XY)ローカル</string>
+    <string name="TexBS_CT_UVSrcStrokeSTLocal">ストローク進行(ST)ローカル</string>
+    <string name="TexBS_CT_UVSrcCanvas">キャンバス座標</string>
+    <string name="TexBS_CT_ScaleXS">スケールX(S)</string>
+    <string name="TexBS_CT_ScaleYT">スケールY(T)</string>
+    <string name="TexBS_CT_PenScaleRatio">ペンサイズ比例変化率</string>
+    <string name="TexBS_CT_OffsetXS">オフセットX(S)</string>
+    <string name="TexBS_CT_OffsetYT">オフセットY(T)</string>
+    <string name="TexBS_CT_UVMapTypeXS">マッピングパターンX(S)</string>
+    <string name="TexBS_CT_UVMapTypeYT">マッピングパターンY(T)</string>
+    <string name="TexBS_CT_UVMapClip">クリップ</string>
+    <string name="TexBS_CT_UVMapRepeat">繰り返し</string>
+    <string name="TexBS_CT_UVMapReverseRepeat">反転繰り返し</string>
+    -->
+    
+    <string name="TexBS_CT_ScaleRateX">ペンサイズ比例変化率X</string>
+    <string name="TexBS_CT_ScaleRateY">ペンサイズ比例変化率Y</string>
+    <string name="TexBS_CT_PenColRatio">ブラシカラー取得量</string>
+    <string name="TexBS_CT_TexColRatio">テクスチャカラー取得量</string>
+    <string name="TexBS_CT_PenMulTexColRatio">ブラシxテクスチャカラー取得量</string>
+    
+    <!--ポインタ:SandSpot -->
+    <string name="TexBS_SS_Flow">流量</string>
+    
+    <!--ポインタ:PostDensity -->
+    <string name="TexBS_PD_ModRatio">調整値の適用比率(Ratio)</string>
+    <string name="TexBS_PD_BaseOffset">固定オフセット(Offset)</string>
+    <string name="TexBS_PD_ActiveOffset">動的オフセット(Offset)</string>
+    <string name="TexBS_PD_BaseBias">固定バイアス(Bias)</string>
+    <string name="TexBS_PD_ActiveBias">動的バイアス(Bias)</string>
+    
+    <!--ポインタ:TimeFlow -->
+    <string name="TexBS_TF_Volume">流量</string>
+    <string name="TexBS_TF_Stopping">停止時流量</string>
+    <string name="TexBS_TF_Delay">描画開始遅延(移動流量混合時)</string>
+    
+    <!--ポインタ:CalcExNormParam -->
+    <string name="TexBS_CENP_OverVolRatio">重複濃度加算率</string>
+    <string name="TexBS_CENP_DModVolRatio">加算変調率</string>
+    
+    <!--ポインタ:CalcExCBufParam -->
+    <string name="TexBSCaption_CECP_Density">濃度調整</string>
+    <string name="TexBS_CECP_OverVolRatio">重複濃度加算率</string>
+    <string name="TexBS_CECP_DModVolRatio">加算変調率</string>
+    <string name="TexBSCaption_CECP_ColorBlend">カラー混合</string>
+    <string name="TexBS_CECP_OverDrawColRatio">濃度重複部カラー上書き率</string>
+    <string name="TexBS_CECP_DrawColBlendMode">カラーバッファ合成モード</string>
+    <string name="TexBS_CECP_eCBufColBlendModulate">変調</string>
+    <string name="TexBS_CECP_eCBufColBlendLerp">線形</string>
+    
+    <!--ポインタ:CalcExMixParam -->
+    
+    <string name="TexBS_CEMP_PenInitVolume">ペン色初期取得量</string>
+    <string name="TexBS_CEMP_DstInitVolume">画面色初期取得量</string>
+    <string name="TexBS_CEMP_MixMoveFlow">混合ブラシ濃度</string>
+    <string name="TexBS_CEMP_LerpMixMFToMulNF">通常ブラシ流量影響率</string>
+    <string name="TexBS_CEMP_TempScalingType">ペンバッファのペン太さに対するサイズ</string>
+    <string name="TexBS_CEMP_MixTempLifeSize"	>等倍</string>
+    <string name="TexBS_CEMP_MixTemp1_2"		>1/2に縮小</string>
+    <string name="TexBS_CEMP_MixTemp1_4"		>1/4に縮小</string>
+    <string name="TexBS_CEMP_MixTemp1_8"		>1/8に縮小</string>
+    <string name="TexBS_CEMP_MixTemp1_16"		>1/16に縮小</string>
+    <string name="TexBS_CEMP_MixTemp1_32"		>1/32に縮小</string>
+    <string name="TexBS_CEMP_MixTempToPixel"	>1ピクセルに縮小</string>
+    <string name="TexBS_CEMP_DstMoveMixType">画面色混合タイミング</string>
+    <string name="TexBS_CEMP_MixPreDraw">描画前に画面色を取得して混合</string>
+    <string name="TexBS_CEMP_MixPostDraw">描画後に画面色を取得して混合</string>
+ 
+    <string name="TexBS_CEMP_MixBlurNone">なし</string>
+    <string name="TexBS_CEMP_MixBlurNormal">通常</string>
+    <string name="TexBS_CEMP_MixBlurNoisePixel">ノイズ-ピクセル範囲</string>
+    <string name="TexBS_CEMP_MixBlurNoiseRatio">ノイズ-ペンサイズ比率</string>
+    
+    <string name="TexBSCaption_CEMP_DstBlur">画面色取得時ぼかし</string>
+    <string name="TexBS_CEMP_DstBlurType">ぼかしタイプ</string>
+    <string name="TexBS_CEMP_DstBlurVolume">強度</string>
+    <string name="TexBS_CEMP_DstBlurNoisePixel">ノイズ - ピクセル指定</string>
+    <string name="TexBS_CEMP_DstBlurNoiseRatio">ノイズ - 比率指定</string>
+    <string name="TexBS_CEMP_DstBlurNoiseNumSamp">ノイズサンプル数</string>
+    <string name="TexBS_CEMP_LerpMixMFToMulDA">混合ブラシ濃度への画面不透明度影響率</string>
+    <string name="TexBS_CEMP_ModRatioPenOpBySOp">ペンバッファ濃度の混合ブラシ濃度による変調率</string>
+    <string name="TexBS_CEMP_MdRtAddMFToPenOpByDOp">ペンバッファ濃度への混合ブラシ濃度加算の画面不透明度影響率</string>
+    <string name="TexBSCaption_CEMP_TempBlur">ペンバッファぼかし</string>
+    <string name="TexBS_CEMP_TempBlurType">ぼかしタイプ</string>
+    <string name="TexBS_CEMP_TempBlurVolume">強度</string>
+    <string name="TexBS_CEMP_TempBlurNoisePixel">ノイズ - ピクセル指定</string>
+    <string name="TexBS_CEMP_TempBlurNoiseRatio">ノイズ - 比率指定</string>
+    <string name="TexBS_CEMP_TempBlurNoiseNumSamp">ノイズサンプル数</string>
+    <string name="TexBS_CEMP_PenMoveVolume">ペン色補充量</string>
+    <string name="TexBS_CEMP_PenMinVolume">ペン色最低維持量</string>
+    
+    <!--その他 -->
+    <string name="TexBS_SpeedTo">速度</string>
+    <string name="TexBS_PressTo">筆圧</string>
+    <string name="TexBS_TimeTo">時間</string>
+    <string name="TexBS_TimeToUnit">秒</string>
+    <string name="TexBS_MoveLenTo">移動距離</string>
+    <string name="TexBS_MoveLenToUnit">Pixel</string>
+    
+    <!--
+    <string name="TexBS_SizeFlowToolBar">太さ/流量 ツールバー</string>
+    <string name="TexBS_DisplaySizeFlowToolBar">ツールバーをメイン画面に表示する</string>
+    <string name="TexBS_NotDisplaySizeFlowToolBar">ツールバーをメイン画面に表示しない</string>
+    <string name="TexBS_TimeFlow">ペン流量(時間トリガ)</string>
+    <string name="TexBS_TimeFlowStop">　- 停止流量</string>
+    <string name="TexBS_TimeFlowStart">　- 複合時開始遅延(秒)</string>
+    <string name="TexBS_MixCDstInitVolume">　- 混合：画面色初期取得量</string>
+    <string name="TexBS_MixCPenInitVolume">　- 混合：ペン色初期取得量</string>
+    <string name="TexBS_MixCPenMinVolume">　- 混合：ペン色最低維持流量</string>
+    <string name="TexBS_MixCDstMoveVolume">　- 混合：画面色移動中取得量</string>
+    <string name="TexBS_MixCDstMvFlowMulAVolume">　- 混合：取得量-不透明度相関率</string>
+    <string name="TexBS_MixCDstMoveMixType">　　- 画面色混合タイミング</string>
+    <string name="TexBS_MixCDstMoveMixTypePreDraw">描画前に画面色を取得して混合</string>
+    <string name="TexBS_MixCDstMoveMixTypePostDraw">描画後に画面色を取得して混合</string>
+    <string name="TexBS_MixCDstMoveGetActive">　　- 画面色取得量変化</string>
+    <string name="TexBS_MixCDstMoveGADirect">取得量は他の影響を受けない</string>
+    <string name="TexBS_MixCDstMoveGAFlow">取得量を流量で変化させる</string>
+    <string name="TexBS_MixCDstMoveGAOpacity">取得量を不透明度で変化させる</string>
+    <string name="TexBS_MixCDstMoveGAFlowOpacity">取得量を流量×不透明度で変化させる</string>
+    <string name="TexBS_MixCDstMovePenFlow">　　- 取得ペン濃度調整</string>
+    <string name="TexBS_MixCDstMovePFLinear">取得量を単純加算</string>
+    <string name="TexBS_MixCDstMovePFModulate">取得量を変調加算</string>
+    <string name="TexBS_MixCDstMovePFModMulDstA">取得量×不透明度の変調加算</string>
+    <string name="TexBS_MixCDstBlur">　- 混合：画面色取得ぼかし</string>
+    <string name="TexBS_RoughVolume">粗さ:強度</string>
+    <string name="TexBS_RoughFreq">粗さ:周波数</string>
+    <string name="TexBS_RoughPropPenSize">粗さ:周波数 - サイズ比例</string>
+    <string name="TexBS_RoughPropPenSizeTrue">ペンの太さに周波数を合わせる</string>
+    <string name="TexBS_RoughPropPenSizeFalse">ペンの太さによらず周波数は一定</string>
+    <string name="TexBS_RoughPower">粗さ:鋭さ</string>
+    <string name="TexBS_RoughSeed">粗さ:乱数初期化値</string>
+    <string name="TexBS_SandBrush">砂ブラシ</string>
+    <string name="TexBS_SandBrushTrue">ランダムな点で描画する</string>
+    <string name="TexBS_SandBrushFalse">通常の描画モード</string>
+    <string name="TexBS_SandBrushFlow">　- 砂ブラシ流量</string>
+    <string name="TexBS_PosScatterU">位置拡散(横方向)</string>
+    <string name="TexBS_PosScatterV">位置拡散(進行方向)</string>
+    <string name="TexBS_CtgLabelSize">太さ</string>
+    <string name="TexBS_CtgLabelOpacity">不透明度</string>
+    <string name="TexBS_CtgLabelFlow">流量</string>
+    <string name="TexBS_CtgLabelSandFlow">砂ブラシ流量</string>
+    <string name="TexBS_CtgLabelColor">色変化</string>
+    <string name="TexBS_CtgLabelDtMvDensity">編集面色混合量</string>
+    <string name="TexBS_FadeHead">開始(入り)</string>
+    <string name="TexBS_FadeTail">終了(抜き)</string>
+    <string name="TexBS_ActSpeedRangeMin">動的速度レンジ最小</string>
+    <string name="TexBS_ActSpeedRangeMax">動的速度レンジ最大</string>
+    <string name="TexBS_CorrelationRate">相関率</string>
+    <string name="TexBS_OfPower">の硬さ</string>
+    <string name="TexBS_InterpMin">　- 補間範囲最小</string>
+    <string name="TexBS_InterpMax">　- 補間範囲最大</string>
+    <string name="TexBS_PowerOfIntrp">　- 補間の硬さ</string>
+    <string name="TexBS_CallSubCalcTypeMix">混合モード設定</string>
+    <string name="TexBS_CallSubCalcTypeMixDesc">混合モード時の詳細なパラメータを設定</string>
+    <string name="TexBS_CallSubBlend">合成モード設定</string>
+    <string name="TexBS_CallSubBlendDesc">合成モードの詳細なパラメータを設定</string>
+    <string name="TexBS_CallSubRough">粗さ設定</string>
+    <string name="TexBS_CallSubRoughDesc">ノイズテクスチャのパラメータを設定</string>
+    <string name="TexBS_CallSubFadeHeadTail">入り抜き設定</string>
+    <string name="TexBS_CallSubFadeHeadTailDesc">ストローク末端での効果を設定</string>
+    <string name="TexBS_CallSubSpeedTo">速度効果</string>
+    <string name="TexBS_CallSubSpeedToDesc">ストローク速度変化による効果を設定</string>
+    <string name="TexBS_CallSubPressTo">筆圧効果</string>
+    <string name="TexBS_CallSubPressToDesc">筆圧変化による効果を設定</string>
+    <string name="TexBS_CallSubJitter">ジッター効果</string>
+    <string name="TexBS_CallSubJitterDesc">各種ランダム効果を設定</string>
+    <string name="TexBS_CallSubTimeTo">時間効果</string>
+    <string name="TexBS_CallSubTimeToDesc">ストローク時間経過による効果を設定</string>
+    <string name="TexBS_CallSubMoveLenTo">移動効果</string>
+    <string name="TexBS_CallSubMoveLenToDesc">ストローク移動距離による効果を設定</string>
+    <string name="TexBS_JitterPerSpotSize">サイズ ジッター(spot毎)</string>
+    <string name="TexBS_JitterPerSpotFlow">流量ジッター(spot毎)</string>
+    <string name="TexBS_JitterPerSpotColLerp">FG色->BG色 ジッター(spot毎)</string>
+    <string name="TexBS_JitterPerSpotHue">色相 ジッター(spot毎)</string>
+    <string name="TexBS_JitterPerSpotSat">彩度 ジッター(spot毎)</string>
+    <string name="TexBS_JitterPerSpotLum">輝度 ジッター(spot毎)</string>
+    <string name="TexBS_JitterPerSpotColOpacity">不透明度 ジッター(spot毎)</string>
+    <string name="TexBS_JitterPerStrokeSize">サイズ ジッター(stroke毎)</string>
+    <string name="TexBS_JitterPerStrokeFlow">流量ジッター(stroke毎)</string>
+    <string name="TexBS_JitterPerStrokeColLerp">FG色->BG色 ジッター(stroke毎)</string>
+    <string name="TexBS_JitterPerStrokeHue">色相 ジッター(stroke毎)</string>
+    <string name="TexBS_JitterPerStrokeSat">彩度 ジッター(stroke毎)</string>
+    <string name="TexBS_JitterPerStrokeLum">輝度 ジッター(stroke毎)</string>
+    <string name="TexBS_JitterPerStrokeColOpacity">不透明度 ジッター(stroke毎)</string>
+    -->
+    
+    <!-- SpotActiveRoll -->
+    <string name="TexBSCaption_SAR_RollSpotInit">Spot回転初期値</string>
+    <string name="TexBS_SAR_InitRollSpotByStroke">ストロークによる初期化</string>
+    <string name="TexBS_SAR_InitRollSpotByStrokeTrue">ストローク開始方向でSpot回転を初期化する</string>
+    <string name="TexBS_SAR_InitRollSpotByStrokeFalse">ストローク開始方向でSpot回転を初期化しない</string>
+    <string name="TexBS_SAR_RollOffset">回転オフセット</string>
+    <string name="TexBSCaption_SAR_ActiveSpotAdjust">Spot回転の動的調整</string>
+    <string name="TexBS_SAR_SpeedVolume">角速度量</string>
+    <string name="TexBS_SAR_SpeedByDifAngleRatio">角度差に比例させる割合</string>
+    <string name="TexBS_SAR_SpeedByStrokeSpeedRatio">ストローク速度に比例させる割合</string>
+
+    <!-- TexBrushSetting - RangeActiveBase -->
+    <string name="TBS_RA_PressTo">筆圧</string>
+    <string name="TBS_RA_SpeedTo">速度</string>
+    <string name="TBS_RA_TiltTo">傾き(Cintiqのみ)</string>
+    <string name="TBS_RA_CurveTo">曲率</string>
+    <string name="TBS_RA_HeadKnot">エッジ</string>
+    <string name="TBS_RA_HeadTimeTo">時間</string>
+    <string name="TBS_RA_HeadMoveLenTo">移動距離</string>
+    <string name="TBS_RA_TailKnot">エッジ</string>
+    <string name="TBS_RA_TailTimeTo">時間</string>
+    <string name="TBS_RA_TailMoveLenTo">移動距離</string>
+    <string name="TBS_RA_RatioMoveLenTo">ストローク移動位置</string>
+    <string name="TBS_RA_RatioTimeTo">ストローク時間位置</string>
+    
+    <string name="TBS_RA_PressToDesc" formatted="false" >筆圧による%s変化効果を設定</string>
+    <string name="TBS_RA_SpeedToDesc" formatted="false" >速度による%s変化効果を設定</string>
+    <string name="TBS_RA_TiltToDesc" formatted="false" >傾きによる%s変化効果を設定</string>
+    <string name="TBS_RA_CurveToDesc">曲率による%s変化効果を設定</string>
+    <string name="TBS_RA_HeadKnotDesc" formatted="false" >末端1エッジに対する%s変化効果を設定</string>
+    <string name="TBS_RA_HeadTimeToDesc" formatted="false" >末端一定時間に対する%s変化効果を設定</string>
+    <string name="TBS_RA_HeadMoveLenToDesc" formatted="false" >末端の一定移動距離に対する%s変化効果を設定</string>
+    <string name="TBS_RA_TailKnotDesc" formatted="false" >末端1エッジに対する%s変化効果を設定</string>
+    <string name="TBS_RA_TailTimeToDesc" formatted="false" >末端一定時間に対する%s変化効果を設定</string>
+    <string name="TBS_RA_TailMoveLenToDesc" formatted="false" >末端の一定移動距離に対する%s変化効果を設定</string>
+    <string name="TBS_RA_RatioMoveLenToDesc" formatted="false" >ストロークの移動位置に対する%s変化効果を設定</string>
+    <string name="TBS_RA_RatioTimeToDesc" formatted="false" >ストロークの時間位置に対する%s変化効果を設定</string>
+    
+    <string name="TBS_RA_Caption_MinLimit">最小値制限</string>
+    <string name="TBS_RA_MinLimitType">種類</string>
+    <string name="TBS_RA_MinLimitNone">制限処理なし</string>
+    <string name="TBS_RA_MinLimitAbs">絶対値を指定して制限</string>
+    <string name="TBS_RA_MinLimitRatio">最大値の比率で制限</string>
+    <string name="TBS_RA_MinLimitBoth">絶対値と最大値の比率両方で制限</string>
+    <string name="TBS_RA_MinLimitValueAbs">絶対値設定</string>
+    <string name="TBS_RA_MinLimitValueRatio">比率設定</string>
+    
+    <string name="TBS_RA_Caption_Head">入り効果</string>
+    <string name="TBS_RA_Caption_Tail">抜き効果</string>
+    <string name="TBS_RA_Caption_Both">入り抜き効果</string>
+    
+    <string name="TBS_RA_Caption_TwoPass">2-passストローク</string>
+    <string name="TBS_RA_TwoPass">2-passストロークのON/OFF</string>
+    <string name="TBS_RA_TwoPassTrue">2パスで描画し、すべての効果を有効にします</string>
+    <string name="TBS_RA_TwoPassFalse">1パスの場合、一部効果が利用不可になります</string>
+    
+    <!-- TexBrushSetting - RangeActive パラメータ名 -->
+    <string name="TBS_RA_ParamNameSize">サイズ</string>
+    <string name="TBS_RA_ParamNameFlow">流量</string>
+    <string name="TBS_RA_ParamNameSandFlow">砂ブラシ流量</string>
+    <string name="TBS_RA_ParamNameColor">色</string>
+    <string name="TBS_RA_ParamNameDtMvDensity">混合ブラシ濃度</string>
+    <string name="TBS_RA_ParamNameDeform">変形</string>
+    <string name="TBS_RA_ParamNameCenterShift">中心移動</string>
+    <string name="TBS_RA_ParamNameOverVolRatio">重複濃度加算率</string>
+    <string name="TBS_RA_ParamNameMixMinVolume">ペン色最低維持量</string>
+    <string name="TBS_RA_ParamNameMixMoveVolume">ペン色補充量</string>
+    <string name="TBS_RA_ParamNamePD_ModRatio">濃度調整の適用比率</string>
+    <string name="TBS_RA_ParamNamePD_ActiveOffset">濃度調整のオフセット</string>
+    <string name="TBS_RA_ParamNamePD_ActiveBias">濃度調整のバイアス</string>
+    <string name="TBS_RA_ParamNameCEMP_PenMoveVolume">濃度調整のバイアス</string>
+    <string name="TBS_RA_ParamNameCEMP_PenMinVolume">ペン色最低維持量</string>
+    
+    <!-- TexBrushSetting - RangeActive選択Dialog -->
+    <string name="TBS_RA_SelSetCaption_PressTo">筆圧による効果設定方法を選択</string>
+    <string name="TBS_RA_SelSetCaption_SpeedTo">速度による効果設定方法を選択</string>
+    <string name="TBS_RA_SelSetCaption_TiltTo">傾きによる効果設定方法を選択</string>
+    <string name="TBS_RA_SelSetCaption_CurveTo">曲率による効果設定方法を選択</string>
+    <string name="TBS_RA_SelSetCaption_HeadKnot">入りエッジの変化設定方法を選択</string>
+    <string name="TBS_RA_SelSetCaption_HeadTimeTo">時間入りの変化設定方法を選択</string>
+    <string name="TBS_RA_SelSetCaption_HeadMoveLenTo">移動距離入りの変化設定方法を選択</string>
+    <string name="TBS_RA_SelSetCaption_TailKnot">抜きエッジの変化設定方法を選択</string>
+    <string name="TBS_RA_SelSetCaption_TailTimeTo">時間抜きの変化設定方法を選択</string>
+    <string name="TBS_RA_SelSetCaption_TailMoveLenTo">移動距離抜きの変化設定方法を選択</string>
+    <string name="TBS_RA_SelSetCaption_RatioMoveLenTo">移動位置入り抜きの変化設定方法を選択</string>
+    <string name="TBS_RA_SelSetCaption_RatioTimeTo">時間位置入り抜きの変化設定方法を選択</string>
+    
+    <string name="TBS_RA_SetWayRange">硬さ指定</string>
+    <string name="TBS_RA_SetWaySpline">スプライン</string>
+    <string name="TBS_RA_SetWayFree">自由曲線</string>
+    <string name="TBS_RA_SetWayRangeDesc">単純な硬さと比率で効果を設定</string>
+    <string name="TBS_RA_SetWaySplineDesc">スプライン曲線で効果を設定</string>
+    <string name="TBS_RA_SetWayFreeDesc">自由曲線で効果を設定</string>
+    
+    <string name="TBS_RA_BtnEdit">編集</string>
+    <string name="TBS_RA_BtnAdd">追加</string>
+    
+    <!-- TexBrushSetting - RangeInterBase設定 -->
+    <string name="TBS_RA_CS_Base_Min">効果領域 - 最小</string>
+    <string name="TBS_RA_CS_Base_Max">効果領域 - 最大</string>
+    <string name="TBS_RA_CS_Base_Scale">領域をペン太さに比例させる比率</string>
+    
+    <!-- TexBrushSetting - RangeInterRatioAndPower設定 -->
+    <string name="TBS_RA_CS_Range_Ratio">効果強さ</string>
+    <string name="TBS_RA_CS_Range_Power">効果硬さ</string>
+    
+    <!-- TexBrushSetting - RangeInterSpline設定 -->
+    <string name="TBS_RA_CS_Spline_Pos">入力強さ</string>
+    <string name="TBS_RA_CS_Spline_Value">出力強さ</string>
+    
+    <!-- TexBrushSetting - RangeInterFree設定 -->
+    <string name="TBS_RA_CS_Free_Pos">入力強さ</string>
+    <string name="TBS_RA_CS_Free_Value">出力強さ</string>
+    <string name="TBS_RA_CS_FrBtn_Smooth">滑らかに</string>
+    
+    <!-- TexBrushSetting - RangeActive - CurveSetting -->
+    <string name="TBS_RA_CS_LbXPressTo"			>→筆圧</string>
+    <string name="TBS_RA_CS_LbXSpeedTo"			>→速度</string>
+    <string name="TBS_RA_CS_LbXTiltTo"			>→傾き(Cintiqのみ)</string>
+    <string name="TBS_RA_CS_LbXCurveTo"			>→曲率</string>
+    <string name="TBS_RA_CS_LbXHeadKnot"		>→エッジ(入り)</string>
+    <string name="TBS_RA_CS_LbXHeadTimeTo"		>→時間(入り)</string>
+    <string name="TBS_RA_CS_LbXHeadMoveLenTo"	>→移動距離(入り)</string>
+    <string name="TBS_RA_CS_LbXTailKnot"		>→エッジ(抜き)</string>
+    <string name="TBS_RA_CS_LbXTailTimeTo"		>→時間(抜き)</string>
+    <string name="TBS_RA_CS_LbXTailMoveLenTo"	>→移動距離(抜き)</string>
+    <string name="TBS_RA_CS_LbXRatioMoveLenTo"	>→移動(ストローク内比率)</string>
+    <string name="TBS_RA_CS_LbXRatioTimeTo"		>→時間(ストローク内比率)</string>
+
+    <string name="TBS_RA_CS_LbYSize">サイズ↑</string>
+    <string name="TBS_RA_CS_LbYFlow">流量↑</string>
+    <string name="TBS_RA_CS_LbYStopFlow">停止時流量↑</string>
+    <string name="TBS_RA_CS_LbYSandFlow">砂ブラシ流量↑</string>
+    <string name="TBS_RA_CS_LbYColor">色↑</string>
+    <string name="TBS_RA_CS_LbYDtMvDensity">混合ブラシ濃度↑</string>
+    <string name="TBS_RA_CS_LbYDeform">変形↑</string>
+    <string name="TBS_RA_CS_LbYCenterShift">中心移動↑</string>
+    <string name="TBS_RA_CS_LbYCENP_OverVolRatio">重複濃度加算率↑</string>
+    <string name="TBS_RA_CS_LbYCECP_OverVolRatio">重複濃度加算率↑</string>
+    <string name="TBS_RA_CS_LbYCEMP_PenMoveVolume">ペン色補充量↑</string>
+    <string name="TBS_RA_CS_LbYCEMP_PenMinVolume">ペン色最低維持量↑</string>
+    <string name="TBS_RA_CS_LbYPD_ModRatio">濃度調整の適用比率↑</string>
+    <string name="TBS_RA_CS_LbYPD_ActiveOffset">濃度調整のオフセット↑</string>
+    <string name="TBS_RA_CS_LbYPD_ActiveBias">濃度調整のバイアス↑</string>
+    
+    <string name="TBS_RA_CS_SpBtn_AddPrev">前に追加</string>
+    <string name="TBS_RA_CS_SpBtn_AddNext">次に追加</string>
+    <string name="TBS_RA_CS_SpBtn_SelPrev">前を選択</string>
+    <string name="TBS_RA_CS_SpBtn_SelNext">次を選択</string>
+    <string name="TBS_RA_CS_SpBtn_Delete">削除</string>
+    
+    <!-- 濃度テクスチャ - システムテクスチャ名 -->
+    <string name="TBS_ab0000">縞模様(横) 01</string>
+    <string name="TBS_ab0001">縞模様(横) 02</string>
+    <string name="TBS_ab0002">三角</string>
+    <string name="TBS_ab0003">円</string>
+    <string name="TBS_ab0004">円集合</string>
+    <string name="TBS_ab0005">万華鏡 01</string>
+    <string name="TBS_ab0006">メッシュ 01</string>
+    <string name="TBS_ab0007">ノイズ 01</string>
+    <string name="TBS_ab0008">ノイズ 02</string>
+    <string name="TBS_ab0009">雲</string>
+    <string name="TBS_ab0010">クローバー</string>
+    <string name="TBS_ab0011">足あと</string>
+    
+    <!-- カラーテクスチャ - システムテクスチャ名 -->
+    <string name="TBS_tb0000">草 01</string>
+    <string name="TBS_tb0001">草 02</string>
+    <string name="TBS_tb0002">木漏れ日</string>
+    <string name="TBS_tb0003">樹葉</string>
+    <string name="TBS_tb0004">曇り空</string>
+    <string name="TBS_tb0005">木の幹</string>
+    <string name="TBS_tb0006">壁面</string>
+    
+    <!-- 濃度テクスチャ - ユーザーテクスチャ追加ダイアログ -->
+    <string name="TexBS_AddUserAlphaTexture">ユーザー定義テクスチャを設定します</string>
+    <string name="TexBS_AddATDlg_ToolInvert">反転</string>
+    <string name="TexBS_AddATDlg_ToolRename">名前変更</string>
+    <string name="TexBS_AddATDlg_AddTexDesc">上の＋ボタンを押して画像ファイルを選択</string>
+    
+    <string name="TexBS_OnApply_SaveFileOpenError">出力ファイルを作成できませんでした</string>
+    <string name="TexBS_ATLoadTex_LoadingError">ロード中にエラー発生</string>
+    <string name="TexBS_ATLoadTex_NotSupport">未対応のファイル形式です</string>
+    <string name="TexBS_ATLoadTex_NowLoadingProgress">ロード処理中です…</string>
+    
+    <!-- Spotジッター -->
+    <string name="TexBSJit_SpotPosU">位置拡散(幅方向)</string>
+    <string name="TexBSJit_SpotPosV">位置拡散(進行方向)</string>
+    <string name="TexBSJit_SpotFixRoll">中心位置回転</string>
+    <string name="TexBSJit_SpotRollOffset">Spot回転オフセット</string>
+    <string name="TexBSJit_SpotSize">ペン太さ(Spot毎)</string>
+    <string name="TexBSJit_SpotFlow">流量(Spot毎)</string>
+    <string name="TexBSJit_SpotColLerp">BG色→FG色(Spot毎)</string>
+    <string name="TexBSJit_SpotHue">色相(Spot毎)</string>
+    <string name="TexBSJit_SpotSat">彩度(Spot毎)</string>
+    <string name="TexBSJit_SpotLum">輝度(Spot毎)</string>
+    <string name="TexBSJit_SpotColOpacity">不透明度(Spot毎)</string>
+    <string name="TexBSJit_SpotPosUDesc">Spotをストロークの幅方向に散らす量を設定</string>
+    <string name="TexBSJit_SpotPosVDesc">Spotをストロークの進行方向に散らす量を設定</string>
+    <string name="TexBSJit_SpotFixRollDesc">中心位置回転のSpot毎の揺らぎ効果を設定</string>
+    <string name="TexBSJit_SpotRollOffsetDesc">Spot動的回転内の回転オフセットのSpot毎の揺らぎ効果を設定</string>
+    <string name="TexBSJit_SpotSizeDesc">ペン太さのSpot毎の揺らぎ効果を設定</string>
+    <string name="TexBSJit_SpotFlowDesc">流量のSpot毎の揺らぎ効果を設定</string>
+    <string name="TexBSJit_SpotColLerpDesc">BG色→FG色のSpot毎の揺らぎ効果を設定</string>
+    <string name="TexBSJit_SpotHueDesc">色相のSpot毎の揺らぎ効果を設定</string>
+    <string name="TexBSJit_SpotSatDesc">彩度のSpot毎の揺らぎ効果を設定</string>
+    <string name="TexBSJit_SpotLumDesc">輝度のSpot毎の揺らぎ効果を設定</string>
+    <string name="TexBSJit_SpotColOpacityDesc">不透明度のSpot毎の揺らぎ効果を設定</string>
+    
+    <!-- Strokeジッター -->
+    <string name="TexBSJit_StrokeSize">ペン太さ(Stroke毎)</string>
+    <string name="TexBSJit_StrokeFlow">流量(Stroke毎)</string>
+    <string name="TexBSJit_StrokeColLerp">BG色→FG色(Stroke毎)</string>
+    <string name="TexBSJit_StrokeHue">色相(Stroke毎)</string>
+    <string name="TexBSJit_StrokeSat">彩度(Stroke毎)</string>
+    <string name="TexBSJit_StrokeLum">輝度(Stroke毎)</string>
+    <string name="TexBSJit_StrokeColOpacity">不透明度(Stroke毎)</string>
+    <string name="TexBSJit_StrokeSizeDesc">ペン太さのStroke毎の揺らぎ効果を設定</string>
+    <string name="TexBSJit_StrokeFlowDesc">流量のStroke毎の揺らぎ効果を設定</string>
+    <string name="TexBSJit_StrokeColLerpDesc">BG色→FG色のStroke毎の揺らぎ効果を設定</string>
+    <string name="TexBSJit_StrokeHueDesc">色相のStroke毎の揺らぎ効果を設定</string>
+    <string name="TexBSJit_StrokeSatDesc">彩度のStroke毎の揺らぎ効果を設定</string>
+    <string name="TexBSJit_StrokeLumDesc">輝度のStroke毎の揺らぎ効果を設定</string>
+    <string name="TexBSJit_StrokeColOpacityDesc">不透明度のStroke毎の揺らぎ効果を設定</string>
+    
+    <!-- ジッター関数選択ダイアログキャプション -->
+    <string name="TBS_WA_SelSetCaptionFormat" formatted="false">%sの揺らぎ効果設定方法を選択</string>
+    <string name="TBS_WA_SetWayNoise">ホワイトノイズ</string>
+    <string name="TBS_WA_SetWayWave">sin波</string>
+    <string name="TBS_WA_SetWayPerlin">パーリンノイズ</string>
+    <string name="TBS_WA_SetWayNoiseDesc">乱数で揺らぎ効果を設定</string>
+    <string name="TBS_WA_SetWayWaveDesc">sin波で揺らぎ効果を設定</string>
+    <string name="TBS_WA_SetWayPerlinDesc">連続性のある乱数で揺らぎ効果を設定</string>
+    <string name="TBS_WA_BtnEdit">編集</string>
+    <string name="TBS_WA_BtnAdd">追加</string>
+    
+    <!-- ジッター関数パラメータ -->
+    <string name="TBS_WA_CS_Bias">強度</string>
+    <string name="TBS_WA_CS_Dispersal">分布</string>
+    <string name="TBS_WA_CS_Offset">オフセット</string>
+    <string name="TBS_WA_CS_Freq">周波数</string>
+    <string name="TBS_WA_CS_Shift">位相</string>
+    <string name="TBS_WA_CS_Persistence">ノイズ残度</string>
+    <string name="TBS_WA_CS_RandSeed">乱数シード</string>
+    <string name="TBS_WA_CS_RandSeedTrue">シード値をランダムに決定</string>
+    <string name="TBS_WA_CS_RandSeedFalse">シード値は以下の値で固定</string>
+    <string name="TBS_WA_CS_Seed">固定シード値</string>
+    
+    <string name="TBS_WA_CS_LbXSpot">→ストローク進行</string>
+    <string name="TBS_WA_CS_LbXStroke">→各ストローク</string>
+    
+    <string name="TBS_WA_CS_LbYSpotPosU">位置拡散(幅方向)↕</string>
+    <string name="TBS_WA_CS_LbYSpotPosV">位置拡散(進行方向)↕</string>
+    <string name="TBS_WA_CS_LbYSpotFixRoll">中心位置回転↕</string>
+    <string name="TBS_WA_CS_LbYSpotRollOffset">Spot回転オフセット↕</string>
+    <string name="TBS_WA_CS_LbYSpotSize">ペン太さ(Spot毎)↑</string>
+    <string name="TBS_WA_CS_LbYSpotFlow">流量(Spot毎)↑</string>
+    <string name="TBS_WA_CS_LbYSpotColLerp">BG色→FG色(Spot毎)↑</string>
+    <string name="TBS_WA_CS_LbYSpotHue">色相(Spot毎)↕</string>
+    <string name="TBS_WA_CS_LbYSpotSat">彩度(Spot毎)↑</string>
+    <string name="TBS_WA_CS_LbYSpotLum">輝度(Spot毎)↑</string>
+    <string name="TBS_WA_CS_LbYSpotColOpacity">不透明度(Spot毎)↑</string>
+    
+    <string name="TBS_WA_CS_LbYStrokeSize">ペン太さ(Stroke毎)↑</string>
+    <string name="TBS_WA_CS_LbYStrokeFlow">流量(Stroke毎)↑</string>
+    <string name="TBS_WA_CS_LbYStrokeColLerp">BG色→FG色(Stroke毎)↑</string>
+    <string name="TBS_WA_CS_LbYStrokeHue">色相(Stroke毎)↕</string>
+    <string name="TBS_WA_CS_LbYStrokeSat">彩度(Stroke毎)↑</string>
+    <string name="TBS_WA_CS_LbYStrokeLum">輝度(Stroke毎)↑</string>
+    <string name="TBS_WA_CS_LbYStrokeColOpacity">不透明度(Stroke毎)↑</string>
+    
+    <!-- Brushデータ入力 -->
+    <string name="BrushImport_NotFoundData">イメージ内に有効なブラシデータが見つかりません</string>
+</resources>
