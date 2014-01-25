@@ -19,18 +19,18 @@
     <string name="dialog_Cancel">Cancel</string>
     <string name="NotShowNextTime">Not show next time</string>
     <string name="MainOption_TouchCorrect_Name">Touch correction</string>
-    <string name="MainOption_TouchCorrect_On">Compensate for noise at the start drawing touch</string>
-    <string name="MainOption_TouchCorrect_Off">Noise correction when the touch drawing is disabled</string>
+    <string name="MainOption_TouchCorrect_On">Compensate for noise at the start of a touch stroke</string>
+    <string name="MainOption_TouchCorrect_Off">Do not compensate for noise at the start of a touch stroke</string>
     <string name="MainOption_Smoothing_Name">Smoothing</string>
-    <string name="MainOption_Smoothing_On">To smooth stroke of the pen</string>
-    <string name="MainOption_Smoothing_Off">Correction stroke of the pen is disabled</string>
+    <string name="MainOption_Smoothing_On">Smooth pen strokes</string>
+    <string name="MainOption_Smoothing_Off">Do not smooth pen strokes</string>
     <string name="MainOption_HighScanRateMode_Name">Scan rate</string>
     <string name="MainOption_HighScanRateMode_On">Set to high frequency pen pointer scan</string>
     <string name="MainOption_HighScanRateMode_Off">Set to UI quality scan rate</string>
     <string name="MainOption_FixEventInterval_Name">Interval fixing</string>
-    <string name="MainOption_FixEventInterval_None">Using as it is, event intervals</string>
-    <string name="MainOption_FixEventInterval_16ms">Event intervals are treated forcing as fixing(16ms)</string>
-    <string name="MainOption_FixEventInterval_8ms">Event intervals are treated forcing as fixing(8ms)</string>
+    <string name="MainOption_FixEventInterval_None">Use as is, event intervals</string>
+    <string name="MainOption_FixEventInterval_16ms">Event intervals are fixed at 16ms</string>
+    <string name="MainOption_FixEventInterval_8ms">Event intervals are fixed at 8ms</string>
     <string name="MainOption_UpdateDispMode_Name">Update display mode</string>
     <string name="MainOption_UpdateDispMode_On">Update by worker thread</string>
     <string name="MainOption_UpdateDispMode_Off">Update by main thread</string>
@@ -38,27 +38,27 @@
     <string name="MainOption_DispTileDelay_On">Skip tiles blend update, and defer to the next</string>
     <string name="MainOption_DispTileDelay_Off">Wait tiles blend update by using blocking</string>
     <string name="MainOption_FullScreen_Name">Full screen</string>
-    <string name="MainOption_FullScreen_On">Use full screen mode(need reboot)</string>
-    <string name="MainOption_FullScreen_Off">Display notification bar(need reboot)</string>
-    <string name="MainOption_ScreenRotate_Name">Screen Rotate [Need EfT]</string>
-    <string name="MainOption_ScreenRotate_Free">Auto adjust by terminal angle</string>
-    <string name="MainOption_ScreenRotate_0">↓Fixing to 0 degree(Portrait)</string>
-    <string name="MainOption_ScreenRotate_1">←Fixing to 90 degree(Landscape)</string>
-    <string name="MainOption_ScreenRotate_2">↑Fixing to 180 degree</string>
-    <string name="MainOption_ScreenRotate_3">→Fixing to 270 degree</string>
+    <string name="MainOption_FullScreen_On">Use full screen mode (requires reboot)</string>
+    <string name="MainOption_FullScreen_Off">Display notification bar (requires reboot)</string>
+    <string name="MainOption_ScreenRotate_Name">Screen Rotate [Requires EfT]</string>
+    <string name="MainOption_ScreenRotate_Free">Auto-rotate</string>
+    <string name="MainOption_ScreenRotate_0">↓ Fixed to 0 degrees (Portrait)</string>
+    <string name="MainOption_ScreenRotate_1">← Fixed to 90 degrees (Landscape)</string>
+    <string name="MainOption_ScreenRotate_2">↑ Fixed to 180 degrees (Reverse portrait)</string>
+    <string name="MainOption_ScreenRotate_3">→ Fixed to 270 degrees (Reverse landscape)</string>
     <string name="MainOption_UIRotate_Name">UI Rotate</string>
-    <string name="MainOption_UIRotate_Auto">Auto adjust by terminal angle</string>
-    <string name="MainOption_UIRotate_0">↓Fixing to 0 degree(Portrait)</string>
-    <string name="MainOption_UIRotate_1">←Fixing to 90 degree(Landscape)</string>
-    <string name="MainOption_UIRotate_2">↑Fixing to 180 degree</string>
-    <string name="MainOption_UIRotate_3">→Fixing to 270 degree</string>
-    <string name="MainOption_UIScale_Name">UI Scale(need reboot)</string>
-    <string name="MainOption_UseCloverDock_Name">Clover Docking [Need EfT]</string>
-    <string name="MainOption_UseCloverDock_On">Use docking of Clover shortcut icons(need reboot)</string>
-    <string name="MainOption_UseCloverDock_Off">Not use docking of Clover icons(need reboot)</string>
-    <string name="MainOption_UseUIofEfT_Name">Extension UI for Tablet [Need EfT]</string>
-    <string name="MainOption_UseUIofEfT_On">Use the Extension UI for Tablet with digitizer(need reboot)</string>
-    <string name="MainOption_UseUIofEfT_Off">Use the default UI(need reboot)</string>
+    <string name="MainOption_UIRotate_Auto">Auto-rotate</string>
+    <string name="MainOption_UIRotate_0">↓ Fixed to 0 degrees (Portrait)</string>
+    <string name="MainOption_UIRotate_1">← Fixed to 90 degrees (Landscape)</string>
+    <string name="MainOption_UIRotate_2">↑ Fixed to 180 degrees (Reverse portrait)</string>
+    <string name="MainOption_UIRotate_3">→ Fixed to 270 degrees (Reverse landscape)</string>
+    <string name="MainOption_UIScale_Name">UI Scale (requires reboot)</string>
+    <string name="MainOption_UseCloverDock_Name">Clover Docking [Requires EfT]</string>
+    <string name="MainOption_UseCloverDock_On">Allow docking of Clover shortcut icons (requires reboot)</string>
+    <string name="MainOption_UseCloverDock_Off">Don\'t allow docking of Clover shortcut icons (requires reboot)</string>
+    <string name="MainOption_UseUIofEfT_Name">Extension UI for Tablet [Requires EfT]</string>
+    <string name="MainOption_UseUIofEfT_On">Use the extension UI for tablets with digitizers (requires reboot)</string>
+    <string name="MainOption_UseUIofEfT_Off">Use the default UI (requires reboot)</string>
     <string name="MainOption_NeedBuyEfTDlgTitle">Need to purchase a [Extension for Tablet] in order to use it</string>
     <string name="MainOption_NeedBuyEfTDlgDesc">You can use to trial version until January 31, 2014.</string>
     <string name="MainOption_BuyEfTKey">Buy it</string>
@@ -66,72 +66,72 @@
     <string name="MainOption_ExtendBrush_Name">Extend pen setting</string>
     <string name="MainOption_ExtendBrush_On">Paint version setting is enable(*deprecated)</string>
     <string name="MainOption_ExtendBrush_Off">Paint version setting is disable</string>
-    <string name="MainOption_PenSlideMode_Name">Pen pointer</string>
-    <string name="MainOption_PenSlideMode_Right">For finger(right-handed)</string>
-    <string name="MainOption_PenSlideMode_Left">For finger(left-handed)</string>
-    <string name="MainOption_PenSlideMode_PenRight">For stylus(right-handed)</string>
-    <string name="MainOption_PenSlideMode_PenLeft">For stylus(left-handed)</string>
+    <string name="MainOption_PenSlideMode_Name">Pointer Setting</string>
+    <string name="MainOption_PenSlideMode_Right">Finger (Right-handed)</string>
+    <string name="MainOption_PenSlideMode_Left">Finger(Left-handed)</string>
+    <string name="MainOption_PenSlideMode_PenRight">Stylus (Right-handed)</string>
+    <string name="MainOption_PenSlideMode_PenLeft">Stylus(Left-handed)</string>
     <string name="MainOption_VanishUIWhileStroke_Name">Vanish UI</string>
-    <string name="MainOption_VanishUIWhileStroke_On">Vanish the UI while in stroke</string>
-    <string name="MainOption_VanishUIWhileStroke_Off">Not vanish the UI</string>
+    <string name="MainOption_VanishUIWhileStroke_On">Hide the UI during a stroke</string>
+    <string name="MainOption_VanishUIWhileStroke_Off">Do not hide the UI during a stroke</string>
     <string name="MainOption_PenOuterCursor_Name">Pen outer circle opacity</string>
     <string name="MainOption_PenInnerCursor_Name">Pen inner circle opacity</string>
-    <string name="MainOption_PinchMove_Name" >Pinch Move</string>
-    <string name="MainOption_PinchMove_Off">Move is disable</string>
+    <string name="MainOption_PinchMove_Name" >Pinch Pan</string>
+    <string name="MainOption_PinchMove_Off">Panning is disabled</string>
     <string name="MainOption_PinchMove_ThrsNone">Move the view when you pinch the screen</string>
-    <string name="MainOption_PinchMove_ThrsLow">Move the view(threshold low)</string>
-    <string name="MainOption_PinchMove_ThrsHigh">Move the view(threshold high)</string>
-    <string name="MainOption_PinchScale_Name" >Pinch scale</string>
-    <string name="MainOption_PinchScale_Off">Scaling is disable</string>
-    <string name="MainOption_PinchScale_ThrsNone">Scaling the view when you pinch the screen</string>
-    <string name="MainOption_PinchScale_ThrsLow">Scaling the view(threshold low)</string>
-    <string name="MainOption_PinchScale_ThrsHigh">Scaling the view(threshold high)</string>
-    <string name="MainOption_SnapScale_Name">Snap scale</string>
-    <string name="MainOption_SnapScale_Free">Snap is disable</string>
-    <string name="MainOption_SnapScale_1">Snap in 1%</string>
-    <string name="MainOption_SnapScale_5">Snap in 5%</string>
-    <string name="MainOption_SnapScale_10">Snap in 10%</string>
-    <string name="MainOption_PinchRoll_Name">Pinch roll</string>
-    <string name="MainOption_PinchRoll_Off">Rolling is disable</string>
-    <string name="MainOption_PinchRoll_ThrsNone">Rolling the view when you pinch the screen</string>
-    <string name="MainOption_PinchRoll_ThrsLow">Rolling the view(threshold low)</string>
-    <string name="MainOption_PinchRoll_ThrsHigh">Rolling the view(threshold high)</string>
-    <string name="MainOption_SnapRoll_Name">Snap rotate</string>
-    <string name="MainOption_SnapRoll_Free">Snap is disable</string>
-    <string name="MainOption_SnapRoll_120">Snap in divided by 120</string>
-    <string name="MainOption_SnapRoll_72">Snap in divided by 72</string>
-    <string name="MainOption_SnapRoll_24">Snap in divided by 24</string>
+    <string name="MainOption_PinchMove_ThrsLow">Move the view (low threshold)</string>
+    <string name="MainOption_PinchMove_ThrsHigh">Move the view (high threshold)</string>
+    <string name="MainOption_PinchScale_Name" >Pinch Zoom</string>
+    <string name="MainOption_PinchScale_Off">Zoom is disabled</string>
+    <string name="MainOption_PinchScale_ThrsNone">Scale the view when you pinch the screen</string>
+    <string name="MainOption_PinchScale_ThrsLow">Scale the view (low threshold)</string>
+    <string name="MainOption_PinchScale_ThrsHigh">Scale the view (high threshold)</string>
+    <string name="MainOption_SnapScale_Name">Incremental Zoom</string>
+    <string name="MainOption_SnapScale_Free">Do not zoom in increments (free zoom)</string>
+    <string name="MainOption_SnapScale_1">Zoom in 1% increments</string>
+    <string name="MainOption_SnapScale_5">Zoom in 5% increments</string>
+    <string name="MainOption_SnapScale_10">Zoom in 10% increments</string>
+    <string name="MainOption_PinchRoll_Name">Pinch Rotate</string>
+    <string name="MainOption_PinchRoll_Off">Rotation is disable</string>
+    <string name="MainOption_PinchRoll_ThrsNone">Rotate the view when you pinch the screen</string>
+    <string name="MainOption_PinchRoll_ThrsLow">Rotate the view (low threshold)</string>
+    <string name="MainOption_PinchRoll_ThrsHigh">Rotate the view (high threshold)</string>
+    <string name="MainOption_SnapRoll_Name">Incremental Rotation</string>
+    <string name="MainOption_SnapRoll_Free">Do not rotate in increments (free rotation)</string>
+    <string name="MainOption_SnapRoll_120">Rotate in 3 degree increments</string>
+    <string name="MainOption_SnapRoll_72">Rotate in 5 degree increments</string>
+    <string name="MainOption_SnapRoll_24">Rotate in 15 degree increments</string>
     <string name="MainOption_SpriteBlend_Name">Sprite blend type</string>
     <string name="MainOption_SpriteBlend_FixTexColor">Use texture fix color</string>
     <string name="MainOption_SpriteBlend_FixMaterial">Use fix material color</string>
     <string name="MainOption_SpriteBlend_VertexColor">Use vertex color</string>
-    <string name="MainOption_ImageViewMode_Name" >ImageMagnification</string>
-    <string name="MainOption_ImageViewMode_Nearest" >Nearest(need reboot)</string>
-    <string name="MainOption_ImageViewMode_Linear" >Linear(need reboot)</string>
-    <string name="MainOption_FlipByTriFinger_Name" >Flip shortcut(Finger)</string>
-    <string name="MainOption_FlipByTriFinger_On">Flip by three fingers touch</string>
-    <string name="MainOption_FlipByTriFinger_Off">Flip shortcut by fingers is disable</string>
-    <string name="MainOption_FlipByViewBtn_Name" >Flip shortcut(UI)</string>
-    <string name="MainOption_FlipByViewBtn_On">Flip by the view button</string>
-    <string name="MainOption_FlipByViewBtn_Off">Flip shortcut by the view btn is disable</string>
-    <string name="MainOption_PinchIndication_Name" >Param indication</string>
-    <string name="MainOption_PinchIndication_On">Display parameter text of the rotate/scale</string>
-    <string name="MainOption_PinchIndication_Off">Not Display parameter text of the rotate/scale</string>
-    <string name="MainOption_ScaleMinLimit_Name" >Scaling min limit</string>
-    <string name="MainOption_ScaleMinLimit50" >0.50 times</string>
-    <string name="MainOption_ScaleMinLimit75" >0.75 times</string>
-    <string name="MainOption_ScaleMinLimit100" >1.00 times</string>
-    <string name="MainOption_ScaleMinLimit150" >1.50 times</string>
-    <string name="MainOption_ScaleMinLimit200" >2.00 times</string>
-    <string name="MainOption_ExtMinLimitByEditRect_Name" >Extend min limit</string>
-    <string name="MainOption_ExtMinLimitByEditRect_On">Optimal by editing frame size(need reboot)</string>
-    <string name="MainOption_ExtMinLimitByEditRect_Off">Extend min limit is disable(need reboot)</string>
-    <string name="MainOption_ScaleMaxLimit_Name" >Scaling max limit</string>
-    <string name="MainOption_ScaleMaxLimit16" >16 times</string>
-    <string name="MainOption_ScaleMaxLimit32" >32 times</string>
-    <string name="MainOption_ScaleMaxLimit64" >64 times</string>
-    <string name="MainOption_ScaleMaxLimit128" >128 times</string>
-    <string name="MainOption_ScaleMaxLimit256" >256 times</string>
+    <string name="MainOption_ImageViewMode_Name" >Image Magnification</string>
+    <string name="MainOption_ImageViewMode_Nearest" >Nearest neighbor (requires reboot)</string>
+    <string name="MainOption_ImageViewMode_Linear" >Linear (requires reboot)</string>
+    <string name="MainOption_FlipByTriFinger_Name" >Horizontal Flip Shortcut (Gesture)</string>
+    <string name="MainOption_FlipByTriFinger_On">Flip with three-fingered touch</string>
+    <string name="MainOption_FlipByTriFinger_Off">Flip shortcut by three-fingered touch is disabled</string>
+    <string name="MainOption_FlipByViewBtn_Name" >Horizontal Flip Shortcut (UI)</string>
+    <string name="MainOption_FlipByViewBtn_On">Horizontal flip by long-pressing the view button</string>
+    <string name="MainOption_FlipByViewBtn_Off">Horizontal flip shortcut by pressing the view button is disabled</string>
+    <string name="MainOption_PinchIndication_Name" >Zoom/Rotation Indication</string>
+    <string name="MainOption_PinchIndication_On">Display parameter text while zooming/rotating</string>
+    <string name="MainOption_PinchIndication_Off">Do not display parameter text while zooming/rotating</string>
+    <string name="MainOption_ScaleMinLimit_Name" >Minimum Zoom Level</string>
+    <string name="MainOption_ScaleMinLimit50" >50%</string>
+    <string name="MainOption_ScaleMinLimit75" >75%</string>
+    <string name="MainOption_ScaleMinLimit100" >100%</string>
+    <string name="MainOption_ScaleMinLimit150" >150%</string>
+    <string name="MainOption_ScaleMinLimit200" >200% times</string>
+    <string name="MainOption_ExtMinLimitByEditRect_Name" >Extend Minimum Zoom Level</string>
+    <string name="MainOption_ExtMinLimitByEditRect_On">Allow zooming out further for large canvases (requires reboot)</string>
+    <string name="MainOption_ExtMinLimitByEditRect_Off">Do not adjust minimum zoom by canvas size (requires reboot)</string>
+    <string name="MainOption_ScaleMaxLimit_Name" >Maximum Zoom Level</string>
+    <string name="MainOption_ScaleMaxLimit16" >1600%</string>
+    <string name="MainOption_ScaleMaxLimit32" >3200%</string>
+    <string name="MainOption_ScaleMaxLimit64" >6400%</string>
+    <string name="MainOption_ScaleMaxLimit128" >12,800%</string>
+    <string name="MainOption_ScaleMaxLimit256" >25,600%</string>
     <string name="MainOption_SCutKeyMenu_Name" >Menu push</string>
     <string name="MainOption_SCutKeyVolU_Name" >Volume↑ push</string>
     <string name="MainOption_SCutKeyVolD_Name" >Volume↓ push</string>
@@ -169,39 +169,39 @@
     <string name="MainOption_EditFrameColor_Name">Edit frame color</string>
     <string name="MainOption_EditFrameColor_Desc">Setting the edit frame color</string>
     <string name="MainOption_TouchEffect_Name">Touch effect</string>
-    <string name="MainOption_TouchEffect_On">View ripple effects at time you touch the screen</string>
-    <string name="MainOption_TouchEffect_Off">No view the touch effects</string>
-    <string name="MainOption_AutoSaveEdit_Name">Auto save(dirty count)</string>
-    <string name="MainOption_AutoSaveEdit_None">Not use the auto-save</string>
-    <string name="MainOption_AutoSaveEdit_3">After having edited 3 times of the image</string>
-    <string name="MainOption_AutoSaveEdit_10">After having edited 10 times of the image</string>
-    <string name="MainOption_AutoSaveEdit_20">After having edited 20 times of the image</string>
-    <string name="MainOption_AutoSaveEdit_50">After having edited 50 times of the image</string>
-    <string name="MainOption_AutoSaveTime_Name">Auto save(standby time)</string>
-    <string name="MainOption_AutoSaveTime_None">Not use the auto-save</string>
-    <string name="MainOption_AutoSaveTime_3">After last operation 3 seconds</string>
-    <string name="MainOption_AutoSaveTime_15">After last operation 15 seconds</string>
-    <string name="MainOption_AutoSaveTime_60">After last operation 60 seconds</string>
-    <string name="MainOption_AutoSaveTime_120">After last operation 2 minutes</string>
+    <string name="MainOption_TouchEffect_On">View ripple effects when you touch the screen</string>
+    <string name="MainOption_TouchEffect_Off">Do not view touch effects</string>
+    <string name="MainOption_AutoSaveEdit_Name">Auto save (Edit Count)</string>
+    <string name="MainOption_AutoSaveEdit_None">Don\'t auto save</string>
+    <string name="MainOption_AutoSaveEdit_3">Save after editing the image 3 times</string>
+    <string name="MainOption_AutoSaveEdit_10">Save after editing the image 10 times</string>
+    <string name="MainOption_AutoSaveEdit_20">Save after editing the image 20 times</string>
+    <string name="MainOption_AutoSaveEdit_50">Save after editing the image 50 times</string>
+    <string name="MainOption_AutoSaveTime_Name">Auto save (Idle Time)</string>
+    <string name="MainOption_AutoSaveTime_None">Don\'t auto save</string>
+    <string name="MainOption_AutoSaveTime_3">Save after 3 idle seconds</string>
+    <string name="MainOption_AutoSaveTime_15">Save after 15 idle seconds</string>
+    <string name="MainOption_AutoSaveTime_60">Save after 60 idle seconds</string>
+    <string name="MainOption_AutoSaveTime_120">Save after 2 idle minutes</string>
     <string name="MainOption_TouchPressure_Name">Touch pressure</string>
     <string name="MainOption_TouchPressure_On">Touch pressure is enabled</string>
     <string name="MainOption_TouchPressure_Off">Touch pressure is disabled</string>
-    <string name="MainOption_TouchPressMin_Name">Min value</string>
-    <string name="MainOption_TouchPressMax_Name">Max value</string>
+    <string name="MainOption_TouchPressMin_Name">Minimum value</string>
+    <string name="MainOption_TouchPressMax_Name">Maximum value</string>
     <string name="MainOption_TouchPressPower_Name">Power(Soft←  →Hard)</string>
     <string name="MainOption_TouchPressRatio_Name">Ratio</string>
-    <string name="MainOption_TouchPressTest_Name">Press setting testing area</string>
+    <string name="MainOption_TouchPressTest_Name">Pressure Setting Test Area</string>
     <string name="MainOption_TouchPressTest_Desc">- </string>
-    <string name="MainOption_TouchPressAuto_Name">Semi-auto pressure setting</string>
+    <string name="MainOption_TouchPressAuto_Name">Semi-automatic Pressure Calibration</string>
     <string name="MainOption_TouchPressAuto_Desc">Touch here to give strength</string>
     <string name="MainOption_TouchPressAuto_Desc2">Pressure range is being captured…%dsec</string>
     <string name="MainOption_FingerAction_Name">Action on Canvas with Single Finger</string>
     <string name="MainOption_FingerAction_None">Prohibit all action</string>
     <string name="MainOption_FingerAction_Draw">Draw pen stroke</string>
     <string name="MainOption_FingerAction_CanvasMove">Move canvas</string>
-    <string name="MainOption_NoFingerUI_Name">Stop finger UI control</string>
-    <string name="MainOption_NoFingerUI_On">Never control with finger on the screen UI</string>
-    <string name="MainOption_NoFingerUI_Off">Control by both finger and stylus</string>
+    <string name="MainOption_NoFingerUI_Name">Disable Finger UI Control</string>
+    <string name="MainOption_NoFingerUI_On">UI cannot be effected by fingers or hands</string>
+    <string name="MainOption_NoFingerUI_Off">Control UI by both fingers and stylus</string>
     <string name="MainOption_DrawCancelByClick_Name">Draw cancel</string>
     <string name="MainOption_DrawCancelByClick_None">none</string>
     <string name="MainOption_DrawCancelByClick_1">Cancel when you press 1-btn</string>
@@ -219,22 +219,22 @@
     <string name="MainOption_HoverToolType2_None">none</string>
     <string name="MainOption_HoverToolType2_Spuit">Eyedropper</string>
     <string name="MainOption_HoverToolType2_Undo">Undo</string>
-    <string name="MainOption_SelDrawBrushCsr_Name">Brush cursor(drawing)</string>
-    <string name="MainOption_MinDrawBrushCsrSize_Name">Min brush cursor size(drawing)</string>
-    <string name="MainOption_MinDrawBrushCsr_Name">Brush cursor less than min size</string>
-    <string name="MainOption_SelHoverBrushCsr_Name">Brush cursor(hovering)</string>
+    <string name="MainOption_SelDrawBrushCsr_Name">Brush Cursor Outline (while drawing)</string>
+    <string name="MainOption_MinDrawBrushCsrSize_Name">Minimum Brush Cursor Size (while drawing)</string>
+    <string name="MainOption_MinDrawBrushCsr_Name">Brush Cursor Outline (for brushes less than minimum size)</string>
+    <string name="MainOption_SelHoverBrushCsr_Name">Brush Cursor Outline (while hovering)</string>
     <string name="MainOption_SelBrushCsr_Always">Always visible</string>
     <string name="MainOption_SelBrushCsr_Never">Never visible</string>
     <string name="MainOption_SelBrushCsr_AlwaysExcludeClover">Visible, clover is setting self</string>
     <string name="MainOption_SelBrushCsr_NeverExcludeClover">Not visible, clover is setting self</string>
-    <string name="MainOption_HoverSysUICsr_Name">System hovering cursor(UI control)</string>
-    <string name="MainOption_HoverSysOfsCsr_Name">System hovering cursor(+Offset)</string>
+    <string name="MainOption_HoverSysUICsr_Name">System Hovering Cursor (UI control)</string>
+    <string name="MainOption_HoverSysOfsCsr_Name">System Hovering Cursor (+Offset)</string>
     <string name="MainOption_HoverSysCsr_None_Brush">Brush</string>
     <string name="MainOption_HoverSysCsr_None">None</string>
     <string name="MainOption_HoverSysCsr_Cross">Cross</string>
     <string name="MainOption_HoverSysCsr_Dot">Dot</string>
-    <string name="MainOption_HoverSysCsr_LargeCross">Cross(large)</string>
-    <string name="MainOption_HoverSysCsr_LargeDot">Dot(large)</string>
+    <string name="MainOption_HoverSysCsr_LargeCross">Cross (large)</string>
+    <string name="MainOption_HoverSysCsr_LargeDot">Dot (large)</string>
     <string name="MainOption_Calibration_Name">Calibration</string>
     <string name="MainOption_Calibration_Desc">Error correction of the stylus pointer</string>
     <string name="MainOption_ResetCal_Name">Reset calibration</string>
@@ -249,7 +249,7 @@
     <string name="MainOption_CommandCancel_Desc">Setting cancel keys of a executing command</string>
     <string name="MainOption_LayerBtnVisible_Name">View layer button</string>
     <string name="MainOption_LayerBtnVisible_On">View the layer list visible button</string>
-    <string name="MainOption_LayerBtnVisible_Off">No view the layer list visible button</string>
+    <string name="MainOption_LayerBtnVisible_Off">Don\'t view the layer list visible button</string>
 
     <string name="MainOption_SplitStroke_Name">Stroke</string>
     <string name="MainOption_SplitViewControl_Name">UI/View</string>
@@ -293,12 +293,12 @@
     <string name="NoticeDialogPurchase_RecognizedPurchaseEfT">Recognized the purchase of a EfT</string>
     <string name="NoticeDialogPurchase_RecognizedRefundEfT">Recognized the refund of a EfT</string>
 
-    <string name="MainDispDlg_DispDlgDiscardImage_Name">Confirm discard image data when before going to Gallery</string>
+    <string name="MainDispDlg_DispDlgDiscardImage_Name">Confirm discarding image data when going to the gallery</string>
     <string name="MainDispDlg_DispDlgDiscardImage_On"  >Display</string>
-    <string name="MainDispDlg_DispDlgDiscardImage_Off" >Not display</string>
-    <string name="MainDispDlg_DlgExportBrush_Name"     >Caution of the brush export</string>
+    <string name="MainDispDlg_DispDlgDiscardImage_Off" >Do not display</string>
+    <string name="MainDispDlg_DlgExportBrush_Name"     >Brush Export Warning Dialog</string>
     <string name="MainDispDlg_DlgExportBrush_On"       >Display</string>
-    <string name="MainDispDlg_DlgExportBrush_Off"      >Not display</string>
+    <string name="MainDispDlg_DlgExportBrush_Off"      >Do not display</string>
 
     <string name="DtPen_Undo">draw by the pen</string>
     <string name="DtMove_Undo">move the plane</string>
@@ -371,6 +371,7 @@
     <string name="MBtnPen_BrushExport">Brush Exp.</string>
     <string name="MBtnPen_BrushImport">Brush Imp.</string>
     <string name="MBtnPen_Color">Color…</string>
+    <string name="MBtnPen_HandShakeCorrect">Correct</string>
     <string name="MBtnPen_NewClover"> Clover</string>
     <string name="MBtnPen_CopyClover">+Clover</string>
 
@@ -396,15 +397,15 @@
     <string name="MBtnEraser_NewClover"> Clover</string>
     <string name="MBtnEraser_CopyClover">+Clover</string>
 
-    <string name="MBtnFinger_Finger">Finger</string>
+    <string name="MBtnFinger_Finger">Smudge</string>
     <string name="MBtnFinger_Brush">Brush…</string>
     <string name="MBtnFinger_NewClover"> Clover</string>
     <string name="MBtnFinger_CopyClover">+Clover</string>
 
     <string name="MBtnGallery">Gallery</string>
     <string name="MBtnGalleryDesc">Settings▽</string>
-    <string name="MBtnOption">Option</string>
-    <string name="MBtnOption_Dialog">Dialog</string>
+    <string name="MBtnOption">Options</string>
+    <string name="MBtnOption_Dialog">Dialogs</string>
     <string name="MBtnStylus">Stylus</string>
     <string name="MBtnKeyConf">KeyConf.</string>
     <string name="MBtnSpuit">Eyedropper▽</string>
@@ -420,7 +421,7 @@
     <string name="MBtnGallery_CustomNew">Setting</string>
     <string name="MBtnGallery_Copy">Copy</string>
     <string name="MBtnGallery_Delete">Delete</string>
-    <string name="MBtnGallery_AppExit">App.exit</string>
+    <string name="MBtnGallery_AppExit">Exit App</string>
 
     <string name="MBtnImage_CallMergetPlane">Integrated an edit-layer with an image-layer and cleared it</string>
     <string name="MBtnImage_FlipDialog">Reversing the color of the edit-layer</string>
@@ -498,7 +499,7 @@
     <string name="MBtnImage_EditMergeImage">Image</string>
     <string name="MBtnImage_Setting">Setting▽</string>
     <string name="MBtnImage_SetBound">Bound▽</string>
-    <string name="MBtnImage_SetBoundFix">Fix…</string>
+    <string name="MBtnImage_SetBoundFix">Fixed…</string>
     <string name="MBtnImage_SetBoundFree">Free</string>
 
     <string name="MBtnLine_Line">Line</string>
@@ -586,15 +587,15 @@
     <string name="MBtnUndo_Clear">Clear</string>
     <string name="MBtnUndo_ClvUndo">+Undo</string>
     <string name="MBtnUndo_ClvRedo">+Redo</string>
-    
+
     <string name="MBtnView_View">View</string>
     <string name="MBtnView_Flip">Flip h.</string>
-    <string name="MBtnView_Roll">Roll▽</string>
+    <string name="MBtnView_Roll">Rotate▽</string>
     <string name="MBtnView_Roll270">270°</string>
     <string name="MBtnView_Roll0">0°</string>
     <string name="MBtnView_Roll90">90°</string>
     <string name="MBtnView_Roll180">180°</string>
-    <string name="MBtnView_Scale">Scale▽</string>
+    <string name="MBtnView_Scale">Zoom▽</string>
     <string name="MBtnView_Scale075">75%</string>
     <string name="MBtnView_Scale100">100%</string>
     <string name="MBtnView_Scale200">200%</string>
@@ -604,8 +605,8 @@
     <string name="MBtnView_Init">Init.</string>
     <string name="MBtnView_InitAdpt">Center</string>
     <string name="MBtnView_FlipClv">+Cam.Flip</string>
-    <string name="MBtnView_RollClv">+Cam.Roll</string>
-    <string name="MBtnView_ScaleClv">+Cam.Scale</string>
+    <string name="MBtnView_RollClv">+Cam.Rotate</string>
+    <string name="MBtnView_ScaleClv">+Cam.Zoom</string>
     <string name="MBtnView_AllClv">+Cam.All</string>
     <string name="MBtnView_Navi">+Navi.View</string>
     <string name="MBtnView_Dock">Window</string>
@@ -636,8 +637,8 @@
     <string name="MoveRebar_Rot270">r270</string>
     <string name="MoveRebar_FlipH">Flip.H</string>
     <string name="MoveRebar_FlipV">Flip.V</string>
-    <string name="MoveRebar_Init">Init.</string>
- 
+    <string name="MoveRebar_Init">Reset</string>
+
     <string name="MBtnTransform_Return">Return</string>
     <string name="MBtnTransform_Tool">Transform</string>
     <string name="MBtnTransform_SelTool">Sel.tool</string>
@@ -672,7 +673,7 @@
     <string name="Core_EventTrans_TransformProgress" formatted="false">Layer transforming…</string>
     <string name="Core_EventTrans_ClipFromBound">Too large, clipping by edit frame</string>
     <string name="Core_EventTrans_NotValid">Is not selecting image valid for transform</string>
-    
+
     <string name="MBtnSelect_SelTool">Sel.tool</string>
     <string name="MBtnSelect_SelToolRect">Rect</string>
     <string name="MBtnSelect_SelToolEllipse">Ellipse</string>
@@ -777,9 +778,9 @@
     <string name="DockSetting_SAT_SelItem">Select item</string>
     <string name="DockSetting_SAT_RunAndSel">Run and Select item</string>
     <string name="DockSetting_SAT_RunAndSelOnlyBrush">Run and Select item (brush only)</string>
-    
+
     <string name="WinDock_FrameOperationDialog">Operation for this window</string>
-    
+
     <string name="WinDockProp_ForceVisible">Force window visible</string>
     <string name="WinDockProp_ForceVisibleTrue">Ignore the UI display status and always visible (when floating)</string>
     <string name="WinDockProp_ForceVisibleFalse">Toggle visible according to the UI display status</string>
@@ -795,7 +796,7 @@
     <string name="WinDockProp_UseTransBtn">Window trans-hide button</string>
     <string name="WinDockProp_UseTransBtnTrue">Display window trans-hide button</string>
     <string name="WinDockProp_UseTransBtnFalse">Not display window trans-hide button</string>
-    
+
     <string name="ToolDock_PalSpuit_Opacity">Opacity</string>
     <string name="ToolDock_PalSpuit_OpaGet">RGBA</string>
     <string name="ToolDock_PalSpuit_Opa255">A=255</string>
@@ -814,7 +815,7 @@
 
     <string name="ToolDock_PalPicker_PropCaption">Color Picker</string>
     <string name="ToolDock_PalPicker_BarHueShift">Shift Hue Circle</string>
-    
+
     <string name="ToolDock_PalGrad_LongDownHintDialog">Register a current gradation by a tap&amp;hold</string>
     <string name="ToolDock_PalGrad_OperationDialog">Choose an operation to gradation %02d</string>
     <string name="ToolDock_PalGrad_GammaR">Gamma-R</string>
@@ -848,7 +849,7 @@
     <string name="ToolDock_InfoView_DrawProfLevel3">Normal</string>
     <string name="ToolDock_InfoView_DrawProfLevel4">Slow</string>
     <string name="ToolDock_InfoView_DrawProfLevel5">Very Slow</string>
-    
+
     <string name="ToolDock_NaviView_PropCaption">Navi View</string>
     <string name="ToolDock_NaviView_ViewText">View Text</string>
     <string name="ToolDock_NaviView_ViewTextTrue">Display text of the camera status</string>
@@ -861,7 +862,7 @@
     <string name="ToolDock_NaviView_FlipMode_Canvas">Fit to Canvas</string>
     <string name="ToolDock_NaviView_FlipMode_InvCanvas">Inverse of Canvas</string>
     <string name="ToolDock_NaviView_FlipMode_Always">Always Flip</string>
-    
+
     <string name="ToolDock_Brush_PropCaption">Bursh Setting</string>
     <string name="ToolDock_Brush_DispBarDescText">Description</string>
     <string name="ToolDock_Brush_DispBarDescTextTrue">Display text of the bar type description</string>
@@ -869,7 +870,7 @@
     <string name="ToolDock_Brush_BarLogSize">Setting of the logarithm value of the size bar</string>
     <string name="ToolDock_Brush_BarLogFlow">Setting of the logarithm value of the flow bar</string>
     <string name="ToolDock_Brush_BarLogOpacity">Setting of the logarithm value of the opacity bar</string>
-    
+
     <string name="CloverDropper_Label">Eye drop</string>
     <string name="CloverDropper_LeafCancel">Cancel</string>
     <string name="CloverDropper_LeafMove">Move</string>
@@ -900,7 +901,7 @@
     <string name="CloverPen_LeafDraw">Draw</string>
     <string name="CloverPenProp_PenCircle">Pen cursor visible</string>
     <string name="CloverPenProp_PenCircleTrue">Display the pen cursor</string>
-    <string name="CloverPenProp_PenCircleFalse">Not display the pen cursor</string>
+    <string name="CloverPenProp_PenCircleFalse">Don\'t display the pen cursor</string>
 
     <string name="CloverRect_Label">Rect</string>
     <string name="CloverRect_LeafMode">Mode</string>
@@ -908,42 +909,42 @@
     <string name="CloverRect_LeafPickUp">Pick up</string>
     <string name="CloverRect_LeafDraw">Draw</string>
 
-    <string name="CloverProp_ProtectMove">Protect move clover icon</string>
-    <string name="CloverProp_ProtectMoveTrue">Prohibit clover icon move</string>
-    <string name="CloverProp_ProtectMoveFalse">Allow clover icon move</string>
-    <string name="CloverProp_ForceVisible">Force icon visible</string>
-    <string name="CloverProp_ForceVisibleTrue">Ignore the UI display status and always visible</string>
-    <string name="CloverProp_ForceVisibleFalse">Toggle visible according to the UI display status</string>
-    <string name="CloverProp_ColorRGB">Color RGB</string>
-    <string name="CloverProp_ColorRGBTrue">Save&amp;set the color RGB</string>
-    <string name="CloverProp_ColorRGBFalse">Not save&amp;set the color RGB</string>
-    <string name="CloverProp_ColorAlpha">Color alpha</string>
-    <string name="CloverProp_ColorAlphaTrue">Save&amp;set the color alpha</string>
-    <string name="CloverProp_ColorAlphaFalse">Not save&amp;set the color alpha</string>
-    <string name="CloverProp_PenSize">Pen size</string>
-    <string name="CloverProp_PenSizeTrue">Save&amp;set the pen size</string>
-    <string name="CloverProp_PenSizeFalse">Not save&amp;set the pen size</string>
-    <string name="CloverProp_BlendOpacity">Blend opacity</string>
-    <string name="CloverProp_BlendOpacityTrue">Save&amp;set the blend opacity</string>
-    <string name="CloverProp_BlendOpacityFalse">Not save&amp;set the blend opacity</string>
-    <string name="CloverProp_PenBlur">Pen blur</string>
-    <string name="CloverProp_PenBlurTrue">Save&amp;set the pen blur</string>
-    <string name="CloverProp_PenBlurFalse">Not save&amp;set the pen blur</string>
-    <string name="CloverProp_StrokeBlend">Stroke blend</string>
-    <string name="CloverProp_StrokeBlendTrue">Save&amp;set the stroke blend</string>
-    <string name="CloverProp_StrokeBlendFalse">Not save&amp;set the stroke blend</string>
-    <string name="CloverProp_PenFlow">Pen flow</string>
-    <string name="CloverProp_PenFlowTrue">Save&amp;set the pen flow</string>
-    <string name="CloverProp_PenFlowFalse">Not save&amp;set the pen flow</string>
-    <string name="CloverProp_PenExtend">Pen extend params</string>
-    <string name="CloverProp_PenExtendTrue">Save&amp;set the pen extends params</string>
-    <string name="CloverProp_PenExtendFalse">Not save&amp;set the pen extends params</string>
+    <string name="CloverProp_ProtectMove">Lock Clover Icon</string>
+    <string name="CloverProp_ProtectMoveTrue">Clover icon can\'t be moved</string>
+    <string name="CloverProp_ProtectMoveFalse">Clover icon can be moved</string>
+    <string name="CloverProp_ForceVisible">Force Clover Visibility</string>
+    <string name="CloverProp_ForceVisibleTrue">Show clover even while the UI is hidden</string>
+    <string name="CloverProp_ForceVisibleFalse">Toggle visibility with the rest of the UI</string>
+    <string name="CloverProp_ColorRGB">Save and Set RGB Color</string>
+    <string name="CloverProp_ColorRGBTrue">This clover will remember its RGB color</string>
+    <string name="CloverProp_ColorRGBFalse">This clover won\'t remember its RGB color</string>
+    <string name="CloverProp_ColorAlpha">Save and Set Color Alpha</string>
+    <string name="CloverProp_ColorAlphaTrue">This clover will remember its color alpha</string>
+    <string name="CloverProp_ColorAlphaFalse">This clover won\'t remember its color alpha</string>
+    <string name="CloverProp_PenSize">Save and Set Size</string>
+    <string name="CloverProp_PenSizeTrue">This clover will remember its size</string>
+    <string name="CloverProp_PenSizeFalse">This clover won\'t remember its size</string>
+    <string name="CloverProp_BlendOpacity">Save and Set Blend Opacity</string>
+    <string name="CloverProp_BlendOpacityTrue">This clover will remember its blend opacity</string>
+    <string name="CloverProp_BlendOpacityFalse">This clover won\'t remember its blend opacity</string>
+    <string name="CloverProp_PenBlur">Save and Set Pen Blur</string>
+    <string name="CloverProp_PenBlurTrue">This clover will remember its blur</string>
+    <string name="CloverProp_PenBlurFalse">This clover won\'t remember its blur</string>
+    <string name="CloverProp_StrokeBlend">Save and Set Stroke Blend</string>
+    <string name="CloverProp_StrokeBlendTrue">This clover will remember its stroke blend</string>
+    <string name="CloverProp_StrokeBlendFalse">This clover won\'t remember its stroke blend</string>
+    <string name="CloverProp_PenFlow">Save and Set Pen Flow</string>
+    <string name="CloverProp_PenFlowTrue">This clover will remember its flow</string>
+    <string name="CloverProp_PenFlowFalse">This clover won\'t remember its flow</string>
+    <string name="CloverProp_PenExtend">Save and Set Pen Extend Parameters</string>
+    <string name="CloverProp_PenExtendTrue">This clover will remember its pen extend parameters</string>
+    <string name="CloverProp_PenExtendFalse">This clover won\'t remember its pen extend parameters</string>
 
-    <string name="Core_CloverPaintAppExitDialog">Confirm exit CloverPaint</string>
-    <string name="Core_CloverMemoLiteAppExitDialog">Confirm exit CloverMemo Lite</string>
-    <string name="Core_CloverMemoAppExitDialog">Confirm exit CloverMemo</string>
-    <string name="Core_ConfirmSaveDialog">Confirm save your changes</string>
-    <string name="Core_ConfirmDiscardDialog">An image editing will lost, you all right?</string>
+    <string name="Core_CloverPaintAppExitDialog">Confirm exit of CloverPaint</string>
+    <string name="Core_CloverMemoLiteAppExitDialog">Confirm exit of CloverMemo Lite</string>
+    <string name="Core_CloverMemoAppExitDialog">Confirm exit of CloverMemo</string>
+    <string name="Core_ConfirmSaveDialog">Do you want to save your changes?</string>
+    <string name="Core_ConfirmDiscardDialog">All unsaved changes will be lost. Is this okay?</string>
     <string name="Core_ToastReadImageError">Failed to read image</string>
     <string name="Core_ToastAnalyzeImageError">Failed to analyze the image[%d]</string>
     <string name="Core_ToastSavedWorkingFile">Saved the current state to the working file</string>
@@ -998,10 +999,10 @@
 
     <string name="DrawToolCamera_NowLoadingProgress">Now loading…</string>
     <string name="DrawToolCamera_ToastLoadingError">Loading error</string>
-    <string name="DrawToolCamera_ConfirmClearEditDialog">Confirm clear the edit-layer same time</string>
-    <string name="DrawToolCamera_ConfirmClearAllDialog">Confirm clear all images same time</string>
-    <string name="DrawToolCamera_ToastNotSupport">File format is not support</string>
-    <string name="DrawToolCamera_ToastNotFoundLayer">Not found a valid layer</string>
+    <string name="DrawToolCamera_ConfirmClearEditDialog">Clear the layer?</string>
+    <string name="DrawToolCamera_ConfirmClearAllDialog">Clear all layers?</string>
+    <string name="DrawToolCamera_ToastNotSupport">File format is not supported</string>
+    <string name="DrawToolCamera_ToastNotFoundLayer">No valid layer found</string>
     <string name="DrawToolCamera_TooBigImageDialog" formatted="false">Load image(%d,%d) is larger than the screen</string>
     <string name="DrawToolCamera_ConfirmShrink">Confirm shrink</string>
 
@@ -1014,12 +1015,12 @@
 
     <string name="SandBox_AutoUpdate">Update</string>
     <string name="SandBox_Clear">Clear</string>
-    
+
     <string name="ViewFlip_CloverLabel">Flip.H</string>
-    <string name="ViewRoll_CloverLabel">Roll⇩</string>
-    <string name="ViewScale_CloverLabel">Scale⇩</string>
+    <string name="ViewRoll_CloverLabel">Rotate⇩</string>
+    <string name="ViewScale_CloverLabel">Zoom⇩</string>
     <string name="ViewAll_CloverLabel">All⇩</string>
-    <string name="NaviView_CloverLabel">Navi.V</string>
+    <string name="NaviView_CloverLabel">Nav.V</string>
     <string name="Undo_CloverLabel">Undo</string>
     <string name="Redo_CloverLabel">Redo</string>
     <string name="SelEditAll_CloverLabel">Sel.All</string>
@@ -1028,9 +1029,9 @@
     <string name="FillFGCol_CloverLabel">FG color</string>
     <string name="FillBGCol_CloverLabel">BG color</string>
     <string name="FillClear_CloverLabel">Clear</string>
-    
+
     <string name="FevMsgDlgBox_Abort">Abort</string>
-    <string name="FevMsgDlgBox_MoveInteger">Inteter</string>
+    <string name="FevMsgDlgBox_MoveInteger">Integer</string>
     <string name="FevMsgDlgBox_NotMove">Float</string>
     <string name="FevMsgDlgBox_TransImage">Trans</string>
     <string name="FevMsgDlgBox_Overwrite">OK</string>
@@ -1065,7 +1066,7 @@
     <string name="FevMsgDlgBox_StylusCheck">Select drawing device</string>
     <string name="FevMsgDlgBox_StylusSelStylus">Stylus</string>
     <string name="FevMsgDlgBox_StylusSelFinger">Finger</string>
-    
+
     <string name="CmiBlend_ColorNormal">Normal</string>
     <string name="CmiBlend_ColorBack">Back</string>
     <string name="CmiBlend_ColorMul">Mul</string>
@@ -1117,20 +1118,20 @@
     <string name="BucketSetting_ThrsPlane">Threshold source layer</string>
     <string name="BucketSetting_ThrsEdit">Check by the edit-layer colors</string>
     <string name="BucketSetting_ThrsVisible">Check by the visible colors</string>
-    <string name="BucketSetting_FuzzyRange">Fuzzy ratio</string>
-    <string name="BucketSetting_FuzzyMode">Fuzzy determination mode</string>
+    <string name="BucketSetting_FuzzyRange">Tolerance</string>
+    <string name="BucketSetting_FuzzyMode">Tolerance determination mode</string>
     <string name="BucketSetting_FuzzyModeNear">Near the threshold color</string>
     <string name="BucketSetting_FuzzyModeLower">Lower than threshold color</string>
-    <string name="BucketSetting_FuzzyModeUpper">Upper than threshold color</string>
-    <string name="BucketSetting_UseAdjoin">Use adjoin</string>
-    <string name="BucketSetting_UseAdjoinTrue">Checking adjacent</string>
-    <string name="BucketSetting_UseAdjoinFalse">Fill the entire adjacent to ignore</string>
+    <string name="BucketSetting_FuzzyModeUpper">Higher than threshold color</string>
+    <string name="BucketSetting_UseAdjoin">Contiguous</string>
+    <string name="BucketSetting_UseAdjoinTrue">Fill only connected areas</string>
+    <string name="BucketSetting_UseAdjoinFalse">Fill all areas</string>
     <string name="BucketSetting_ThrsLowerBound">lower bound</string>
     <string name="BucketSetting_ThrsUpperBound">upper bound</string>
 
-    <string name="ColorSetting_ColToolBar">Color pick up toolbar</string>
+    <string name="ColorSetting_ColToolBar">Color picker toolbar</string>
     <string name="ColorSetting_DisplayColToolBar">Display in the paint screen color toolbar</string>
-    <string name="ColorSetting_NotDisplayColToolBar">Not display in the paint screen color toolbar</string>
+    <string name="ColorSetting_NotDisplayColToolBar">Don\'t display color toolbar in the paint screen</string>
 
     <string name="CSetHexBase_White">White</string>
 
@@ -1141,22 +1142,22 @@
     <string name="BrushSetting_MoveLenTo">move</string>
     <string name="BrushSetting_MoveLenToUnit">pixels</string>
     <string name="BrushSetting_Size">Pen size</string>
-    <string name="BrushSetting_MoveFlow">Pen flow(move trigger)</string>
+    <string name="BrushSetting_MoveFlow">Pen flow (move trigger)</string>
     <string name="BrushSetting_SizeFlowToolBar">Pen size/flow toolbar</string>
     <string name="BrushSetting_DisplaySizeFlowToolBar">Display the pen size/flow toolbar</string>
-    <string name="BrushSetting_NotDisplaySizeFlowToolBar">Not display the pen size/flow toolbar</string>
-    <string name="BrushSetting_TimeFlow">Pen flow(time trigger)</string>
+    <string name="BrushSetting_NotDisplaySizeFlowToolBar">Don\'t display the pen size/flow toolbar</string>
+    <string name="BrushSetting_TimeFlow">Pen flow (time trigger)</string>
     <string name="BrushSetting_TimeFlowStop">　- flow in stopping</string>
-    <string name="BrushSetting_TimeFlowStart">　- delay start in case mixing(sec)</string>
+    <string name="BrushSetting_TimeFlowStart">　- delay start in case mixing (sec)</string>
     <string name="BrushSetting_Antialias">Anti-aliasing</string>
     <string name="BrushSetting_AntialiasTrue">Interpolated sub-pixel coordinate drawing</string>
     <string name="BrushSetting_AntialiasFalse">Anti-aliasing is disabled</string>
-    <string name="BrushSetting_BlurRatio">Blur ratio(Valid for circular pen)</string>
+    <string name="BrushSetting_BlurRatio">Blur ratio (Valid for circular pen)</string>
     <string name="BrushSetting_ItrpType">　- Interpolation type of blur</string>
-    <string name="BrushSetting_ItrpTypeSquare">Soft(square)</string>
-    <string name="BrushSetting_ItrpTypeLinear">Normal(linear)</string>
-    <string name="BrushSetting_ItrpTypeRSquare">LittleHard(square^-1)</string>
-    <string name="BrushSetting_ItrpTypeRCube">Hard(cube^-1)</string>
+    <string name="BrushSetting_ItrpTypeSquare">Soft (square)</string>
+    <string name="BrushSetting_ItrpTypeLinear">Normal (linear)</string>
+    <string name="BrushSetting_ItrpTypeRSquare">Sharp (square^-1)</string>
+    <string name="BrushSetting_ItrpTypeRCube">Sharpest (cube^-1)</string>
     <string name="BrushSetting_CalcType">Rendering operation type</string>
     <string name="BrushSetting_CalcTypeMove">Overwritten without mask</string>
     <string name="BrushSetting_CalcTypeAdd">Addition with concentration mask</string>
@@ -1326,7 +1327,7 @@
     <string name="CanvasSetting_BgPtn">Pattern</string>
     <string name="CanvasSetting_BgSize">Size</string>
     <string name="CanvasSetting_BgPtnMove">Move</string>
-    
+
     <string name="CanvasSetting_NewBtn">Create new image</string>
     <string name="CanvasSetting_SaveBtn">Set to default</string>
 
@@ -1403,13 +1404,13 @@
     <string name="NaviView_MixScaleDown">High-definition scale down</string>
     <string name="NaviView_MixScaleDownTrue">Create mipmaps for navi-view(need reboot)</string>
     <string name="NaviView_MixScaleDownFalse">Use normal texture for navi-view(need reboot)</string>
-    
+
     <string name="ImgIOPsd_Background">*BG</string>
     <string name="ImgIOPsd_MergedImage">*Merged image</string>
-    
+
     <string name="GmMain_NowLoading">Now loading…</string>
     <string name="GmMain_NowSaving">Now saving…</string>
-    
+
     <string name="CmOpType_none"			>None</string>
     <string name="CmOpType_commandCancel"	>Command cancel</string>
     <string name="CmOpType_modeShift"		>Mode shift keys</string>
@@ -1508,7 +1509,7 @@
     <string name="CmOpType_selFileTool"		>Select file tool</string>
     <string name="CmOpType_settingBrush"	>Open brush setting</string>
     <string name="CmOpType_settingColor"	>Open color setting</string>
-    
+
     <string name="CmOpTypeFlag_click"			>Click</string>
     <string name="CmOpTypeFlag_hoveringClick"	>Hovering click</string>
     <string name="CmOpTypeFlag_hoveringHolding"	>Hovering holding</string>
@@ -1517,7 +1518,7 @@
     <string name="CmOpTypeFlag_repeat"			>Repeat</string>
     <string name="CmOpTypeFlag_holdingTouch"	>Holding touch</string>
     <string name="CmOpTypeFlag_protect"			>#PROTECT</string>
-    
+
     <string name="KeySC_FlagClick"				>Click</string>
     <string name="KeySC_FlagHoveringClick"		>Hovering click</string>
     <string name="KeySC_FlagHoveringHolding"	>Hovering holding</string>
@@ -1525,16 +1526,16 @@
     <string name="KeySC_FlagHolding"			>Holding</string>
     <string name="KeySC_FlagRepeat"				>Repeat</string>
     <string name="KeySC_FlagHoldingTouch"		>Holding touch</string>
-    
+
     <string name="KeySC_PressInputKey"			>Press trigger physical keys of a shortcut</string>
     <string name="KeySC_OkayNoOverlapping"		>Okay, Not exist overlapping keys</string>
     <string name="KeySC_SelectEventTrigger"		>Select event trigger</string>
     <string name="KeySC_OverlapSelf"			>Already exist same keys</string>
     <string name="KeySC_NoValidEvent"			>Not exist valid event</string>
-    
+
     <string name="KeySC_OverwriteSCKey"			>Will delete → </string>
     <string name="KeySC_DeleteFollowingKeys"	>Delete following trigger keys</string>
-    
+
     <string name="MainOption_FTWaitHoverEnd_Name"	>Wait hover end</string>
     <string name="MainOption_FTWaitBeginDown_Name"	>Wait pressure after stylus begin down(ms)</string>
     <string name="MainOption_FTThrsPress_Name"		>Threshold wait pressure(x0.1)</string>
@@ -1545,7 +1546,7 @@
     <string name="TexBSCaption_FlowCalc">Flow Calc</string>
     <string name="TexBSCaption_SpotSpace">Spot Space</string>
     <string name="TexBSCaption_OneShotUndo">One Shot Undo</string>
-    
+
     <!-- Spot向けパラメータ -->
     <string name="TexBS_Size">Size</string>
     <string name="TexBS_FixSizeByAppearance">Size by appearance</string>
@@ -1557,7 +1558,7 @@
     <string name="TexBS_ShapeTypeRect">Square</string>
     <string name="TexBS_ShapeTypeCircle">Circle</string>
     <string name="TexBS_BlurRatio">Blur ratio(Valid in circular pen)</string>
-    
+
     <string name="TexBS_ItrpType">Interpolation type of blur</string>
     <string name="TexBS_ItrpTypeSquare">Soft(square)</string>
     <string name="TexBS_ItrpTypeLinear">Normal(linear)</string>
@@ -1575,7 +1576,7 @@
     <string name="TexBS_UseAntiAlias">Anti-aliasing</string>
     <string name="TexBS_UseAntiAliasTrue">Interpolated sub-pixel coordinate drawing</string>
     <string name="TexBS_UseAntiAliasFalse">Anti-aliasing is disabled</string>
-    
+
     <!-- Stroke向けパラメータ -->
     <string name="TexBS_MoveFlow">Pen Flow(move trigger)</string>
     <string name="TexBS_StopFlow">Pen Flow(stop trigger)</string>
@@ -1613,7 +1614,7 @@
     <string name="TexBS_UseOneShotUndoFalse">Using normal stroke same as before</string>
     <string name="TexBS_OneShotLimitSize">Set limit pen size</string>
     <string name="TexBS_PredFactor">Add stroke prediction factor frames</string>
-    
+
     <!--データカテゴリポインタ -->
     <string name="TexBSPtr_SpotActiveRoll">Spot Active Roll</string>
     <string name="TexBSPtr_SpotActiveRollDesc">Setting the spot roll by the stroke direction</string>
@@ -1639,11 +1640,11 @@
     <string name="TexBSPtr_WholeActiveSpotDesc">Setting the fluctuation effect per spot</string>
     <string name="TexBSPtr_WholeActiveStroke">Per Stroke Jitter</string>
     <string name="TexBSPtr_WholeActiveStrokeDesc">Setting the fluctuation effect per stroke</string>
-    
+
     <!--ポインタ:AlphaTexture -->
     <string name="TexBS_AT_ScaleRateX">Change scale-X by the active pen size</string>
     <string name="TexBS_AT_ScaleRateY">Change scale-Y by the active pen size</string>
-    
+
     <!--ポインタ:PerlinNoise -->
     <string name="TexBS_PN_Type">Type</string>
     <string name="TexBS_PN_PerlinType2D">2D Texture</string>
@@ -1658,7 +1659,7 @@
     <string name="TexBS_PN_Power">Power</string>
     <string name="TexBS_PN_Seed">Seed</string>
     <string name="TexBS_PN_Offset">Offset</string>
-    
+
     <!--ポインタ:ColorTexture -->
     <!--
     <string name="TexBS_CT_UVSrcType">マッピングタイプ</string>
@@ -1677,32 +1678,32 @@
     <string name="TexBS_CT_UVMapRepeat">繰り返し</string>
     <string name="TexBS_CT_UVMapReverseRepeat">反転繰り返し</string>
     -->
-    
+
     <string name="TexBS_CT_ScaleRateX">Change scale-X by the active pen size</string>
     <string name="TexBS_CT_ScaleRateY">Change scale-Y by the active pen size</string>
     <string name="TexBS_CT_PenColRatio">Volume of the pen color</string>
     <string name="TexBS_CT_TexColRatio">Volume of the texture color</string>
     <string name="TexBS_CT_PenMulTexColRatio">Volume of the pen*texture color</string>
-    
+
     <!--ポインタ:SandSpot -->
     <string name="TexBS_SS_Flow">Flow</string>
-    
+
     <!--ポインタ:PostDensity -->
     <string name="TexBS_PD_ModRatio">Blend ratio of the modified opacity(Ratio)</string>
     <string name="TexBS_PD_BaseOffset">Base offset(Offset)</string>
     <string name="TexBS_PD_ActiveOffset">Active offset(Offset)</string>
     <string name="TexBS_PD_BaseBias">Base bias(Bias)</string>
     <string name="TexBS_PD_ActiveBias">Active bias(Bias)</string>
-    
+
     <!--ポインタ:TimeFlow -->
     <string name="TexBS_TF_Volume">Flow</string>
     <string name="TexBS_TF_Stopping">Flow in the stopping</string>
     <string name="TexBS_TF_Delay">Delay the start in case of mixing(sec)</string>
-    
+
     <!--ポインタ:CalcExNormParam -->
     <string name="TexBS_CENP_OverVolRatio">Addition ratio of the overlap volume of the flow</string>
     <string name="TexBS_CENP_DModVolRatio">Modify ratio when add to destination flow</string>
-    
+
     <!--ポインタ:CalcExCBufParam -->
     <string name="TexBSCaption_CECP_Density">Flow add tuning</string>
     <string name="TexBS_CECP_OverVolRatio">Addition ratio of the overlap volume of the flow</string>
@@ -1712,9 +1713,9 @@
     <string name="TexBS_CECP_DrawColBlendMode">Color buffer blend mode</string>
     <string name="TexBS_CECP_eCBufColBlendModulate">Modulate</string>
     <string name="TexBS_CECP_eCBufColBlendLerp">Lerp</string>
-    
+
     <!--ポインタ:CalcExMixParam -->
-    
+
     <string name="TexBS_CEMP_PenInitVolume">Pen color volume at initialize</string>
     <string name="TexBS_CEMP_DstInitVolume">Edit-layer color volume at initialize</string>
     <string name="TexBS_CEMP_MixMoveFlow">Mix blush flow</string>
@@ -1730,12 +1731,12 @@
     <string name="TexBS_CEMP_DstMoveMixType">Timing edit-layer color mixing</string>
     <string name="TexBS_CEMP_MixPreDraw">Mixing colors to get pre-drawing</string>
     <string name="TexBS_CEMP_MixPostDraw">Mixing colors to get post-drawing</string>
- 
+
     <string name="TexBS_CEMP_MixBlurNone">none</string>
     <string name="TexBS_CEMP_MixBlurNormal">normal</string>
     <string name="TexBS_CEMP_MixBlurNoisePixel">noise - pixel range</string>
     <string name="TexBS_CEMP_MixBlurNoiseRatio">noise - pen size ratio</string>
-    
+
     <string name="TexBSCaption_CEMP_DstBlur">Blur when get edit-layer color</string>
     <string name="TexBS_CEMP_DstBlurType">Blur type</string>
     <string name="TexBS_CEMP_DstBlurVolume">Volume</string>
@@ -1753,7 +1754,7 @@
     <string name="TexBS_CEMP_TempBlurNoiseNumSamp">Number of the noise sampling</string>
     <string name="TexBS_CEMP_PenMoveVolume">Supplement volume of the pen color</string>
     <string name="TexBS_CEMP_PenMinVolume">Minimum flow of the pen color</string>
-    
+
     <!--その他 -->
     <string name="TexBS_SpeedTo">speed</string>
     <string name="TexBS_PressTo">pressure</string>
@@ -1761,94 +1762,7 @@
     <string name="TexBS_TimeToUnit">second</string>
     <string name="TexBS_MoveLenTo">move</string>
     <string name="TexBS_MoveLenToUnit">pixels</string>
-    
-    <!--
-    <string name="TexBS_SizeFlowToolBar">Pen size/flow toolbar</string>
-    <string name="TexBS_DisplaySizeFlowToolBar">Display the pen size/flow toolbar</string>
-    <string name="TexBS_NotDisplaySizeFlowToolBar">Not display the pen size/flow toolbar</string>
-    <string name="TexBS_TimeFlow">Pen flow(time trigger)</string>
-    <string name="TexBS_TimeFlowStop">　- 停止流量</string>
-    <string name="TexBS_TimeFlowStart">　- 複合時開始遅延(秒)</string>
-    <string name="TexBS_MixCDstInitVolume">　- 混合：画面色初期取得量</string>
-    <string name="TexBS_MixCPenInitVolume">　- 混合：ペン色初期取得量</string>
-    <string name="TexBS_MixCPenMinVolume">　- 混合：ペン色最低維持流量</string>
-    <string name="TexBS_MixCDstMoveVolume">　- 混合：画面色移動中取得量</string>
-    <string name="TexBS_MixCDstMvFlowMulAVolume">　- 混合：取得量-不透明度相関率</string>
-    <string name="TexBS_MixCDstMoveMixType">　　- 画面色混合タイミング</string>
-    <string name="TexBS_MixCDstMoveMixTypePreDraw">描画前に画面色を取得して混合</string>
-    <string name="TexBS_MixCDstMoveMixTypePostDraw">描画後に画面色を取得して混合</string>
-    <string name="TexBS_MixCDstMoveGetActive">　　- 画面色取得量変化</string>
-    <string name="TexBS_MixCDstMoveGADirect">取得量は他の影響を受けない</string>
-    <string name="TexBS_MixCDstMoveGAFlow">取得量を流量で変化させる</string>
-    <string name="TexBS_MixCDstMoveGAOpacity">取得量を不透明度で変化させる</string>
-    <string name="TexBS_MixCDstMoveGAFlowOpacity">取得量を流量×不透明度で変化させる</string>
-    <string name="TexBS_MixCDstMovePenFlow">　　- 取得ペン濃度調整</string>
-    <string name="TexBS_MixCDstMovePFLinear">取得量を単純加算</string>
-    <string name="TexBS_MixCDstMovePFModulate">取得量を変調加算</string>
-    <string name="TexBS_MixCDstMovePFModMulDstA">取得量×不透明度の変調加算</string>
-    <string name="TexBS_MixCDstBlur">　- 混合：画面色取得ぼかし</string>
-    <string name="TexBS_RoughVolume">粗さ:強度</string>
-    <string name="TexBS_RoughFreq">粗さ:周波数</string>
-    <string name="TexBS_RoughPropPenSize">粗さ:周波数 - サイズ比例</string>
-    <string name="TexBS_RoughPropPenSizeTrue">ペンの太さに周波数を合わせる</string>
-    <string name="TexBS_RoughPropPenSizeFalse">ペンの太さによらず周波数は一定</string>
-    <string name="TexBS_RoughPower">粗さ:鋭さ</string>
-    <string name="TexBS_RoughSeed">粗さ:乱数初期化値</string>
-    <string name="TexBS_SandBrush">砂ブラシ</string>
-    <string name="TexBS_SandBrushTrue">ランダムな点で描画する</string>
-    <string name="TexBS_SandBrushFalse">通常の描画モード</string>
-    <string name="TexBS_SandBrushFlow">　- 砂ブラシ流量</string>
-    <string name="TexBS_PosScatterU">位置拡散(横方向)</string>
-    <string name="TexBS_PosScatterV">位置拡散(進行方向)</string>
-    <string name="TexBS_CtgLabelSize">太さ</string>
-    <string name="TexBS_CtgLabelOpacity">不透明度</string>
-    <string name="TexBS_CtgLabelFlow">流量</string>
-    <string name="TexBS_CtgLabelSandFlow">砂ブラシ流量</string>
-    <string name="TexBS_CtgLabelColor">色変化</string>
-    <string name="TexBS_CtgLabelDtMvDensity">編集面色混合量</string>
-    <string name="TexBS_FadeHead">開始(入り)</string>
-    <string name="TexBS_FadeTail">終了(抜き)</string>
-    <string name="TexBS_ActSpeedRangeMin">動的速度レンジ最小</string>
-    <string name="TexBS_ActSpeedRangeMax">動的速度レンジ最大</string>
-    <string name="TexBS_CorrelationRate">相関率</string>
-    <string name="TexBS_OfPower">の硬さ</string>
-    <string name="TexBS_InterpMin">　- 補間範囲最小</string>
-    <string name="TexBS_InterpMax">　- 補間範囲最大</string>
-    <string name="TexBS_PowerOfIntrp">　- 補間の硬さ</string>
-    <string name="TexBS_CallSubCalcTypeMix">混合モード設定</string>
-    <string name="TexBS_CallSubCalcTypeMixDesc">混合モード時の詳細なパラメータを設定</string>
-    <string name="TexBS_CallSubBlend">合成モード設定</string>
-    <string name="TexBS_CallSubBlendDesc">合成モードの詳細なパラメータを設定</string>
-    <string name="TexBS_CallSubRough">粗さ設定</string>
-    <string name="TexBS_CallSubRoughDesc">ノイズテクスチャのパラメータを設定</string>
-    <string name="TexBS_CallSubFadeHeadTail">入り抜き設定</string>
-    <string name="TexBS_CallSubFadeHeadTailDesc">ストローク末端での効果を設定</string>
-    <string name="TexBS_CallSubSpeedTo">速度効果</string>
-    <string name="TexBS_CallSubSpeedToDesc">ストローク速度変化による効果を設定</string>
-    <string name="TexBS_CallSubPressTo">筆圧効果</string>
-    <string name="TexBS_CallSubPressToDesc">筆圧変化による効果を設定</string>
-    <string name="TexBS_CallSubJitter">ジッター効果</string>
-    <string name="TexBS_CallSubJitterDesc">各種ランダム効果を設定</string>
-    <string name="TexBS_CallSubTimeTo">時間効果</string>
-    <string name="TexBS_CallSubTimeToDesc">ストローク時間経過による効果を設定</string>
-    <string name="TexBS_CallSubMoveLenTo">移動効果</string>
-    <string name="TexBS_CallSubMoveLenToDesc">ストローク移動距離による効果を設定</string>
-    <string name="TexBS_JitterPerSpotSize">サイズ ジッター(spot毎)</string>
-    <string name="TexBS_JitterPerSpotFlow">流量ジッター(spot毎)</string>
-    <string name="TexBS_JitterPerSpotColLerp">FG色->BG色 ジッター(spot毎)</string>
-    <string name="TexBS_JitterPerSpotHue">色相 ジッター(spot毎)</string>
-    <string name="TexBS_JitterPerSpotSat">彩度 ジッター(spot毎)</string>
-    <string name="TexBS_JitterPerSpotLum">輝度 ジッター(spot毎)</string>
-    <string name="TexBS_JitterPerSpotColOpacity">不透明度 ジッター(spot毎)</string>
-    <string name="TexBS_JitterPerStrokeSize">サイズ ジッター(stroke毎)</string>
-    <string name="TexBS_JitterPerStrokeFlow">流量ジッター(stroke毎)</string>
-    <string name="TexBS_JitterPerStrokeColLerp">FG色->BG色 ジッター(stroke毎)</string>
-    <string name="TexBS_JitterPerStrokeHue">色相 ジッター(stroke毎)</string>
-    <string name="TexBS_JitterPerStrokeSat">彩度 ジッター(stroke毎)</string>
-    <string name="TexBS_JitterPerStrokeLum">輝度 ジッター(stroke毎)</string>
-    <string name="TexBS_JitterPerStrokeColOpacity">不透明度 ジッター(stroke毎)</string>
-    -->
-    
+
     <!-- SpotActiveRoll -->
     <string name="TexBSCaption_SAR_RollSpotInit">Initial roll of the spot</string>
     <string name="TexBS_SAR_InitRollSpotByStroke">Initialize by stroke start direction</string>
@@ -1873,7 +1787,7 @@
     <string name="TBS_RA_TailMoveLenTo">Move</string>
     <string name="TBS_RA_RatioMoveLenTo">Ratio of the move in the stroke</string>
     <string name="TBS_RA_RatioTimeTo">Ratio of the time in the stroke</string>
-    
+
     <string name="TBS_RA_PressToDesc" formatted="false" >Setting the effect of the %s is changed by pressure</string>
     <string name="TBS_RA_SpeedToDesc" formatted="false" >Setting the effect of the %s is changed by speed</string>
     <string name="TBS_RA_TiltToDesc" formatted="false" >Setting the effect of the %s is changed by tilt</string>
@@ -1886,7 +1800,7 @@
     <string name="TBS_RA_TailMoveLenToDesc" formatted="false" >Setting the effect of the %s is changed by move</string>
     <string name="TBS_RA_RatioMoveLenToDesc" formatted="false" >Setting the effect of the %s is changed by ratio of the move in the stroke</string>
     <string name="TBS_RA_RatioTimeToDesc" formatted="false" >Setting the effect of the %s is changed by ratio of the time in the stroke</string>
-    
+
     <string name="TBS_RA_Caption_MinLimit">Min Limit</string>
     <string name="TBS_RA_MinLimitType">Type</string>
     <string name="TBS_RA_MinLimitNone">none</string>
@@ -1895,16 +1809,16 @@
     <string name="TBS_RA_MinLimitBoth">by absolute value and ratio</string>
     <string name="TBS_RA_MinLimitValueAbs">absolute value</string>
     <string name="TBS_RA_MinLimitValueRatio">ratio</string>
-    
+
     <string name="TBS_RA_Caption_Head">Effect at the head</string>
     <string name="TBS_RA_Caption_Tail">Effect at the tail</string>
     <string name="TBS_RA_Caption_Both">Effect at the both ends</string>
-    
+
     <string name="TBS_RA_Caption_TwoPass">Stroke use by 2-pass</string>
     <string name="TBS_RA_TwoPass">Switch of 2-pass</string>
     <string name="TBS_RA_TwoPassTrue">Enabled all effects by using 2-pass drawing</string>
     <string name="TBS_RA_TwoPassFalse">When using 1-pass drawing, a part of the effect is disabled</string>
-    
+
     <!-- TexBrushSetting - RangeActive パラメータ名 -->
     <string name="TBS_RA_ParamNameSize">Size</string>
     <string name="TBS_RA_ParamNameFlow">Flow</string>
@@ -1921,7 +1835,7 @@
     <string name="TBS_RA_ParamNamePD_ActiveBias">Active bias</string>
     <string name="TBS_RA_ParamNameCEMP_PenMoveVolume">Supplement volume of the pen color</string>
     <string name="TBS_RA_ParamNameCEMP_PenMinVolume">Minimum flow of the pen color</string>
-    
+
     <!-- TexBrushSetting - RangeActive選択Dialog -->
     <string name="TBS_RA_SelSetCaption_PressTo">Select the effect setting method due to the pressure</string>
     <string name="TBS_RA_SelSetCaption_SpeedTo">Select the effect setting method due to the speed</string>
@@ -1935,35 +1849,35 @@
     <string name="TBS_RA_SelSetCaption_TailMoveLenTo">Select the effect setting method due to the move of the tail</string>
     <string name="TBS_RA_SelSetCaption_RatioMoveLenTo">Select the effect setting method due to the move ratio of the both ends</string>
     <string name="TBS_RA_SelSetCaption_RatioTimeTo">Select the effect setting method due to the time ratio of the both ends</string>
-    
+
     <string name="TBS_RA_SetWayRange">Power and ratio</string>
     <string name="TBS_RA_SetWaySpline">Spline</string>
     <string name="TBS_RA_SetWayFree">Free curve</string>
     <string name="TBS_RA_SetWayRangeDesc">Setting the effect by simply power and ratio</string>
     <string name="TBS_RA_SetWaySplineDesc">Setting the effect by the spline curve</string>
     <string name="TBS_RA_SetWayFreeDesc">Setting the effect by the free curve</string>
-    
+
     <string name="TBS_RA_BtnEdit">Edit</string>
     <string name="TBS_RA_BtnAdd">Add</string>
-    
+
     <!-- TexBrushSetting - RangeInterBase設定 -->
     <string name="TBS_RA_CS_Base_Min">Effect range - min</string>
     <string name="TBS_RA_CS_Base_Max">Effect range - max</string>
     <string name="TBS_RA_CS_Base_Scale">Proportional ratio of the range by the pen size</string>
-    
+
     <!-- TexBrushSetting - RangeInterRatioAndPower設定 -->
     <string name="TBS_RA_CS_Range_Ratio">Ratio</string>
     <string name="TBS_RA_CS_Range_Power">Power</string>
-    
+
     <!-- TexBrushSetting - RangeInterSpline設定 -->
     <string name="TBS_RA_CS_Spline_Pos">In volume</string>
     <string name="TBS_RA_CS_Spline_Value">Out volume</string>
-    
+
     <!-- TexBrushSetting - RangeInterFree設定 -->
     <string name="TBS_RA_CS_Free_Pos">In volume</string>
     <string name="TBS_RA_CS_Free_Value">Out volume</string>
     <string name="TBS_RA_CS_FrBtn_Smooth">Smoothing</string>
-    
+
     <!-- TexBrushSetting - RangeActive - CurveSetting -->
     <string name="TBS_RA_CS_LbXPressTo"			>→Press</string>
     <string name="TBS_RA_CS_LbXSpeedTo"			>→Speed</string>
@@ -1993,13 +1907,13 @@
     <string name="TBS_RA_CS_LbYPD_ModRatio">Blend ratio↑</string>
     <string name="TBS_RA_CS_LbYPD_ActiveOffset">Active offset↑</string>
     <string name="TBS_RA_CS_LbYPD_ActiveBias">Active bias↑</string>
-    
+
     <string name="TBS_RA_CS_SpBtn_AddPrev">Add to prev</string>
     <string name="TBS_RA_CS_SpBtn_AddNext">Add to next</string>
     <string name="TBS_RA_CS_SpBtn_SelPrev">Select prev</string>
     <string name="TBS_RA_CS_SpBtn_SelNext">Select next</string>
     <string name="TBS_RA_CS_SpBtn_Delete">Delete</string>
-    
+
     <!-- 濃度テクスチャ - システムテクスチャ名 -->
     <string name="TBS_ab0000">Stripe(H) 01</string>
     <string name="TBS_ab0001">Stripe(H) 02</string>
@@ -2013,7 +1927,7 @@
     <string name="TBS_ab0009">Cloud</string>
     <string name="TBS_ab0010">Clover</string>
     <string name="TBS_ab0011">Foot print</string>
-    
+
     <!-- カラーテクスチャ - システムテクスチャ名 -->
     <string name="TBS_tb0000">Bush 01</string>
     <string name="TBS_tb0001">Burh 02</string>
@@ -2022,18 +1936,18 @@
     <string name="TBS_tb0004">Cloudy sky</string>
     <string name="TBS_tb0005">Tree trunk</string>
     <string name="TBS_tb0006">Wall</string>
-    
+
     <!-- 濃度テクスチャ - ユーザーテクスチャ追加ダイアログ -->
     <string name="TexBS_AddUserAlphaTexture">Add user texture</string>
     <string name="TexBS_AddATDlg_ToolInvert">Invert</string>
     <string name="TexBS_AddATDlg_ToolRename">Rename</string>
     <string name="TexBS_AddATDlg_AddTexDesc">Select an image file by press on the ＋ button</string>
-    
+
     <string name="TexBS_OnApply_SaveFileOpenError">Unable to create the output file</string>
     <string name="TexBS_ATLoadTex_LoadingError">Loading error</string>
     <string name="TexBS_ATLoadTex_NotSupport">File format is not support</string>
     <string name="TexBS_ATLoadTex_NowLoadingProgress">Now loading…</string>
-    
+
     <!-- Spotジッター -->
     <string name="TexBSJit_SpotPosU">Position scattering(beside)</string>
     <string name="TexBSJit_SpotPosV">Posistion scattering(travel)</string>
@@ -2057,7 +1971,7 @@
     <string name="TexBSJit_SpotSatDesc">Setting the effect per spot to the Saturation of the pen color</string>
     <string name="TexBSJit_SpotLumDesc">Setting the effect per spot to the Brightness of the pen color</string>
     <string name="TexBSJit_SpotColOpacityDesc">Setting the effect per spot to the Opacity of the pen color</string>
-    
+
     <!-- Strokeジッター -->
     <string name="TexBSJit_StrokeSize">Pen size(per stroke)</string>
     <string name="TexBSJit_StrokeFlow">Flow(per stroke)</string>
@@ -2073,7 +1987,7 @@
     <string name="TexBSJit_StrokeSatDesc">Setting the effect per stroke to the Saturation of the pen color</string>
     <string name="TexBSJit_StrokeLumDesc">Setting the effect per stroke to the Brightness of the pen color</string>
     <string name="TexBSJit_StrokeColOpacityDesc">Setting the effect per stroke to the Opacity of the pen color</string>
-    
+
     <!-- ジッター関数選択ダイアログキャプション -->
     <string name="TBS_WA_SelSetCaptionFormat" formatted="false">Select the effect setting method for the %s</string>
     <string name="TBS_WA_SetWayNoise">White noise</string>
@@ -2084,7 +1998,7 @@
     <string name="TBS_WA_SetWayPerlinDesc">Setting the effect by random with a continuity by the perlin noise</string>
     <string name="TBS_WA_BtnEdit">Edit</string>
     <string name="TBS_WA_BtnAdd">Add</string>
-    
+
     <!-- ジッター関数パラメータ -->
     <string name="TBS_WA_CS_Bias">Bias</string>
     <string name="TBS_WA_CS_Dispersal">Dispersal</string>
@@ -2096,10 +2010,10 @@
     <string name="TBS_WA_CS_RandSeedTrue">Random seed is initialized by random at begin stroke</string>
     <string name="TBS_WA_CS_RandSeedFalse">Random seed is fixed by the following number</string>
     <string name="TBS_WA_CS_Seed">Seed</string>
-    
+
     <string name="TBS_WA_CS_LbXSpot">→Stroke progression</string>
     <string name="TBS_WA_CS_LbXStroke">→per stroke</string>
-    
+
     <string name="TBS_WA_CS_LbYSpotPosU">Position scattering(beside)↕</string>
     <string name="TBS_WA_CS_LbYSpotPosV">Posistion scattering(travel)↕</string>
     <string name="TBS_WA_CS_LbYSpotFixRoll">Roll of the spot center↕</string>
@@ -2111,7 +2025,7 @@
     <string name="TBS_WA_CS_LbYSpotSat">Saturation(per spot)↑</string>
     <string name="TBS_WA_CS_LbYSpotLum">Brightness(per spot)↑</string>
     <string name="TBS_WA_CS_LbYSpotColOpacity">Opacity(per spot)↑</string>
-    
+
     <string name="TBS_WA_CS_LbYStrokeSize">Pen size(per stroke)↑</string>
     <string name="TBS_WA_CS_LbYStrokeFlow">Flow(per stroke)↑</string>
     <string name="TBS_WA_CS_LbYStrokeColLerp">Color BG→FG(per stroke)↑</string>
@@ -2119,7 +2033,7 @@
     <string name="TBS_WA_CS_LbYStrokeSat">Saturation(per stroke)↑</string>
     <string name="TBS_WA_CS_LbYStrokeLum">Brightness(per stroke)↑</string>
     <string name="TBS_WA_CS_LbYStrokeColOpacity">Opacity(per stroke)↑</string>
-    
+
     <!-- Brushデータ入力 -->
     <string name="BrushImport_NotFoundData">Not found a valid brush data in the canvas image</string>
 </resources>
