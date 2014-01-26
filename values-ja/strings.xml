@@ -1133,6 +1133,17 @@
     <string name="ColorSetting_DisplayColToolBar">ツールバーをペイント画面に表示する</string>
     <string name="ColorSetting_NotDisplayColToolBar">ツールバーをペイント画面に表示しない</string>
 
+    <string name="HandShakeCorrectSetting_Type">補正タイプ</string>
+    <string name="HandShakeCorrectSetting_Type_TimeDelay"			>時間遅延させる</string>
+    <string name="HandShakeCorrectSetting_Type_MoveDelay"			>距離遅延させる</string>
+    <string name="HandShakeCorrectSetting_Type_TimeDelayAndAccel"	>時間遅延と加速度計算</string>
+    <string name="HandShakeCorrectSetting_Type_MoveDelayAndAccel"	>距離遅延と加速度計算</string>
+    <string name="HandShakeCorrectSetting_TimeDelay">遅延時間(ms)</string>
+    <string name="HandShakeCorrectSetting_MoveDelay">遅延距離</string>
+    <string name="HandShakeCorrectSetting_InertiaRatio">慣性比率</string>
+    <string name="HandShakeCorrectSetting_FixResistance">摩擦抵抗</string>
+    <string name="HandShakeCorrectSetting_RatioResistance">空気抵抗</string>
+
     <string name="CSetHexBase_White">純白</string>
 
     <string name="BrushSetting_SpeedTo">速度</string>

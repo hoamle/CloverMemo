@@ -1133,6 +1133,17 @@
     <string name="ColorSetting_DisplayColToolBar">Display in the paint screen color toolbar</string>
     <string name="ColorSetting_NotDisplayColToolBar">Don\'t display color toolbar in the paint screen</string>
 
+    <string name="HandShakeCorrectSetting_Type">Correct Type</string>
+    <string name="HandShakeCorrectSetting_Type_TimeDelay"			>Time delay</string>
+    <string name="HandShakeCorrectSetting_Type_MoveDelay"			>Move delay</string>
+    <string name="HandShakeCorrectSetting_Type_TimeDelayAndAccel"	>Time delay and accel</string>
+    <string name="HandShakeCorrectSetting_Type_MoveDelayAndAccel"	>Move delay and accel</string>
+    <string name="HandShakeCorrectSetting_TimeDelay">Time delay(ms)</string>
+    <string name="HandShakeCorrectSetting_MoveDelay">Move delay</string>
+    <string name="HandShakeCorrectSetting_InertiaRatio">Inertia ratio</string>
+    <string name="HandShakeCorrectSetting_FixResistance">Frictional resistance</string>
+    <string name="HandShakeCorrectSetting_RatioResistance">Air resistance</string>
+
     <string name="CSetHexBase_White">White</string>
 
     <string name="BrushSetting_SpeedTo">speed</string>
