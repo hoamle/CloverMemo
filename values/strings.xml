@@ -1552,6 +1552,10 @@
     <string name="MainOption_FTThrsPress_Name"		>Threshold wait pressure(x0.1)</string>
     <string name="MainOption_FTDelayBeginDown_Name"	>Delay event processing after stylus down(ms)</string>
 
+    <string name="TexBS_UseHandShakeCorrect">Hand Shake Correct</string>
+    <string name="TexBS_UseHandShakeCorrectTrue">Hand shake correct is enable</string>
+    <string name="TexBS_UseHandShakeCorrectFalse">Hand shake correct is disable</string>
+    
     <string name="TexBSCaption_SpotBasic">Spot Basic</string>
     <string name="TexBSCaption_StrokeBlend">Stroke Blend</string>
     <string name="TexBSCaption_FlowCalc">Flow Calc</string>

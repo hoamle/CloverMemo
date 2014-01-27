@@ -1552,6 +1552,10 @@
     <string name="MainOption_FTThrsPress_Name"		>スタイラスDown判定の最低筆圧(x0.1)</string>
     <string name="MainOption_FTDelayBeginDown_Name"	>スタイラスDown処理の遅延(ms)</string>
 
+    <string name="TexBS_UseHandShakeCorrect">手ブレ補正</string>
+    <string name="TexBS_UseHandShakeCorrectTrue">手ブレ補正を有効にする</string>
+    <string name="TexBS_UseHandShakeCorrectFalse">手ブレ補正は無効</string>
+    
     <string name="TexBSCaption_SpotBasic">Spot基本設定</string>
     <string name="TexBSCaption_StrokeBlend">ストローク合成</string>
     <string name="TexBSCaption_FlowCalc">濃度演算</string>
