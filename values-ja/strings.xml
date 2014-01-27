@@ -1133,7 +1133,9 @@
     <string name="ColorSetting_DisplayColToolBar">ツールバーをペイント画面に表示する</string>
     <string name="ColorSetting_NotDisplayColToolBar">ツールバーをペイント画面に表示しない</string>
 
+    <string name="HandShakeCorrectSetting_FilterVolume">ガウスフィルタ強度</string>
     <string name="HandShakeCorrectSetting_Type">補正タイプ</string>
+    <string name="HandShakeCorrectSetting_Type_None"				>なし</string>
     <string name="HandShakeCorrectSetting_Type_TimeDelay"			>時間遅延させる</string>
     <string name="HandShakeCorrectSetting_Type_MoveDelay"			>距離遅延させる</string>
     <string name="HandShakeCorrectSetting_Type_TimeDelayAndAccel"	>時間遅延と加速度計算</string>

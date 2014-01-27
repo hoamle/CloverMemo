@@ -1133,7 +1133,9 @@
     <string name="ColorSetting_DisplayColToolBar">Display in the paint screen color toolbar</string>
     <string name="ColorSetting_NotDisplayColToolBar">Don\'t display color toolbar in the paint screen</string>
 
+    <string name="HandShakeCorrectSetting_FilterVolume">Gaussian Filter Level</string>
     <string name="HandShakeCorrectSetting_Type">Correct Type</string>
+    <string name="HandShakeCorrectSetting_Type_None"				>None</string>
     <string name="HandShakeCorrectSetting_Type_TimeDelay"			>Time delay</string>
     <string name="HandShakeCorrectSetting_Type_MoveDelay"			>Move delay</string>
     <string name="HandShakeCorrectSetting_Type_TimeDelayAndAccel"	>Time delay and accel</string>
