@@ -372,6 +372,7 @@
     <string name="MBtnPen_BrushImport">Brush Imp.</string>
     <string name="MBtnPen_Color">Color…</string>
     <string name="MBtnPen_HandShakeCorrect">Correct</string>
+    <string name="MBtnPen_HandShakeCorrectClover">+Correct</string>
     <string name="MBtnPen_NewClover"> Clover</string>
     <string name="MBtnPen_CopyClover">+Clover</string>
 
@@ -1029,6 +1030,7 @@
     <string name="FillFGCol_CloverLabel">FG color</string>
     <string name="FillBGCol_CloverLabel">BG color</string>
     <string name="FillClear_CloverLabel">Clear</string>
+    <string name="HandShakeCorrect_CloverLabel">ON/OFF</string>
 
     <string name="FevMsgDlgBox_Abort">Abort</string>
     <string name="FevMsgDlgBox_MoveInteger">Integer</string>
@@ -1133,18 +1135,42 @@
     <string name="ColorSetting_DisplayColToolBar">Display in the paint screen color toolbar</string>
     <string name="ColorSetting_NotDisplayColToolBar">Don\'t display color toolbar in the paint screen</string>
 
-    <string name="HandShakeCorrectSetting_FilterVolume">Gaussian Filter Level</string>
-    <string name="HandShakeCorrectSetting_Type">Correct Type</string>
-    <string name="HandShakeCorrectSetting_Type_None"				>None</string>
-    <string name="HandShakeCorrectSetting_Type_TimeDelay"			>Time delay</string>
-    <string name="HandShakeCorrectSetting_Type_MoveDelay"			>Move delay</string>
-    <string name="HandShakeCorrectSetting_Type_TimeDelayAndAccel"	>Time delay and accel</string>
-    <string name="HandShakeCorrectSetting_Type_MoveDelayAndAccel"	>Move delay and accel</string>
-    <string name="HandShakeCorrectSetting_TimeDelay">Time delay(ms)</string>
-    <string name="HandShakeCorrectSetting_MoveDelay">Move delay</string>
-    <string name="HandShakeCorrectSetting_InertiaRatio">Inertia ratio</string>
-    <string name="HandShakeCorrectSetting_FixResistance">Frictional resistance</string>
-    <string name="HandShakeCorrectSetting_RatioResistance">Air resistance</string>
+    <string name="HSCSetting_StrokeDeform_Caption"				>Stroke Deform</string>
+    <string name="HSCSetting_DelayParams_Caption"				>Params of the Delay follow stroke</string>
+    <string name="HSCSetting_InrParams_Caption"					>Params of the Inertia stroke</string>
+    <string name="HSCSetting_WipeParams_Caption"				>Params of the Wipe control</string>
+    <string name="HSCSetting_KnotGen_Caption"					>Knot generate</string>
+    
+    <string name="HSCSetting_SelHSCType"						>Select type of the Hand Shake Correct</string>
+    <string name="HSCSetting_SelHSCType_Gaussian3Only"			>Gaussian filter (blur)</string>
+    <string name="HSCSetting_SelHSCType_TimeKnotGenL"			>Generate Knot regular interval(Low)</string>
+    <string name="HSCSetting_SelHSCType_TimeKnotGenH"			>Generate Knot regular interval(High)</string>
+    <string name="HSCSetting_SelHSCType_DelayFollowL"			>Delay follow up(Low)</string>
+    <string name="HSCSetting_SelHSCType_DelayFollowH"			>Delay follow up(High)</string>
+    <string name="HSCSetting_SelHSCType_InertiaL"				>Inertia delay(Low)</string>
+    <string name="HSCSetting_SelHSCType_InertiaH"				>Inertia delay(High)</string>
+    <string name="HSCSetting_SelHSCType_UserCustom"				>User Custom</string>
+    
+    <string name="HSCSetting_FilterVolume"						>Gaussian Finter Level</string>
+    <string name="HSCSetting_StrokeDeformType"					>Type of Stroke Deform</string>
+    <string name="HSCSetting_StrokeDeformType_None"				>None</string>
+    <string name="HSCSetting_StrokeDeformType_DelayFollowUp"	>Delay follow up</string>
+    <string name="HSCSetting_StrokeDeformType_Inertia"			>Inertia delay</string>
+    <string name="HSCSetting_DelayFollowUpRatio"				>Follow up ratio</string>
+    <string name="HSCSetting_DelayMinVelocity"					>Min velocity</string>
+    <string name="HSCSetting_InrAccelVolume"					>Accel volume</string>
+    <string name="HSCSetting_InrRatioResistance"				>Air resistance</string>
+    <string name="HSCSetting_InrFixResistance"					>Friction resistance</string>
+    <string name="HSCSetting_WipeVolume"						>Wipe volume</string>
+    <string name="HSCSetting_WipeCurvatureDecay"				>Wipe curvature decay</string>
+    <string name="HSCSetting_WipeDirectionCorrect"				>Wipe direction correct</string>
+    <string name="HSCSetting_PressDelayIntrpPower"				>Power of the press delay interpolation</string>
+    <string name="HSCSetting_KnotGenType"						>Type of Generate Delay Knot</string>
+    <string name="HSCSetting_KnotGenType_Normal"				>Normal (through)</string>
+    <string name="HSCSetting_KnotGenType_TimeInterval"			>Time Fixed Interval</string>
+    <string name="HSCSetting_KnotGenType_MoveInterval"			>Move Fixed Interval</string>
+    <string name="HSCSetting_TimeInterval"						>Time Interval(ms)</string>
+    <string name="HSCSetting_MoveInterval"						>Move Interval</string>
 
     <string name="CSetHexBase_White">White</string>
 

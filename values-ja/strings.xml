@@ -371,7 +371,8 @@
     <string name="MBtnPen_BrushExport">ブラシ出力</string>
     <string name="MBtnPen_BrushImport">ブラシ入力</string>
     <string name="MBtnPen_Color">色…</string>
-    <string name="MBtnPen_HandShakeCorrect">手ブレ補正</string>
+    <string name="MBtnPen_HandShakeCorrect">手ぶれ補正</string>
+    <string name="MBtnPen_HandShakeCorrectClover">+手ぶれ補正</string>
     <string name="MBtnPen_NewClover">Clover化</string>
     <string name="MBtnPen_CopyClover">Clover複製</string>
 
@@ -1029,6 +1030,7 @@
     <string name="FillFGCol_CloverLabel">前景色</string>
     <string name="FillBGCol_CloverLabel">背景色</string>
     <string name="FillClear_CloverLabel">クリア</string>
+    <string name="HandShakeCorrect_CloverLabel">ON/OFF</string>
     
     <string name="FevMsgDlgBox_Abort">中断</string>
     <string name="FevMsgDlgBox_MoveInteger">整数化</string>
@@ -1133,18 +1135,42 @@
     <string name="ColorSetting_DisplayColToolBar">ツールバーをペイント画面に表示する</string>
     <string name="ColorSetting_NotDisplayColToolBar">ツールバーをペイント画面に表示しない</string>
 
-    <string name="HandShakeCorrectSetting_FilterVolume">ガウスフィルタ強度</string>
-    <string name="HandShakeCorrectSetting_Type">補正タイプ</string>
-    <string name="HandShakeCorrectSetting_Type_None"				>なし</string>
-    <string name="HandShakeCorrectSetting_Type_TimeDelay"			>時間遅延させる</string>
-    <string name="HandShakeCorrectSetting_Type_MoveDelay"			>距離遅延させる</string>
-    <string name="HandShakeCorrectSetting_Type_TimeDelayAndAccel"	>時間遅延と加速度計算</string>
-    <string name="HandShakeCorrectSetting_Type_MoveDelayAndAccel"	>距離遅延と加速度計算</string>
-    <string name="HandShakeCorrectSetting_TimeDelay">遅延時間(ms)</string>
-    <string name="HandShakeCorrectSetting_MoveDelay">遅延距離</string>
-    <string name="HandShakeCorrectSetting_InertiaRatio">慣性比率</string>
-    <string name="HandShakeCorrectSetting_FixResistance">摩擦抵抗</string>
-    <string name="HandShakeCorrectSetting_RatioResistance">空気抵抗</string>
+    <string name="HSCSetting_StrokeDeform_Caption"				>ストローク変化</string>
+    <string name="HSCSetting_DelayParams_Caption"				>遅延追従ストローク用パラメータ</string>
+    <string name="HSCSetting_InrParams_Caption"					>慣性運動ストローク用パラメータ</string>
+    <string name="HSCSetting_WipeParams_Caption"				>はらい制御用パラメータ</string>
+    <string name="HSCSetting_KnotGen_Caption"					>Knot生成</string>
+    
+    <string name="HSCSetting_SelHSCType"						>手ぶれ補正タイプの簡易選択</string>
+    <string name="HSCSetting_SelHSCType_Gaussian3Only"			>頂点座標平坦化 (ぼかし)</string>
+    <string name="HSCSetting_SelHSCType_TimeKnotGenL"			>Knotを一定時間間隔で調整(弱)</string>
+    <string name="HSCSetting_SelHSCType_TimeKnotGenH"			>Knotを一定時間間隔に調整(強)</string>
+    <string name="HSCSetting_SelHSCType_DelayFollowL"			>遅延追従タイプ・手ぶれ補正(弱)</string>
+    <string name="HSCSetting_SelHSCType_DelayFollowH"			>遅延追従タイプ・手ぶれ補正(強)</string>
+    <string name="HSCSetting_SelHSCType_InertiaL"				>慣性運動タイプ・手ぶれ補正(弱)</string>
+    <string name="HSCSetting_SelHSCType_InertiaH"				>慣性運動タイプ・手ぶれ補正(強)</string>
+    <string name="HSCSetting_SelHSCType_UserCustom"				>カスタム設定</string>
+    
+    <string name="HSCSetting_FilterVolume"						>ガウスフィルタ強度</string>
+    <string name="HSCSetting_StrokeDeformType"					>ストローク変化タイプ</string>
+    <string name="HSCSetting_StrokeDeformType_None"				>なし</string>
+    <string name="HSCSetting_StrokeDeformType_DelayFollowUp"	>遅延させて追従</string>
+    <string name="HSCSetting_StrokeDeformType_Inertia"			>慣性運動</string>
+    <string name="HSCSetting_DelayFollowUpRatio"				>追従割合</string>
+    <string name="HSCSetting_DelayMinVelocity"					>最低速度</string>
+    <string name="HSCSetting_InrAccelVolume"					>加速度の加算量</string>
+    <string name="HSCSetting_InrRatioResistance"				>空気抵抗</string>
+    <string name="HSCSetting_InrFixResistance"					>摩擦抵抗</string>
+    <string name="HSCSetting_WipeVolume"						>はらいの長さ</string>
+    <string name="HSCSetting_WipeCurvatureDecay"				>はらいの曲率減衰</string>
+    <string name="HSCSetting_WipeDirectionCorrect"				>はらいの方向補正</string>
+    <string name="HSCSetting_PressDelayIntrpPower"				>筆圧の遅延補間の変化硬さ</string>
+    <string name="HSCSetting_KnotGenType"						>Knot遅延生成タイプ</string>
+    <string name="HSCSetting_KnotGenType_Normal"				>入力をそのまま利用</string>
+    <string name="HSCSetting_KnotGenType_TimeInterval"			>一定の時間間隔</string>
+    <string name="HSCSetting_KnotGenType_MoveInterval"			>一定の距離間隔</string>
+    <string name="HSCSetting_TimeInterval"						>時間間隔(ms)</string>
+    <string name="HSCSetting_MoveInterval"						>距離間隔</string>
 
     <string name="CSetHexBase_White">純白</string>
 
@@ -1554,9 +1580,9 @@
     <string name="MainOption_FTThrsPress_Name"		>スタイラスDown判定の最低筆圧(x0.1)</string>
     <string name="MainOption_FTDelayBeginDown_Name"	>スタイラスDown処理の遅延(ms)</string>
 
-    <string name="TexBS_UseHandShakeCorrect">手ブレ補正</string>
-    <string name="TexBS_UseHandShakeCorrectTrue">手ブレ補正を有効にする</string>
-    <string name="TexBS_UseHandShakeCorrectFalse">手ブレ補正は無効</string>
+    <string name="TexBS_UseHandShakeCorrect">手ぶれ補正</string>
+    <string name="TexBS_UseHandShakeCorrectTrue">手ぶれ補正を有効にする</string>
+    <string name="TexBS_UseHandShakeCorrectFalse">手ぶれ補正は無効</string>
     
     <string name="TexBSCaption_SpotBasic">Spot基本設定</string>
     <string name="TexBSCaption_StrokeBlend">ストローク合成</string>
