@@ -1140,7 +1140,7 @@
     <string name="HSCSetting_InrParams_Caption"					>Params of the Inertia stroke</string>
     <string name="HSCSetting_WipeParams_Caption"				>Params of the Wipe control</string>
     <string name="HSCSetting_KnotGen_Caption"					>Knot generate</string>
-    
+
     <string name="HSCSetting_SelHSCType"						>Select type of the Hand Shake Correct</string>
     <string name="HSCSetting_SelHSCType_Gaussian3Only"			>Gaussian filter (blur)</string>
     <string name="HSCSetting_SelHSCType_TimeKnotGenL"			>Generate Knot regular interval(Low)</string>
@@ -1150,7 +1150,7 @@
     <string name="HSCSetting_SelHSCType_InertiaL"				>Inertia delay(Low)</string>
     <string name="HSCSetting_SelHSCType_InertiaH"				>Inertia delay(High)</string>
     <string name="HSCSetting_SelHSCType_UserCustom"				>User Custom</string>
-    
+
     <string name="HSCSetting_FilterVolume"						>Gaussian Finter Level</string>
     <string name="HSCSetting_StrokeDeformType"					>Type of Stroke Deform</string>
     <string name="HSCSetting_StrokeDeformType_None"				>None</string>
@@ -1180,6 +1180,9 @@
     <string name="BrushSetting_TimeToUnit">second</string>
     <string name="BrushSetting_MoveLenTo">move</string>
     <string name="BrushSetting_MoveLenToUnit">pixels</string>
+    <string name="BrushSetting_HandShakeCorrect">Hand Shake Correct</string>
+    <string name="BrushSetting_HandShakeCorrectTrue">Hand shake correct is enable</string>
+    <string name="BrushSetting_HandShakeCorrectFalse">Hand shake correct is disable</string>
     <string name="BrushSetting_Size">Pen size</string>
     <string name="BrushSetting_MoveFlow">Pen flow (move trigger)</string>
     <string name="BrushSetting_SizeFlowToolBar">Pen size/flow toolbar</string>
@@ -1583,7 +1586,7 @@
     <string name="TexBS_UseHandShakeCorrect">Hand Shake Correct</string>
     <string name="TexBS_UseHandShakeCorrectTrue">Hand shake correct is enable</string>
     <string name="TexBS_UseHandShakeCorrectFalse">Hand shake correct is disable</string>
-    
+
     <string name="TexBSCaption_SpotBasic">Spot Basic</string>
     <string name="TexBSCaption_StrokeBlend">Stroke Blend</string>
     <string name="TexBSCaption_FlowCalc">Flow Calc</string>

@@ -1180,6 +1180,9 @@
     <string name="BrushSetting_TimeToUnit">秒</string>
     <string name="BrushSetting_MoveLenTo">移動距離</string>
     <string name="BrushSetting_MoveLenToUnit">Pixel</string>
+    <string name="BrushSetting_HandShakeCorrect">手ぶれ補正</string>
+    <string name="BrushSetting_HandShakeCorrectTrue">手ぶれ補正を有効にする</string>
+    <string name="BrushSetting_HandShakeCorrectFalse">手ぶれ補正は無効</string>
     <string name="BrushSetting_Size">ペン太さ</string>
     <string name="BrushSetting_MoveFlow">ペン流量(移動トリガ)</string>
     <string name="BrushSetting_SizeFlowToolBar">太さ/流量 ツールバー</string>
