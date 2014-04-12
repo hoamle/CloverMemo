@@ -21,9 +21,10 @@
     <string name="MainOption_TouchCorrect_Name">Touch correction</string>
     <string name="MainOption_TouchCorrect_On">Compensate for noise at the start of a touch stroke</string>
     <string name="MainOption_TouchCorrect_Off">Do not compensate for noise at the start of a touch stroke</string>
-    <string name="MainOption_Smoothing_Name">Smoothing</string>
-    <string name="MainOption_Smoothing_On">Smooth pen strokes</string>
-    <string name="MainOption_Smoothing_Off">Do not smooth pen strokes</string>
+    <string name="MainOption_SmoothType_Name">Smoothing</string>
+    <string name="MainOption_SmoothType_None">Do not smooth pen strokes</string>
+    <string name="MainOption_SmoothType_BSpline">Smooth pen strokes with B-Spline</string>
+    <string name="MainOption_SmoothType_CatmullRom">Smooth pen strokes with Catmull-Rom</string>
     <string name="MainOption_HighScanRateMode_Name">Scan rate</string>
     <string name="MainOption_HighScanRateMode_On">Set to high frequency pen pointer scan</string>
     <string name="MainOption_HighScanRateMode_Off">Set to UI quality scan rate</string>
@@ -60,7 +61,7 @@
     <string name="MainOption_UseUIofEfT_On">Use the extension UI for tablets with digitizers (requires reboot)</string>
     <string name="MainOption_UseUIofEfT_Off">Use the default UI (requires reboot)</string>
     <string name="MainOption_NeedBuyEfTDlgTitle">Need to purchase a [Extension for Tablet] in order to use it</string>
-    <string name="MainOption_NeedBuyEfTDlgDesc">You can use to trial version until January 31, 2014.</string>
+    <string name="MainOption_NeedBuyEfTDlgDesc">You can use to trial version until April 30, 2014.</string>
     <string name="MainOption_BuyEfTKey">Buy it</string>
     <string name="MainOption_UseLimitedLicense">Try out</string>
     <string name="MainOption_ExtendBrush_Name">Extend pen setting</string>
@@ -332,6 +333,7 @@
 
     <string name="MBtnFile_File">File</string>
     <string name="MBtnFile_Save">Save</string>
+    <string name="MBtnFile_SaveClover">+Save</string>
     <string name="MBtnFile_Import">Import▽</string>
     <string name="MBtnFile_ImportImage">Image</string>
     <string name="MBtnFile_ImportPSD">PSD</string>
@@ -349,6 +351,7 @@
     <string name="MBtnTool_PenEraser">Eraser</string>
     <string name="MBtnTool_PenBlur">Blur</string>
     <string name="MBtnTool_PenFinger">Finger</string>
+    <string name="MBtnTool_PenPSEdit">PS.Edit</string>
     <string name="MBtnTool_PenMosaic">Mosaic</string>
     <string name="MBtnTool_PenDodging">Dodging</string>
 
@@ -365,6 +368,10 @@
     <string name="MBtnTool_MoveCutPaste">Cut&amp;Paste</string>
     <string name="MBtnTool_MoveCopyPaste">Copy&amp;Paste</string>
     <string name="MBtnTool_MoveTransform">Transform</string>
+    <string name="MBtnTool_AddSelRectClover">+Sel.rect</string>
+    <string name="MBtnTool_AddSelEllipseClover">+Sel.ellipse</string>
+    <string name="MBtnTool_AddSelFreeClover">+Sel.free</string>
+    <string name="MBtnTool_AddSelAutoClover">+Sel.auto</string>
 
     <string name="MBtnPen_Pen">Pen</string>
     <string name="MBtnPen_Brush">Brush…</string>
@@ -632,11 +639,13 @@
     <string name="MBtnMove_Modify">Modify</string>
     <string name="MBtnMove_Return">Return</string>
     <string name="MBtnMove_Tool">Move</string>
+    <string name="MBtnMove_AddClover">+Move</string>
     <string name="MBtnMove_SelTool">Sel.tool</string>
     <string name="MBtnMove_SelToolMove">Move</string>
     <string name="MBtnMove_SelToolTransform">Transform</string>
 
     <string name="MoveRebar_Apply">Apply</string>
+    <string name="MoveRebar_ApplyAndMerge">+Merge</string>
     <string name="MoveRebar_Rot180">r180</string>
     <string name="MoveRebar_Rot090">r90</string>
     <string name="MoveRebar_Rot270">r270</string>
@@ -644,14 +653,19 @@
     <string name="MoveRebar_FlipV">Flip.V</string>
     <string name="MoveRebar_Init">Reset</string>
 
-    <string name="MBtnTransform_Return">Return</string>
     <string name="MBtnTransform_Tool">Transform</string>
+    <string name="MBtnTransform_AddClover">+Transform</string>
+    <string name="MBtnTransform_Return">Return</string>
     <string name="MBtnTransform_SelTool">Sel.tool</string>
     <string name="MBtnTransform_SelToolMove">Move</string>
     <string name="MBtnTransform_SelToolTransform">Transform</string>
 
     <string name="TransformRebar_Apply">Apply</string>
+    <string name="TransformRebar_ApplyAndMerge">+Merge</string>
+    <string name="TransformRebar_TransFree">Free</string>
+    <string name="TransformRebar_TransPole">Pole</string>
     <string name="TransformRebar_Rotate">Rotate</string>
+    <string name="TransformRebar_Free">Free</string>
     <string name="TransformRebar_Skew">Skew</string>
     <string name="TransformRebar_Trape">Pers.</string>
     <string name="TransformRebar_SelTrans">Sel.trans</string>
@@ -699,6 +713,13 @@
     <string name="MBtnSelect_BldMul">Mul</string>
     <string name="MBtnSelect_BldSub">Sub</string>
     <string name="MBtnSelect_BldAdd">Add</string>
+
+    <string name="MBtnPSEdit_Return">Return</string>
+    <string name="MBtnPSEdit_SelMode">Sel.mode</string>
+    <string name="MBtnPSEdit_SelSimpleMode">Simple</string>
+    <string name="MBtnPSEdit_SelDetailMode">Detail</string>
+    <string name="MBtnPSEdit_PSEditClover">+PS.Edit</string>
+    <string name="PSEdit_NeedUseEfTUI">The tool work only on tablet UI[Requires EfT]</string>
 
     <string name="BrushToolBar_PenSize">Size</string>
     <string name="BrushToolBar_PenFlow">Flow</string>
@@ -835,6 +856,7 @@
     <string name="ToolDock_InfoView_TitleSelRange">Select Range</string>
     <string name="ToolDock_InfoView_TitleTrans">Transform</string>
     <string name="ToolDock_InfoView_TitleMove">Move</string>
+    <string name="ToolDock_InfoView_TitlePSEdit">Stroke Move</string>
     <string name="ToolDock_InfoView_InvTransPos" >"Pos   ----.--  ----.--"</string>
     <string name="ToolDock_InfoView_InvTransRot" >"Rot    ---.--"</string>
     <string name="ToolDock_InfoView_InvTransScl" >"Scl    ---.--   ---.--"</string>
@@ -849,6 +871,13 @@
     <string name="ToolDock_InfoView_TransPers" formatted="false">"Pers  %6.2f  %6.2f"</string>
     <string name="ToolDock_InfoView_TransFlip" formatted="false">"Flip [ %c ]"</string>
     <string name="ToolDock_InfoView_MovePos"   formatted="false">"Pos %6d %6d"</string>
+    <string name="ToolDock_InfoView_InvPSEditPos" >"Pos   ----.--  ----.--"</string>
+    <string name="ToolDock_InfoView_InvPSEditRot" >"Rot    ---.--"</string>
+    <string name="ToolDock_InfoView_InvPSEditScl" >"Scl    ---.--   ---.--"</string>
+    <string name="ToolDock_InfoView_PSEditPos"  formatted="false">"Pos  %7.2f %7.2f"</string>
+    <string name="ToolDock_InfoView_PSEditRot"  formatted="false">"Rot   %6.2f"</string>
+    <string name="ToolDock_InfoView_PSEditScl"  formatted="false">"Scl   %6.2f  %6.2f"</string>
+
     <string name="ToolDock_InfoView_DrawProfLevel1">Fine</string>
     <string name="ToolDock_InfoView_DrawProfLevel2">Nice</string>
     <string name="ToolDock_InfoView_DrawProfLevel3">Normal</string>
@@ -875,6 +904,38 @@
     <string name="ToolDock_Brush_BarLogSize">Setting of the logarithm value of the size bar</string>
     <string name="ToolDock_Brush_BarLogFlow">Setting of the logarithm value of the flow bar</string>
     <string name="ToolDock_Brush_BarLogOpacity">Setting of the logarithm value of the opacity bar</string>
+
+    <string name="ToolDock_PSEdit_BtnApply">Apply</string>
+    <string name="ToolDock_PSEdit_BtnTrans">Trans</string>
+    <string name="ToolDock_PSEdit_BtnFree">Free</string>
+    <string name="ToolDock_PSEdit_BtnCorrect">Correct</string>
+    <string name="ToolDock_PSEdit_BtnKnots">Knots</string>
+    <string name="ToolDock_PSEdit_BtnRender">Render</string>
+    <string name="ToolDock_PSEdit_BtnReset">Reset</string>
+    
+    <string name="ToolDock_PSEdit_BtnSelKnot">Sel.Knot</string>
+    <string name="ToolDock_PSEdit_BtnClrKnot">Clr.Knot</string>
+    <string name="ToolDock_PSEdit_BtnBrush">Brush</string>
+    <string name="ToolDock_PSEdit_BtnTime">Time</string>
+    <string name="ToolDock_PSEdit_BtnAddK">Add.Knot</string>
+    <string name="ToolDock_PSEdit_BtnDelK">Del.Knot</string>
+    <string name="ToolDock_PSEdit_BtnPrmK">Press</string>
+    <string name="ToolDock_PSEdit_BtnLine">Line</string>
+    
+    <string name="PSEditBrush_BtnPick">Pick</string>
+    <string name="PSEditBrush_BtnMove">Move</string>
+    <string name="PSEditBrush_BtnSmudge">Smudge</string>
+    <string name="PSEditBrush_BtnBlur">Smooth</string>
+    <string name="PSEditBrush_BarSize">Size</string>
+    <string name="PSEditBrush_BarFlow">Flow</string>
+    <string name="PSEditBrush_BarBlurRatio">Blur</string>
+    <string name="PSEditBrush_BarBlurPower">Power</string>
+    
+    <string name="PSEditDtPrm_Offset"	>Offset</string>
+    <string name="PSEditDtPrm_Mul"		>Multiply</string>
+    <string name="PSEditDtPrm_Fade"		>Fade</string>
+    <string name="PSEditDtPrm_Power"	>Power</string>
+    <string name="PSEditDtPrm_Smooth"	>Smooth</string>
 
     <string name="CloverDropper_Label">Eye drop</string>
     <string name="CloverDropper_LeafCancel">Cancel</string>
@@ -1021,20 +1082,29 @@
     <string name="SandBox_AutoUpdate">Update</string>
     <string name="SandBox_Clear">Clear</string>
 
-    <string name="ViewFlip_CloverLabel">Flip.H</string>
-    <string name="ViewRoll_CloverLabel">Rotate⇩</string>
-    <string name="ViewScale_CloverLabel">Zoom⇩</string>
-    <string name="ViewAll_CloverLabel">All⇩</string>
-    <string name="NaviView_CloverLabel">Nav.V</string>
-    <string name="Undo_CloverLabel">Undo</string>
-    <string name="Redo_CloverLabel">Redo</string>
-    <string name="SelEditAll_CloverLabel">Sel.All</string>
-    <string name="SelEditFlip_CloverLabel">Sel.Flip</string>
-    <string name="SelEditClear_CloverLabel">Sel.Clear</string>
-    <string name="FillFGCol_CloverLabel">FG color</string>
-    <string name="FillBGCol_CloverLabel">BG color</string>
-    <string name="FillClear_CloverLabel">Clear</string>
-    <string name="HandShakeCorrect_CloverLabel">ON/OFF</string>
+    <string name="ViewFlip_CloverLabel"				>Flip.H</string>
+    <string name="ViewRoll_CloverLabel"				>Rotate⇩</string>
+    <string name="ViewScale_CloverLabel"			>Zoom⇩</string>
+    <string name="ViewAll_CloverLabel"				>All⇩</string>
+    <string name="NaviView_CloverLabel"				>Nav.V</string>
+    <string name="Undo_CloverLabel"					>Undo</string>
+    <string name="Redo_CloverLabel"					>Redo</string>
+    <string name="SelEditAll_CloverLabel"			>Sel.All</string>
+    <string name="SelEditFlip_CloverLabel"			>Sel.Flip</string>
+    <string name="SelEditClear_CloverLabel"			>Sel.Clear</string>
+    <string name="FillFGCol_CloverLabel"			>FG color</string>
+    <string name="FillBGCol_CloverLabel"			>BG color</string>
+    <string name="FillClear_CloverLabel"			>Clear</string>
+    <string name="HandShakeCorrect_CloverLabel"		>ON/OFF</string>
+    <string name="Save_CloverLabel"					>Save</string>
+    <string name="Tool_SelRect_CloverLabel"			>Sel.rect</string>
+    <string name="Tool_SelEllipse_CloverLabel"		>Sel.elip</string>
+    <string name="Tool_SelFree_CloverLabel"			>Sel.free</string>
+    <string name="Tool_SelAuto_CloverLabel"			>Sel.auto</string>
+    <string name="Tool_Move_CloverLabel"			>Move</string>
+    <string name="Tool_Trans_CloverLabel"			>Trans</string>
+    <string name="Tool_PSEditSimple_CloverLabel"	>PS.Edit</string>
+    <string name="Tool_PSEditDetail_CloverLabel"	>PSE(Dtl)</string>
 
     <string name="FevMsgDlgBox_Abort">Abort</string>
     <string name="FevMsgDlgBox_MoveInteger">Integer</string>
@@ -1551,6 +1621,8 @@
     <string name="CmOpType_fillFGCol"		>Fill by the FG color</string>
     <string name="CmOpType_fillBGCol"		>Fill by the BG color</string>
     <string name="CmOpType_fillClear"		>Fill by transparent</string>
+    <string name="CmOpType_selPSEditSimple"	>Select Post-stroke editor tool</string>
+    <string name="CmOpType_selPSEditDetail"	>Select Post-stroke editor(Detail) tool</string>
     <string name="CmOpType_selSelFreeTool"	>Select sel.free tool</string>
     <string name="CmOpType_selSelAll"		>Fill select area</string>
     <string name="CmOpType_selSelEmpty"		>Clear select area</string>

@@ -21,9 +21,10 @@
     <string name="MainOption_TouchCorrect_Name">タッチ補正</string>
     <string name="MainOption_TouchCorrect_On">描画タッチ開始時のブレを補正</string>
     <string name="MainOption_TouchCorrect_Off">描画タッチ時のブレ補正は無効</string>
-    <string name="MainOption_Smoothing_Name">スムージング</string>
-    <string name="MainOption_Smoothing_On">ペンの描線を補正し滑らかにする</string>
-    <string name="MainOption_Smoothing_Off">ペンの描線補正は無効</string>
+    <string name="MainOption_SmoothType_Name">スムージング</string>
+    <string name="MainOption_SmoothType_None">ストローク補正は無効</string>
+    <string name="MainOption_SmoothType_BSpline">ストロークをB-Splineで補間して滑らかにする</string>
+    <string name="MainOption_SmoothType_CatmullRom">ストロークをCatmull-Romで補間して滑らかにする</string>
     <string name="MainOption_HighScanRateMode_Name">スキャンレート</string>
     <string name="MainOption_HighScanRateMode_On">高品位スキャンポイントデータを利用</string>
     <string name="MainOption_HighScanRateMode_Off">UI品位のスキャンポイントデータを利用</string>
@@ -60,7 +61,7 @@
     <string name="MainOption_UseUIofEfT_On">デジタイザー付きタブレット用のUIを利用(*要再起動)</string>
     <string name="MainOption_UseUIofEfT_Off">通常のUIを利用(*要再起動)</string>
     <string name="MainOption_NeedBuyEfTDlgTitle">「タブレット用機能拡張」の購入が必要な機能です</string>
-    <string name="MainOption_NeedBuyEfTDlgDesc">※ 2014年1月31日まで試用可能</string>
+    <string name="MainOption_NeedBuyEfTDlgDesc">※ 2014年4月30日まで試用可能</string>
     <string name="MainOption_BuyEfTKey">購入手続きへ</string>
     <string name="MainOption_UseLimitedLicense">試用する</string>
     <string name="MainOption_ExtendBrush_Name">ペンブラシ設定拡張</string>
@@ -332,6 +333,7 @@
 
     <string name="MBtnFile_File">ファイル</string>
     <string name="MBtnFile_Save">セーブ</string>
+    <string name="MBtnFile_SaveClover">+セーブ</string>
     <string name="MBtnFile_Import">入力▽</string>
     <string name="MBtnFile_ImportImage">イメージ</string>
     <string name="MBtnFile_ImportPSD">PSD</string>
@@ -349,6 +351,7 @@
     <string name="MBtnTool_PenEraser">消しゴム</string>
     <string name="MBtnTool_PenBlur">ぼかし</string>
     <string name="MBtnTool_PenFinger">指先</string>
+    <string name="MBtnTool_PenPSEdit">線の編集</string>
     <string name="MBtnTool_PenMosaic">モザイク</string>
     <string name="MBtnTool_PenDodging">覆い焼き</string>
 
@@ -365,6 +368,10 @@
     <string name="MBtnTool_MoveCutPaste">切り取り→</string>
     <string name="MBtnTool_MoveCopyPaste">コピ－→</string>
     <string name="MBtnTool_MoveTransform">変形</string>
+    <string name="MBtnTool_AddSelRectClover">+矩形選択</string>
+    <string name="MBtnTool_AddSelEllipseClover">+楕円選択</string>
+    <string name="MBtnTool_AddSelFreeClover">+自由選択</string>
+    <string name="MBtnTool_AddSelAutoClover">+自動選択</string>
 
     <string name="MBtnPen_Pen">ペン</string>
     <string name="MBtnPen_Brush">ブラシ…</string>
@@ -632,11 +639,13 @@
     <string name="MBtnMove_Modify">操作</string>
     <string name="MBtnMove_Return">戻る</string>
     <string name="MBtnMove_Tool">移動</string>
+    <string name="MBtnMove_AddClover">+移動</string>
     <string name="MBtnMove_SelTool">移動方法</string>
     <string name="MBtnMove_SelToolMove">移動</string>
     <string name="MBtnMove_SelToolTransform">変形</string>
 
     <string name="MoveRebar_Apply">適用</string>
+    <string name="MoveRebar_ApplyAndMerge">+統合</string>
     <string name="MoveRebar_Rot180">180°</string>
     <string name="MoveRebar_Rot090">90°</string>
     <string name="MoveRebar_Rot270">270°</string>
@@ -645,13 +654,18 @@
     <string name="MoveRebar_Init">初期値</string>
 
     <string name="MBtnTransform_Tool">変形</string>
+    <string name="MBtnTransform_AddClover">+変形</string>
     <string name="MBtnTransform_Return">戻る</string>
     <string name="MBtnTransform_SelTool">移動方法</string>
     <string name="MBtnTransform_SelToolMove">移動</string>
     <string name="MBtnTransform_SelToolTransform">変形</string>
 
     <string name="TransformRebar_Apply">適用</string>
+    <string name="TransformRebar_ApplyAndMerge">+統合</string>
+    <string name="TransformRebar_TransFree">自由変形</string>
+    <string name="TransformRebar_TransPole">軸変形</string>
     <string name="TransformRebar_Rotate">回転</string>
+    <string name="TransformRebar_Free">フリー</string>
     <string name="TransformRebar_Skew">傾き</string>
     <string name="TransformRebar_Trape">パース</string>
     <string name="TransformRebar_SelTrans">変形選択</string>
@@ -699,6 +713,13 @@
     <string name="MBtnSelect_BldMul">乗算</string>
     <string name="MBtnSelect_BldSub">減算</string>
     <string name="MBtnSelect_BldAdd">加算</string>
+
+    <string name="MBtnPSEdit_Return">戻る</string>
+    <string name="MBtnPSEdit_SelMode">モード選択</string>
+    <string name="MBtnPSEdit_SelSimpleMode">簡易モード</string>
+    <string name="MBtnPSEdit_SelDetailMode">詳細モード</string>
+    <string name="MBtnPSEdit_PSEditClover">+線の編集</string>
+    <string name="PSEdit_NeedUseEfTUI">タブレット用UI[要EfT]で動作する機能です</string>
 
     <string name="BrushToolBar_PenSize">⇄太さ</string>
     <string name="BrushToolBar_PenFlow">⇄流量</string>
@@ -835,6 +856,7 @@
     <string name="ToolDock_InfoView_TitleSelRange">選択範囲</string>
     <string name="ToolDock_InfoView_TitleTrans">変形</string>
     <string name="ToolDock_InfoView_TitleMove">移動</string>
+    <string name="ToolDock_InfoView_TitlePSEdit">線の移動</string>
     <string name="ToolDock_InfoView_InvTransPos" >"位置  ----.--  ----.--"</string>
     <string name="ToolDock_InfoView_InvTransRot" >"回転   ---.--"</string>
     <string name="ToolDock_InfoView_InvTransScl" >"倍率   ---.--"</string>
@@ -849,6 +871,13 @@
     <string name="ToolDock_InfoView_TransPers" formatted="false">"パース %6.2f  %6.2f"</string>
     <string name="ToolDock_InfoView_TransFlip" formatted="false">"反転 [ %c ]"</string>
     <string name="ToolDock_InfoView_MovePos"   formatted="false">"位置 %6d %6d"</string>
+    <string name="ToolDock_InfoView_InvPSEditPos" >"位置  ----.--  ----.--"</string>
+    <string name="ToolDock_InfoView_InvPSEditRot" >"回転   ---.--"</string>
+    <string name="ToolDock_InfoView_InvPSEditScl" >"倍率   ---.--"</string>
+    <string name="ToolDock_InfoView_PSEditPos"  formatted="false">"位置  %7.2f %7.2f"</string>
+    <string name="ToolDock_InfoView_PSEditRot"  formatted="false">"回転   %6.2f"</string>
+    <string name="ToolDock_InfoView_PSEditScl"  formatted="false">"倍率   %6.2f  %6.2f"</string>
+    
     <string name="ToolDock_InfoView_DrawProfLevel1">最高</string>
     <string name="ToolDock_InfoView_DrawProfLevel2">快適</string>
     <string name="ToolDock_InfoView_DrawProfLevel3">普通</string>
@@ -875,6 +904,38 @@
     <string name="ToolDock_Brush_BarLogSize">サイズ設定バーの対数値</string>
     <string name="ToolDock_Brush_BarLogFlow">流量設定バーの対数値</string>
     <string name="ToolDock_Brush_BarLogOpacity">不透明度設定バーの対数値</string>
+    
+    <string name="ToolDock_PSEdit_BtnApply">適用</string>
+    <string name="ToolDock_PSEdit_BtnTrans">変形</string>
+    <string name="ToolDock_PSEdit_BtnFree">フリー</string>
+    <string name="ToolDock_PSEdit_BtnCorrect">補正</string>
+    <string name="ToolDock_PSEdit_BtnKnots">制御点</string>
+    <string name="ToolDock_PSEdit_BtnRender">更新</string>
+    <string name="ToolDock_PSEdit_BtnReset">初期化</string>
+    
+    <string name="ToolDock_PSEdit_BtnSelKnot">Kt選択</string>
+    <string name="ToolDock_PSEdit_BtnClrKnot">クリア</string>
+    <string name="ToolDock_PSEdit_BtnBrush">ブラシ</string>
+    <string name="ToolDock_PSEdit_BtnTime">時間</string>
+    <string name="ToolDock_PSEdit_BtnAddK">Kt追加</string>
+    <string name="ToolDock_PSEdit_BtnDelK">Kt削除</string>
+    <string name="ToolDock_PSEdit_BtnPrmK">筆圧</string>
+    <string name="ToolDock_PSEdit_BtnLine">ライン</string>
+    
+    <string name="PSEditBrush_BtnPick"		>つまむ</string>
+    <string name="PSEditBrush_BtnMove"		>移動</string>
+    <string name="PSEditBrush_BtnSmudge"	>スマッジ</string>
+    <string name="PSEditBrush_BtnBlur"		>滑らかに</string>
+    <string name="PSEditBrush_BarSize"		>太さ</string>
+    <string name="PSEditBrush_BarFlow"		>流量</string>
+    <string name="PSEditBrush_BarBlurRatio"	>ぼかし</string>
+    <string name="PSEditBrush_BarBlurPower"	>ぼかし硬さ</string>
+    
+    <string name="PSEditDtPrm_Offset"	>オフセット</string>
+    <string name="PSEditDtPrm_Mul"		>乗算</string>
+    <string name="PSEditDtPrm_Fade"		>フェード</string>
+    <string name="PSEditDtPrm_Power"	>硬さ</string>
+    <string name="PSEditDtPrm_Smooth"	>滑らかに</string>
     
     <string name="CloverDropper_Label">スポイト</string>
     <string name="CloverDropper_LeafCancel">取消</string>
@@ -1021,21 +1082,30 @@
     <string name="SandBox_AutoUpdate">自動更新</string>
     <string name="SandBox_Clear">クリア</string>
 
-    <string name="ViewFlip_CloverLabel">反転</string>
-    <string name="ViewRoll_CloverLabel">回転⇩</string>
-    <string name="ViewScale_CloverLabel">倍率⇩</string>
-    <string name="ViewAll_CloverLabel">全表示⇩</string>
-    <string name="NaviView_CloverLabel">ナビ表示</string>
-    <string name="Undo_CloverLabel">元に戻す</string>
-    <string name="Redo_CloverLabel">やり直し</string>
-    <string name="SelEditAll_CloverLabel">全選択</string>
-    <string name="SelEditFlip_CloverLabel">選択反転</string>
-    <string name="SelEditClear_CloverLabel">選択解除</string>
-    <string name="FillFGCol_CloverLabel">前景色</string>
-    <string name="FillBGCol_CloverLabel">背景色</string>
-    <string name="FillClear_CloverLabel">クリア</string>
-    <string name="HandShakeCorrect_CloverLabel">ON/OFF</string>
-    
+    <string name="ViewFlip_CloverLabel"				>反転</string>
+    <string name="ViewRoll_CloverLabel"				>回転⇩</string>
+    <string name="ViewScale_CloverLabel"			>倍率⇩</string>
+    <string name="ViewAll_CloverLabel"				>全表示⇩</string>
+    <string name="NaviView_CloverLabel"				>ナビ表示</string>
+    <string name="Undo_CloverLabel"					>元に戻す</string>
+    <string name="Redo_CloverLabel"					>やり直し</string>
+    <string name="SelEditAll_CloverLabel"			>全選択</string>
+    <string name="SelEditFlip_CloverLabel"			>選択反転</string>
+    <string name="SelEditClear_CloverLabel"			>選択解除</string>
+    <string name="FillFGCol_CloverLabel"			>前景色</string>
+    <string name="FillBGCol_CloverLabel"			>背景色</string>
+    <string name="FillClear_CloverLabel"			>クリア</string>
+    <string name="HandShakeCorrect_CloverLabel"		>ON/OFF</string>
+    <string name="Save_CloverLabel"					>セーブ</string>
+    <string name="Tool_SelRect_CloverLabel"			>矩形選択</string>
+    <string name="Tool_SelEllipse_CloverLabel"		>楕円選択</string>
+    <string name="Tool_SelFree_CloverLabel"			>自由選択</string>
+    <string name="Tool_SelAuto_CloverLabel"			>自動選択</string>
+    <string name="Tool_Move_CloverLabel"			>移動</string>
+    <string name="Tool_Trans_CloverLabel"			>変形</string>
+    <string name="Tool_PSEditSimple_CloverLabel"	>線の修正</string>
+    <string name="Tool_PSEditDetail_CloverLabel"	>線(詳細)</string>
+
     <string name="FevMsgDlgBox_Abort">中断</string>
     <string name="FevMsgDlgBox_MoveInteger">整数化</string>
     <string name="FevMsgDlgBox_NotMove">維持</string>
@@ -1551,6 +1621,8 @@
     <string name="CmOpType_fillFGCol"		>前景(描画)色で塗り潰し</string>
     <string name="CmOpType_fillBGCol"		>背景色で塗り潰し</string>
     <string name="CmOpType_fillClear"		>透明で塗り潰し</string>
+    <string name="CmOpType_selPSEditSimple"	>ポストストローク修正を起動</string>
+    <string name="CmOpType_selPSEditDetail"	>ポストストローク修正(詳細)を起動</string>
     <string name="CmOpType_selSelFreeTool"	>自由選択ツールを選択</string>
     <string name="CmOpType_selSelAll"		>選択範囲 - すべて</string>
     <string name="CmOpType_selSelEmpty"		>選択範囲 - 解除</string>

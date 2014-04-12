@@ -371,5 +371,149 @@ It is very comprehensive, support full keyboard and gamepad\n
 \n
     </string>
 
+    <string name="B12200">
+\n
+□ version 1.22\n
+\n
+■ Implemented Hand Shake Correction\n
+ - Implement the Hand Shake Correction features with powerful customization\n
+(The option of the Hand Shake Correction is set by [Brush - Correct])\n
+(It is necessary to set the options of the brush to use this features, open Brush setting by [Brush - Brush…], and checked [Hand Shake Correct])\n
+\n
+    </string>
+
+    <string name="B12210">
+\n
+□ version 1.22.10\n
+\n
+ - Improve thumbnail image of the Gallery\n
+ - Arbitrarily set to the path of Image Output and Gallery\n
+(Need to edit [/mnt/sdcard/CloverPaint/iopath.ini] by text editor)\n
+\n
+    </string>
+
+    <string name="B12211">
+\n
+□ version 1.22.11\n
+\n
+ - Bug fix: Not save Screen Rotate option\n
+\n
+    </string>
+
+    <string name="B12220">
+\n
+□ version 1.22.20\n
+\n
+ - Specification Change: The key-shortcut will be interpreted as two separate events when the set to [holding] and [click]\n
+ - Implemented: A text resource switching process by the resource file that was placed in the application folder local\n
+  Please to get resource file (strings.xml) from following:\n
+  https://github.com/CloverPaint/CloverMemo \n
+\n
+    </string>
+
+    <string name="B12230">
+\n
+□ version 1.22.30\n
+\n
+ - Improved: Operability of the Shape Tools\n
+\n
+    </string>
+
+    <string name="B12240">
+\n
+□ version 1.22.40\n
+\n
+ - Blend modes were added. Hue, Saturation, Color and Luminance.\n
+\n
+    </string>
+
+    <string name="B12241">
+\n
+□ version 1.22.41\n
+\n
+ - Bug fix: calculation of the new Blend mode\n
+\n
+    </string>
+
+    <string name="B12242">
+\n
+□ version 1.22.42\n
+\n
+ - Some bug fix and improvement\n
+\n
+    </string>
+
+    <string name="B12243">
+\n
+□ version 1.22.43\n
+\n
+ - Fixed: some jpeg image can not be read\n
+ - Added: smoothing type of the stroke\n
+ - Improved: rendering process\n
+\n
+    </string>
+
+    <string name="B12244">
+\n
+□ version 1.22.44\n
+\n
+ - Bug fixed: Hang-up in the rare case when the pen stroke is drawing\n
+\n
+    </string>
+
+    <string name="B12245">
+\n
+□ version 1.22.45\n
+\n
+ - Bug fix: Deadlock is sometimes occur when using the Move tool\n
+ - Improved: rendering process\n
+\n
+    </string>
+
+    <string name="B12250">
+\n
+□ version 1.22.50\n
+\n
+ - Added: free deform mode to the Transform tool\n
+ - Bug fix: hang-up when using the Merge all\n
+\n
+    </string>
+
+    <string name="B12251">
+\n
+□ version 1.22.51\n
+\n
+ - Bug fix: about 2-pass pen stroke\n
+ - Improved: orientation effect of the pen becomes include screen rotation of the EfT option\n
+\n
+    </string>
+
+    <string name="B12300">
+\n
+□ version 1.23\n
+\n
+■ [EfT] Implemented Post-Stroke Editor\n
+ - The stroke you just draw, can process move or bend, change of the brush setting\n
+(After the drawing of pen stroke, boot by selecting [Tools - Pen - PS.Edit])\n
+(EfT-UI is required to use this feature)\n
+ - Added : Create of the Save/Select/Move tools icon\n
+\n
+    </string>
+
+    <string name="B12310">
+\n
+□ version 1.23.10\n
+\n
+- [EfT]Implemented Move(Hand) window\n
+\n
+    </string>
+
+    <string name="B12311">
+\n
+□ version 1.23.11\n
+\n
+- Improved: Camera manipulation by the shortcut\n
+\n
+    </string>
 
 </resources>

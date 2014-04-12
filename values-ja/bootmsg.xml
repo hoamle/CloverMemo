@@ -371,5 +371,149 @@
 \n
     </string>
 
+    <string name="B12200">
+\n
+□ version 1.22\n
+\n
+■ 手ぶれ補正機能を実装\n
+ - 強力なカスタマイズ機能を備えた手ぶれ補正を実装\n
+([ブラシ - 手ぶれ補正]で手ぶれ補正のパラメータを設定)\n
+([ブラシ - ブラシ…]でブラシ設定を開き、[手ぶれ補正]をチェックする必要があります)\n
+\n
+    </string>
+
+    <string name="B12210">
+\n
+□ version 1.22.10\n
+\n
+ - サムネイルイメージの表示を改善\n
+ - ギャラリーとイメージ出力のパスを任意に設定可能\n
+(テキストエディタで[/mnt/sdcard/CloverPaint/iopath.ini]を編集する必要があります)\n
+\n
+    </string>
+
+    <string name="B12211">
+\n
+□ version 1.22.11\n
+\n
+ - スクリーン回転状態が保存されないバグを修正\n
+\n
+    </string>
+
+    <string name="B12220">
+\n
+□ version 1.22.20\n
+\n
+ - ショートカットで「長押し中」と「クリック」の同時設定をした時に２つのイベントとして解釈するよう仕様変更\n
+ - アプリフォルダローカルに置いたリソースファイルによる文字リソース切り替え処理を実装\n
+  元になるリソースファイル(strings.xml)はこちらから取得してください\n
+  https://github.com/CloverPaint/CloverMemo \n
+\n
+    </string>
+
+    <string name="B12230">
+\n
+□ version 1.22.30\n
+\n
+ - シェイプ系ツールの操作性を改善\n
+\n
+    </string>
+
+    <string name="B12240">
+\n
+□ version 1.22.40\n
+\n
+ - ブレンドモード(色相/彩度/色相と彩度/輝度)を追加\n
+\n
+    </string>
+
+    <string name="B12241">
+\n
+□ version 1.22.41\n
+\n
+ - 合成演算のバグを修正\n
+\n
+    </string>
+
+    <string name="B12242">
+\n
+□ version 1.22.42\n
+\n
+ - いくつかのバグ修正と改善\n
+\n
+    </string>
+
+    <string name="B12243">
+\n
+□ version 1.22.43\n
+\n
+ - 読み込めないjpeg画像があった問題を修正\n
+ - ストロークのスムージングタイプ追加\n
+ - 描画処理を改善\n
+\n
+    </string>
+
+    <string name="B12244">
+\n
+□ version 1.22.44\n
+\n
+ - ペンストローク描画時、まれにハングアップするバグを修正\n
+\n
+    </string>
+
+    <string name="B12245">
+\n
+□ version 1.22.45\n
+\n
+ - 移動ツールでデッドロックすることがあったバグを修正\n
+ - 描画処理を改善\n
+\n
+    </string>
+
+    <string name="B12250">
+\n
+□ version 1.22.50\n
+\n
+ - 変形ツールに自由変形モードを追加\n
+ - レイヤーの統合でハングアップするバグを修正\n
+\n
+    </string>
+
+    <string name="B12251">
+\n
+□ version 1.22.51\n
+\n
+ - 2パスストロークに関するバグを修正\n
+ - ペンの傾き方向効果がEfTのスクリーン回転効果を含むよう改善\n
+\n
+    </string>
+
+    <string name="B12300">
+\n
+□ version 1.23\n
+\n
+■ [EfT]ポストストローク編集を実装\n
+ - 描いた直後の線に、移動・ブラシ設定変更・曲げる等の加工を行えます\n
+(ペンストローク描画後に[ツール選択 - ペン - 線の編集]でツール起動)\n
+(EfT拡張機能UIを利用している場合のみ利用可能です)\n
+ - セーブ・選択ツール・移動ツールのCloverアイコン作成ボタンを追加\n
+\n
+    </string>
+
+    <string name="B12310">
+\n
+□ version 1.23.10\n
+\n
+- [EfT]移動(手のひら)ウインドウを実装\n
+\n
+    </string>
+
+    <string name="B12311">
+\n
+□ version 1.23.11\n
+\n
+- カメラ操作系ショートカットの動作を改善\n
+\n
+    </string>
 
 </resources>
