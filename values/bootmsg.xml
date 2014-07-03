@@ -516,4 +516,63 @@ It is very comprehensive, support full keyboard and gamepad\n
 \n
     </string>
 
+    <string name="B12312">
+\n
+□ version 1.23.12\n
+\n
+- [Non EfT] Buf fix: After transform apply, clear sel-range and merge-down had been forced\n
+\n
+    </string>
+
+    <string name="B12313">
+\n
+□ version 1.23.13\n
+\n
+- Bug fix: About clover docking\n
+\n
+    </string>
+
+    <string name="B12320">
+\n
+□ version 1.23.20\n
+\n
+- Supported: Screen rotation by the system\n
+- Supported: Complete full screen mode which disappeared the navbar [Required KitKat]\n
+(the navbar is displayed again with long press the BACK key)
+\n
+    </string>
+
+    <string name="B12322">
+\n
+□ version 1.23.22\n
+\n
+- Revert previous version temporarily (problem has occurred in some terminals)\n
+\n
+    </string>
+
+    <string name="B12323">
+\n
+□ version 1.23.23\n
+\n
+- Reimplement: Screen rotation by the system\n
+- Improved: Hit test of the transform tools button at using [Pointer setting] option set to [Finger].\n
+\n
+    </string>
+
+    <string name="B12324">
+\n
+□ version 1.23.24\n
+\n
+- Bug-fix: Initialization failure\n
+\n
+    </string>
+	
+    <string name="B12325">
+\n
+□ version 1.23.25\n
+\n
+- Fixed a problem that will not boot at some terminal\n
+\n
+    </string>
+
 </resources>

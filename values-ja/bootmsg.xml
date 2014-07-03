@@ -516,4 +516,63 @@
 \n
     </string>
 
+    <string name="B12312">
+\n
+□ version 1.23.12\n
+\n
+- [非EfT] 変形後強制的に選択範囲解除と下への統合が行われていたバグを修正\n
+\n
+    </string>
+
+    <string name="B12313">
+\n
+□ version 1.23.13\n
+\n
+- Cloverドッキングでエンバグしていた問題を修正\n
+\n
+    </string>
+
+    <string name="B12320">
+\n
+□ version 1.23.20\n
+\n
+- システムによるスクリーン回転に対応\n
+- ナビバーの消える完全なフルスクリーンに対応[要KitKat以上]\n
+(表示されたナビバーはBACKキー長押しで再度消せます)\n
+\n
+    </string>
+
+    <string name="B12322">
+\n
+□ version 1.23.22\n
+\n
+- 一部の端末で致命的な問題が発生しているため、一時的に機能を戻しました\n
+\n
+    </string>
+
+    <string name="B12323">
+\n
+□ version 1.23.23\n
+\n
+- システムによるスクリーン回転を再実装\n
+- 「ペン先表示」オプションを「指先用」にしている時に変形ツールなどの操作ボタンが押しにくかった問題を修正\n
+\n
+    </string>
+
+    <string name="B12324">
+\n
+□ version 1.23.24\n
+\n
+- 初期化ミスを修正\n
+\n
+    </string>
+
+    <string name="B12325">
+\n
+□ version 1.23.25\n
+\n
+- 一部端末で起動しない問題を修正\n
+\n
+    </string>
+
 </resources>

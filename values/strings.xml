@@ -41,12 +41,22 @@
     <string name="MainOption_FullScreen_Name">Full screen</string>
     <string name="MainOption_FullScreen_On">Use full screen mode (requires reboot)</string>
     <string name="MainOption_FullScreen_Off">Display notification bar (requires reboot)</string>
-    <string name="MainOption_ScreenRotate_Name">Screen Rotate [Requires EfT]</string>
+    <string name="MainOption_FullScreenMode_Name">Full screen mode</string>
+    <string name="MainOption_FullScreenMode_NoStatus">Hide status-bar (requires reboot)</string>
+    <string name="MainOption_FullScreenMode_Immersive">Full screen [KitKat] (requires reboot)</string>
+    <string name="MainOption_FullScreenMode_ImmersiveSticky">Full screen (sticky)[KitKat](requires reboot)</string>
+    <string name="MainOption_ScreenRotate_Name">Screen Rotate</string>
     <string name="MainOption_ScreenRotate_Free">Auto-rotate</string>
     <string name="MainOption_ScreenRotate_0">↓ Fixed to 0 degrees (Portrait)</string>
     <string name="MainOption_ScreenRotate_1">← Fixed to 90 degrees (Landscape)</string>
     <string name="MainOption_ScreenRotate_2">↑ Fixed to 180 degrees (Reverse portrait)</string>
     <string name="MainOption_ScreenRotate_3">→ Fixed to 270 degrees (Reverse landscape)</string>
+    <string name="MainOption_UseSystemRotate_Name">System Rotation</string>
+    <string name="MainOption_UseSystemRotate_On">Use system screen rotattion</string>
+    <string name="MainOption_UseSystemRotate_Off">Fixed to portrait mode</string>
+    <string name="MainOption_UseLandscapeFlip_Name">Landscape Flip</string>
+    <string name="MainOption_UseLandscapeFlip_On">When the Landscape mode, horizontal flipped</string>
+    <string name="MainOption_UseLandscapeFlip_Off">Normal display</string>
     <string name="MainOption_UIRotate_Name">UI Rotate</string>
     <string name="MainOption_UIRotate_Auto">Auto-rotate</string>
     <string name="MainOption_UIRotate_0">↓ Fixed to 0 degrees (Portrait)</string>
@@ -358,6 +368,7 @@
     <string name="MBtnTool_ShapeLine">Line</string>
     <string name="MBtnTool_ShapeRect">Rect</string>
     <string name="MBtnTool_ShapeEllipse">Ellipse</string>
+    <string name="MBtnTool_Ruler">Ruler</string>
     <string name="MBtnTool_Bucket">Bucket</string>
     <string name="MBtnTool_Image">Image</string>
     <string name="MBtnTool_Move">Move</string>
@@ -679,6 +690,40 @@
     <string name="TransformRebar_Lanczos2">Lncz.2</string>
     <string name="TransformRebar_Lanczos3">Lncz.3</string>
     <string name="TransformRebar_MipFilter">sw.mip</string>
+
+    <string name="RulerRebar_Shape">Shape</string>
+    <string name="RulerRebar_Snap">Snap</string>
+    <string name="RulerRebar_Ctrl">Control</string>
+    <string name="RulerRebar_View">View</string>
+    <string name="RulerRebar_UseExKnob">+Knob</string>
+    <string name="RulerRebar_InpDirect">Inp.Num</string>
+    <string name="RulerRebar_InpGrid">Grid</string>
+	<string name="RulerRebar_ShapeType_Line"		>Line</string>
+	<string name="RulerRebar_ShapeType_Circle"		>Circle</string>
+	<string name="RulerRebar_Shape_StraightLine"	>Straight</string>
+	<string name="RulerRebar_Shape_SegmentLine"		>Segment</string>
+	<string name="RulerRebar_Shape_ParallelLine"	>Parallel</string>
+	<string name="RulerRebar_Shape_SparkLine"		>Spark</string>
+	<string name="RulerRebar_Shape_StaticCircle"	>Static</string>
+	<string name="RulerRebar_Shape_ConcentricCircle">Concent</string>
+	<string name="RulerRebar_Shape_FreeCircle">Free</string>
+	<string name="RulerRebar_Snap_None"		>None</string>
+	<string name="RulerRebar_Snap_Near1"	>Near1</string>
+	<string name="RulerRebar_Snap_Near2"	>Near2</string>
+	<string name="RulerRebar_Snap_Infinite"	>Infinite</string>
+	<string name="RulerRebar_Snap_Import"	>Import</string>
+	<string name="RulerRebar_Snap_Extern"	>Extern</string>
+	<string name="RulerRebar_Ctrl_None"		>None</string>
+	<string name="RulerRebar_Ctrl_Origin"	>Origin</string>
+	<string name="RulerRebar_Ctrl_Handle"	>Handle</string>
+	<string name="RulerRebar_Ctrl_All"		>All</string>
+	<string name="RulerRebar_Ctrl_Free"		>Free</string>
+	<string name="RulerRebar_Ctrl_SnapOuter">OuterS</string>
+	<string name="RulerRebar_View_None"		>None</string>
+	<string name="RulerRebar_View_Point"	>Point</string>
+	<string name="RulerRebar_View_Line"		>P&amp;Line</string>
+	<string name="RulerRebar_View_Guide"	>Guide</string>
+	<string name="RulerRebar_InpGrid_Setting">Setting</string>
 
     <string name="Core_EventTrans_FmtFltPos" formatted="false">pos :%7.2f,%7.2f</string>
     <string name="Core_EventTrans_FmtFltRot" formatted="false">rot :%s %7.2f</string>
@@ -1105,6 +1150,7 @@
     <string name="Tool_Trans_CloverLabel"			>Trans</string>
     <string name="Tool_PSEditSimple_CloverLabel"	>PS.Edit</string>
     <string name="Tool_PSEditDetail_CloverLabel"	>PSE(Dtl)</string>
+    <string name="Ruler_CloverLabel"				>Ruler</string>
 
     <string name="FevMsgDlgBox_Abort">Abort</string>
     <string name="FevMsgDlgBox_MoveInteger">Integer</string>

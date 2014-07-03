@@ -41,12 +41,22 @@
     <string name="MainOption_FullScreen_Name">フルスクリーン</string>
     <string name="MainOption_FullScreen_On">フルスクリーンにする(*要再起動)</string>
     <string name="MainOption_FullScreen_Off">通知領域等を表示する(*要再起動)</string>
-    <string name="MainOption_ScreenRotate_Name">スクリーン回転 [要EfT]</string>
+    <string name="MainOption_FullScreenMode_Name">フルスクリーンモード</string>
+    <string name="MainOption_FullScreenMode_NoStatus">ステータスバーを隠す(*要再起動)</string>
+    <string name="MainOption_FullScreenMode_Immersive">固定フルスクリーン[KitKat以上](*要再起動)</string>
+    <string name="MainOption_FullScreenMode_ImmersiveSticky">自動フルスクリーン[KitKat以上](*要再起動)</string>
+    <string name="MainOption_ScreenRotate_Name">スクリーン回転</string>
     <string name="MainOption_ScreenRotate_Free">端末の回転に合わせる</string>
     <string name="MainOption_ScreenRotate_0">↓0°に固定(Portrait)</string>
     <string name="MainOption_ScreenRotate_1">←90°に固定(Landscape)</string>
     <string name="MainOption_ScreenRotate_2">↑180°に固定</string>
     <string name="MainOption_ScreenRotate_3">→270°に固定</string>
+    <string name="MainOption_UseSystemRotate_Name">システムによる回転</string>
+    <string name="MainOption_UseSystemRotate_On">システムのスクリーン回転を利用する</string>
+    <string name="MainOption_UseSystemRotate_Off">システムはPortraitモードに固定</string>
+    <string name="MainOption_UseLandscapeFlip_Name">Landscape反転</string>
+    <string name="MainOption_UseLandscapeFlip_On">Landscapeモードの時上下を反転させる</string>
+    <string name="MainOption_UseLandscapeFlip_Off">通常表示</string>
     <string name="MainOption_UIRotate_Name">UIの回転</string>
     <string name="MainOption_UIRotate_Auto">端末の回転に合わせる</string>
     <string name="MainOption_UIRotate_0">↓0°に固定(Portrait)</string>
@@ -358,6 +368,7 @@
     <string name="MBtnTool_ShapeLine">ライン</string>
     <string name="MBtnTool_ShapeRect">矩形</string>
     <string name="MBtnTool_ShapeEllipse">楕円</string>
+    <string name="MBtnTool_Ruler">定規</string>
     <string name="MBtnTool_Bucket">バケツ</string>
     <string name="MBtnTool_Image">イメージ</string>
     <string name="MBtnTool_Move">移動</string>
@@ -679,6 +690,40 @@
     <string name="TransformRebar_Lanczos2">Lncz.2</string>
     <string name="TransformRebar_Lanczos3">Lncz.3</string>
     <string name="TransformRebar_MipFilter">sw.mip</string>
+
+    <string name="RulerRebar_Shape">形状</string>
+    <string name="RulerRebar_Snap">スナップ</string>
+    <string name="RulerRebar_Ctrl">操作設定</string>
+    <string name="RulerRebar_View">表示設定</string>
+    <string name="RulerRebar_UseExKnob">+取っ手</string>
+    <string name="RulerRebar_InpDirect">数値設定</string>
+    <string name="RulerRebar_InpGrid">グリッド</string>
+	<string name="RulerRebar_ShapeType_Line"		>ライン</string>
+	<string name="RulerRebar_ShapeType_Circle"		>円</string>
+	<string name="RulerRebar_Shape_StraightLine"	>直線</string>
+	<string name="RulerRebar_Shape_SegmentLine"		>線分</string>
+	<string name="RulerRebar_Shape_ParallelLine"	>並行線</string>
+	<string name="RulerRebar_Shape_SparkLine"		>集中線</string>
+	<string name="RulerRebar_Shape_StaticCircle"	>固定円</string>
+	<string name="RulerRebar_Shape_ConcentricCircle">同心円</string>
+	<string name="RulerRebar_Shape_FreeCircle"		>パース</string>
+	<string name="RulerRebar_Snap_None"		>なし</string>
+	<string name="RulerRebar_Snap_Near1"	>近傍1</string>
+	<string name="RulerRebar_Snap_Near2"	>近傍2</string>
+	<string name="RulerRebar_Snap_Infinite"	>全体</string>
+	<string name="RulerRebar_Snap_Import"	>Import</string>
+	<string name="RulerRebar_Snap_Extern"	>Extern</string>
+	<string name="RulerRebar_Ctrl_None"		>なし</string>
+	<string name="RulerRebar_Ctrl_Origin"	>原点</string>
+	<string name="RulerRebar_Ctrl_Handle"	>取手</string>
+	<string name="RulerRebar_Ctrl_All"		>すべて</string>
+	<string name="RulerRebar_Ctrl_Free"		>自由</string>
+	<string name="RulerRebar_Ctrl_SnapOuter">外部S</string>
+	<string name="RulerRebar_View_None"		>なし</string>
+	<string name="RulerRebar_View_Point"	>点のみ</string>
+	<string name="RulerRebar_View_Line"		>点と線</string>
+	<string name="RulerRebar_View_Guide"	>ガイド</string>
+	<string name="RulerRebar_InpGrid_Setting">設定</string>
 
     <string name="Core_EventTrans_FmtFltPos" formatted="false">移動　:%7.2f,%7.2f</string>
     <string name="Core_EventTrans_FmtFltRot" formatted="false">回転　:%s %7.2f</string>
@@ -1105,6 +1150,7 @@
     <string name="Tool_Trans_CloverLabel"			>変形</string>
     <string name="Tool_PSEditSimple_CloverLabel"	>線の修正</string>
     <string name="Tool_PSEditDetail_CloverLabel"	>線(詳細)</string>
+    <string name="Ruler_CloverLabel"				>定規</string>
 
     <string name="FevMsgDlgBox_Abort">中断</string>
     <string name="FevMsgDlgBox_MoveInteger">整数化</string>
