@@ -575,4 +575,20 @@ It is very comprehensive, support full keyboard and gamepad\n
 \n
     </string>
 
+    <string name="B12326">
+\n
+□ version 1.23.26\n
+\n
+- Bug-fix: hang when select the saturation blend mode in some images\n
+\n
+    </string>
+
+    <string name="B12327">
+\n
+□ version 1.23.27\n
+\n
+- Billing API update to v3\n
+\n
+    </string>
+
 </resources>
