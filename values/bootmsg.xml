@@ -591,4 +591,56 @@ It is very comprehensive, support full keyboard and gamepad\n
 \n
     </string>
 
+    <string name="B12328">
+\n
+□ version 1.23.28\n
+\n
+- Create application folders\n
+\n
+    </string>
+
+    <string name="B12330">
+\n
+□ version 1.23.30\n
+\n
+- The problem fix that will not boot at some terminals\n
+- Some of the specifications of screen rotation was modified\n
+\n
+    </string>
+
+    <string name="B12335">
+\n
+□ version 1.23.35\n
+\n
+- Added: the image format of compression\n
+(It is possible to switch ON/OFF from the option dialog)\n
+\n
+    </string>
+
+    <string name="B12336">
+\n
+□ version 1.23.36\n
+\n
+- The problem fix that will not boot at some terminals\n
+- Improved drawing performance\n
+\n
+    </string>
+
+    <string name="B12400">
+\n
+□ version 1.24\n
+\n
+■ Implemented Ruler tool\n
+- Supports Android 5.0 Lollipop\n
+\n
+    </string>
+
+    <string name="B12401">
+\n
+□ version 1.24.01\n
+\n
+- Bug fix: Could not assign a ruler clover icon to the Clover List\n
+\n
+    </string>
+
 </resources>

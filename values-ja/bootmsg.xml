@@ -591,4 +591,56 @@
 \n
     </string>
 
+    <string name="B12328">
+\n
+□ version 1.23.28\n
+\n
+- アプリフォルダの作成処理を追加\n
+\n
+    </string>
+
+    <string name="B12330">
+\n
+□ version 1.23.30\n
+\n
+- 一部端末で起動しない問題を修正\n
+- スクリーン回転処理の仕様を一部変更\n
+\n
+    </string>
+
+    <string name="B12335">
+\n
+□ version 1.23.35\n
+\n
+- 圧縮タイプのファイル保存形式を追加\n
+(オプションからON/OFF切り替え可能)\n
+\n
+    </string>
+
+    <string name="B12336">
+\n
+□ version 1.23.36\n
+\n
+- 一部端末で起動しない問題を修正\n
+- 描画パフォーマンスの改善\n
+\n
+    </string>
+
+    <string name="B12400">
+\n
+□ version 1.24\n
+\n
+■ 定規ツールを実装\n
+- Android 5.0 Lollipopに対応\n
+\n
+    </string>
+
+    <string name="B12401">
+\n
+□ version 1.24.01\n
+\n
+- 定規ツールをCloverリストに登録できなかった問題を修正\n
+\n
+    </string>
+
 </resources>

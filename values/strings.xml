@@ -182,6 +182,9 @@
     <string name="MainOption_TouchEffect_Name">Touch effect</string>
     <string name="MainOption_TouchEffect_On">View ripple effects when you touch the screen</string>
     <string name="MainOption_TouchEffect_Off">Do not view touch effects</string>
+    <string name="MainOption_UseGZIPSave_Name">Compression save</string>
+    <string name="MainOption_UseGZIPSave_On">The image save with compression</string>
+    <string name="MainOption_UseGZIPSave_Off">Not use compression</string>
     <string name="MainOption_AutoSaveEdit_Name">Auto save (Edit Count)</string>
     <string name="MainOption_AutoSaveEdit_None">Don\'t auto save</string>
     <string name="MainOption_AutoSaveEdit_3">Save after editing the image 3 times</string>
@@ -213,6 +216,9 @@
     <string name="MainOption_NoFingerUI_Name">Disable Finger UI Control</string>
     <string name="MainOption_NoFingerUI_On">UI cannot be effected by fingers or hands</string>
     <string name="MainOption_NoFingerUI_Off">Control UI by both fingers and stylus</string>
+    <string name="MainOption_NoFingerCanvasUI_Name">Disable Finger Canvas UI Control</string>
+    <string name="MainOption_NoFingerCanvasUI_On">Canvas UI cannot be effected by fingers or hands</string>
+    <string name="MainOption_NoFingerCanvasUI_Off">Control Canvas UI by both fingers and stylus</string>
     <string name="MainOption_DrawCancelByClick_Name">Draw cancel</string>
     <string name="MainOption_DrawCancelByClick_None">none</string>
     <string name="MainOption_DrawCancelByClick_1">Cancel when you press 1-btn</string>
@@ -267,7 +273,7 @@
     <string name="MainOption_SplitEditFrame_Name">Edit frame</string>
     <string name="MainOption_SplitPinch_Name">Pinch</string>
     <string name="MainOption_SplitKeyConfig_Name">Key config</string>
-    <string name="MainOption_SplitAutoSave_Name">Auto save</string>
+    <string name="MainOption_SplitSave_Name">Save</string>
     <string name="MainOption_SplitPressure_Name">Pressure</string>
     <string name="MainOption_SplitStylus_Name">Stylus</string>
     <string name="MainOption_SplitStylusButton_Name">Button</string>
@@ -291,6 +297,7 @@
     <string name="MainOption_SplitPaintView_Name">Paint - View</string>
     <string name="MainOption_SplitPaintClover_Name">Paint - Clover</string>
     <string name="MainOption_SplitPaintLayer_Name">Paint - Layer</string>
+    <string name="MainOption_SplitPaintRuler_Name">Paint - Ruler</string>
     <string name="MainOption_SplitPaintOther_Name">Paint - Other</string>
     <string name="MainOption_PasteMode_Name">After the Paste</string>
     <string name="PasteMode_Move">Select the move tool</string>
@@ -692,38 +699,42 @@
     <string name="TransformRebar_MipFilter">sw.mip</string>
 
     <string name="RulerRebar_Shape">Shape</string>
-    <string name="RulerRebar_Snap">Snap</string>
+    <string name="RulerRebar_HitBar">Range</string>
     <string name="RulerRebar_Ctrl">Control</string>
     <string name="RulerRebar_View">View</string>
     <string name="RulerRebar_UseExKnob">+Knob</string>
     <string name="RulerRebar_InpDirect">Inp.Num</string>
-    <string name="RulerRebar_InpGrid">Grid</string>
 	<string name="RulerRebar_ShapeType_Line"		>Line</string>
 	<string name="RulerRebar_ShapeType_Circle"		>Circle</string>
+	<string name="RulerRebar_ShapeType_Ellipse"		>Ellipse</string>
 	<string name="RulerRebar_Shape_StraightLine"	>Straight</string>
 	<string name="RulerRebar_Shape_SegmentLine"		>Segment</string>
 	<string name="RulerRebar_Shape_ParallelLine"	>Parallel</string>
 	<string name="RulerRebar_Shape_SparkLine"		>Spark</string>
 	<string name="RulerRebar_Shape_StaticCircle"	>Static</string>
 	<string name="RulerRebar_Shape_ConcentricCircle">Concent</string>
-	<string name="RulerRebar_Shape_FreeCircle">Free</string>
-	<string name="RulerRebar_Snap_None"		>None</string>
-	<string name="RulerRebar_Snap_Near1"	>Near1</string>
-	<string name="RulerRebar_Snap_Near2"	>Near2</string>
-	<string name="RulerRebar_Snap_Infinite"	>Infinite</string>
-	<string name="RulerRebar_Snap_Import"	>Import</string>
-	<string name="RulerRebar_Snap_Extern"	>Extern</string>
-	<string name="RulerRebar_Ctrl_None"		>None</string>
-	<string name="RulerRebar_Ctrl_Origin"	>Origin</string>
-	<string name="RulerRebar_Ctrl_Handle"	>Handle</string>
-	<string name="RulerRebar_Ctrl_All"		>All</string>
-	<string name="RulerRebar_Ctrl_Free"		>Free</string>
-	<string name="RulerRebar_Ctrl_SnapOuter">OuterS</string>
-	<string name="RulerRebar_View_None"		>None</string>
-	<string name="RulerRebar_View_Point"	>Point</string>
-	<string name="RulerRebar_View_Line"		>P&amp;Line</string>
-	<string name="RulerRebar_View_Guide"	>Guide</string>
-	<string name="RulerRebar_InpGrid_Setting">Setting</string>
+	<string name="RulerRebar_Shape_HandleEllipse"	>Ellipse</string>
+	<string name="RulerRebar_Shape_FreeEllipse"		>Free</string>
+	<string name="RulerRebar_Shape_AddClover"		>+Clover</string>
+	<string name="RulerRebar_Shape_Reset"			>Reset</string>
+	<string name="RulerRebar_HitBar_None"		>None</string>
+	<string name="RulerRebar_HitBar_Near1"		>Near1</string>
+	<string name="RulerRebar_HitBar_Near2"		>Near2</string>
+	<string name="RulerRebar_HitBar_Infinite"	>Infinite</string>
+	<string name="RulerRebar_Ctrl_None"			>None</string>
+	<string name="RulerRebar_Ctrl_Origin"		>Origin</string>
+	<string name="RulerRebar_Ctrl_Handle"		>Handle</string>
+	<string name="RulerRebar_Ctrl_Both"			>Both</string>
+	<string name="RulerRebar_Ctrl_Swap"			>⇄Swap</string>
+	<string name="RulerRebar_Ctrl_UseCtrlBand"	>Bar</string>
+	<string name="RulerRebar_Ctrl_SnapOuter"	>Snap</string>
+	<string name="RulerRebar_View_Point"		>Point</string>
+	<string name="RulerRebar_View_Line"			>Line</string>
+	<string name="RulerRebar_View_Bar"			>Bar</string>
+	<string name="RulerRebar_View_M_None"		>-</string>
+	<string name="RulerRebar_View_M_Point"		>P</string>
+	<string name="RulerRebar_View_M_Line"		>L</string>
+	<string name="RulerRebar_View_M_Bar"		>B</string>
 
     <string name="Core_EventTrans_FmtFltPos" formatted="false">pos :%7.2f,%7.2f</string>
     <string name="Core_EventTrans_FmtFltRot" formatted="false">rot :%s %7.2f</string>
@@ -1533,6 +1544,25 @@
     <string name="transTrapeX">pers.x</string>
     <string name="transTrapeY">pers.y</string>
 
+    <string name="rulerLineDlgTitle">Setting ruler params</string>
+    <string name="rulerLineDlgApply">Apply</string>
+    <string name="rulerLineDlgDiscard">Discard</string>
+    <string name="rulerLineOrigin">Origin</string>
+    <string name="rulerLineHandle">Handle</string>
+    <string name="rulerLineAngle">Angle</string>
+    <string name="rulerLineLength">Length</string>
+
+    <string name="rulerEllipseDlgTitle">Setting ruler params</string>
+    <string name="rulerEllipseDlgApply">Apply</string>
+    <string name="rulerEllipseDlgDiscard">Discard</string>
+    <string name="rulerEllipseOrigin">Origin</string>
+    <string name="rulerEllipseScale">Scale</string>
+    <string name="rulerEllipseAngle">Angle</string>
+    <string name="rulerEllipseFree0">FreeLT</string>
+    <string name="rulerEllipseFree1">FreeRT</string>
+    <string name="rulerEllipseFree2">FreeLB</string>
+    <string name="rulerEllipseFree3">FreeRB</string>
+
     <string name="NaviView_TransMode">Through touch event</string>
     <string name="NaviView_TransModeTrue">Enable UI control in the under of the window</string>
     <string name="NaviView_TransModeFalse">Disable UI control, and enable nabi control</string>
@@ -1681,6 +1711,20 @@
     <string name="CmOpType_selFileTool"		>Select file tool</string>
     <string name="CmOpType_settingBrush"	>Open brush setting</string>
     <string name="CmOpType_settingColor"	>Open color setting</string>
+    <string name="CmOpType_moveRulerOrigin"	>Move origin</string>
+    <string name="CmOpType_moveRulerHandle"	>Move handle</string>
+    <string name="CmOpType_rollRulerHandle"	>Roll handle</string>
+    <string name="CmOpType_swapRulerOrgHdl"	>Switch origin/handle</string>
+    <string name="CmOpType_toggleRulerHit"	>Toggle stroke hit</string>
+    <string name="CmOpType_toggleRulerCtrl"	>Toggle knobs</string>
+    <string name="CmOpType_toggleRulerBand"	>Toggle pinch bar</string>
+    <string name="CmOpType_moveRulerFreeLT"	>Move freeLT</string>
+    <string name="CmOpType_moveRulerFreeRT"	>Move freeRT</string>
+    <string name="CmOpType_moveRulerFreeLB"	>Move freeLB</string>
+    <string name="CmOpType_moveRulerFreeRB"	>Move freeRB</string>
+    <string name="CmOpType_changeRulerScale">Change scale</string>
+    <string name="CmOpType_changeRulerScaleX">Change scaleX</string>
+    <string name="CmOpType_changeRulerScaleY">Chance scaleY</string>
 
     <string name="CmOpTypeFlag_click"			>Click</string>
     <string name="CmOpTypeFlag_hoveringClick"	>Hovering click</string>
@@ -1918,7 +1962,7 @@
     <string name="TexBS_CEMP_DstBlurVolume">Volume</string>
     <string name="TexBS_CEMP_DstBlurNoisePixel">Noise - pixel range</string>
     <string name="TexBS_CEMP_DstBlurNoiseRatio">Noise - pen size ratio</string>
-    <string name="TexBS_CEMP_DstBlurNoiseNumSamp">Numver of the noise sampling</string>
+    <string name="TexBS_CEMP_DstBlurNoiseNumSamp">Number of the noise sampling</string>
     <string name="TexBS_CEMP_LerpMixMFToMulDA">Active ratio of the canvas opacity to the mix flow</string>
     <string name="TexBS_CEMP_ModRatioPenOpBySOp">Modulate ratio of the mix flow to the pen buffer opacity</string>
     <string name="TexBS_CEMP_MdRtAddMFToPenOpByDOp">Effect ratio of the canvas opacity that add the mix flow to the pen buffer opacity</string>
@@ -2106,7 +2150,7 @@
 
     <!-- カラーテクスチャ - システムテクスチャ名 -->
     <string name="TBS_tb0000">Bush 01</string>
-    <string name="TBS_tb0001">Burh 02</string>
+    <string name="TBS_tb0001">Bush 02</string>
     <string name="TBS_tb0002">Shines through branches</string>
     <string name="TBS_tb0003">Tree leaf</string>
     <string name="TBS_tb0004">Cloudy sky</string>

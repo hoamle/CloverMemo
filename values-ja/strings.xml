@@ -182,6 +182,9 @@
     <string name="MainOption_TouchEffect_Name">タッチエフェクト</string>
     <string name="MainOption_TouchEffect_On">画面タッチ時の波紋エフェクトを表示</string>
     <string name="MainOption_TouchEffect_Off">画面タッチ時の波紋エフェクトは非表示</string>
+    <string name="MainOption_UseGZIPSave_Name">圧縮保存</string>
+    <string name="MainOption_UseGZIPSave_On">画像データを圧縮して保存する</string>
+    <string name="MainOption_UseGZIPSave_Off">画像データを圧縮しない</string>
     <string name="MainOption_AutoSaveEdit_Name">自動セーブ(編集回数)</string>
     <string name="MainOption_AutoSaveEdit_None">自動セーブなし</string>
     <string name="MainOption_AutoSaveEdit_3">3回編集後</string>
@@ -213,6 +216,9 @@
     <string name="MainOption_NoFingerUI_Name">指でのUI操作を禁止</string>
     <string name="MainOption_NoFingerUI_On">画面内UIを指で操作するのを禁止する</string>
     <string name="MainOption_NoFingerUI_Off">画面内UIはスタイラスと指の両方で操作可能</string>
+    <string name="MainOption_NoFingerCanvasUI_Name">指でのキャンバス上のUI操作を禁止</string>
+    <string name="MainOption_NoFingerCanvasUI_On">キャンバス上のUIを指で操作するのを禁止する</string>
+    <string name="MainOption_NoFingerCanvasUI_Off">キャンバス上のUIはスタイラスと指の両方で操作可能</string>
     <string name="MainOption_DrawCancelByClick_Name">描画ストローク中止</string>
     <string name="MainOption_DrawCancelByClick_None">なし</string>
     <string name="MainOption_DrawCancelByClick_1">ボタン1を押した時に中止</string>
@@ -267,7 +273,7 @@
     <string name="MainOption_SplitEditFrame_Name">編集枠</string>
     <string name="MainOption_SplitPinch_Name">ピンチ操作</string>
     <string name="MainOption_SplitKeyConfig_Name">キーコンフィグ</string>
-    <string name="MainOption_SplitAutoSave_Name">自動セーブ</string>
+    <string name="MainOption_SplitSave_Name">保存</string>
     <string name="MainOption_SplitPressure_Name">筆圧</string>
     <string name="MainOption_SplitStylus_Name">スタイラス</string>
     <string name="MainOption_SplitStylusButton_Name">ボタン</string>
@@ -291,6 +297,7 @@
     <string name="MainOption_SplitPaintView_Name">ペイント - UI表示</string>
     <string name="MainOption_SplitPaintClover_Name">ペイント - Clover</string>
     <string name="MainOption_SplitPaintLayer_Name">ペイント - レイヤー</string>
+    <string name="MainOption_SplitPaintRuler_Name">ペイント - 定規</string>
     <string name="MainOption_SplitPaintOther_Name">ペイント - その他</string>
     <string name="MainOption_PasteMode_Name">貼り付け後動作</string>
     <string name="PasteMode_Move">移動ツールを選択</string>
@@ -692,38 +699,42 @@
     <string name="TransformRebar_MipFilter">sw.mip</string>
 
     <string name="RulerRebar_Shape">形状</string>
-    <string name="RulerRebar_Snap">スナップ</string>
+    <string name="RulerRebar_HitBar">範囲</string>
     <string name="RulerRebar_Ctrl">操作設定</string>
     <string name="RulerRebar_View">表示設定</string>
     <string name="RulerRebar_UseExKnob">+取っ手</string>
     <string name="RulerRebar_InpDirect">数値設定</string>
-    <string name="RulerRebar_InpGrid">グリッド</string>
 	<string name="RulerRebar_ShapeType_Line"		>ライン</string>
 	<string name="RulerRebar_ShapeType_Circle"		>円</string>
+	<string name="RulerRebar_ShapeType_Ellipse"		>楕円</string>
 	<string name="RulerRebar_Shape_StraightLine"	>直線</string>
 	<string name="RulerRebar_Shape_SegmentLine"		>線分</string>
 	<string name="RulerRebar_Shape_ParallelLine"	>並行線</string>
 	<string name="RulerRebar_Shape_SparkLine"		>集中線</string>
 	<string name="RulerRebar_Shape_StaticCircle"	>固定円</string>
 	<string name="RulerRebar_Shape_ConcentricCircle">同心円</string>
-	<string name="RulerRebar_Shape_FreeCircle"		>パース</string>
-	<string name="RulerRebar_Snap_None"		>なし</string>
-	<string name="RulerRebar_Snap_Near1"	>近傍1</string>
-	<string name="RulerRebar_Snap_Near2"	>近傍2</string>
-	<string name="RulerRebar_Snap_Infinite"	>全体</string>
-	<string name="RulerRebar_Snap_Import"	>Import</string>
-	<string name="RulerRebar_Snap_Extern"	>Extern</string>
-	<string name="RulerRebar_Ctrl_None"		>なし</string>
-	<string name="RulerRebar_Ctrl_Origin"	>原点</string>
-	<string name="RulerRebar_Ctrl_Handle"	>取手</string>
-	<string name="RulerRebar_Ctrl_All"		>すべて</string>
-	<string name="RulerRebar_Ctrl_Free"		>自由</string>
-	<string name="RulerRebar_Ctrl_SnapOuter">外部S</string>
-	<string name="RulerRebar_View_None"		>なし</string>
-	<string name="RulerRebar_View_Point"	>点のみ</string>
-	<string name="RulerRebar_View_Line"		>点と線</string>
-	<string name="RulerRebar_View_Guide"	>ガイド</string>
-	<string name="RulerRebar_InpGrid_Setting">設定</string>
+	<string name="RulerRebar_Shape_HandleEllipse"	>楕円</string>
+	<string name="RulerRebar_Shape_FreeEllipse"		>自由</string>
+	<string name="RulerRebar_Shape_AddClover"		>+複製</string>
+	<string name="RulerRebar_Shape_Reset"			>初期化</string>
+	<string name="RulerRebar_HitBar_None"			>なし</string>
+	<string name="RulerRebar_HitBar_Near1"			>近傍1</string>
+	<string name="RulerRebar_HitBar_Near2"			>近傍2</string>
+	<string name="RulerRebar_HitBar_Infinite"		>全体</string>
+	<string name="RulerRebar_Ctrl_None"			>なし</string>
+	<string name="RulerRebar_Ctrl_Origin"		>原点</string>
+	<string name="RulerRebar_Ctrl_Handle"		>取手</string>
+	<string name="RulerRebar_Ctrl_Both"			>両方</string>
+	<string name="RulerRebar_Ctrl_Swap"			>⇄交換</string>
+	<string name="RulerRebar_Ctrl_UseCtrlBand"	>操作バー</string>
+	<string name="RulerRebar_Ctrl_SnapOuter"	>吸着</string>
+	<string name="RulerRebar_View_Point"		>点</string>
+	<string name="RulerRebar_View_Line"			>線</string>
+	<string name="RulerRebar_View_Bar"			>ガイド</string>
+	<string name="RulerRebar_View_M_None"		>-</string>
+	<string name="RulerRebar_View_M_Point"		>点</string>
+	<string name="RulerRebar_View_M_Line"		>線</string>
+	<string name="RulerRebar_View_M_Bar"		>帯</string>
 
     <string name="Core_EventTrans_FmtFltPos" formatted="false">移動　:%7.2f,%7.2f</string>
     <string name="Core_EventTrans_FmtFltRot" formatted="false">回転　:%s %7.2f</string>
@@ -1533,6 +1544,25 @@
     <string name="transTrapeX">パースX</string>
     <string name="transTrapeY">パースY</string>
 
+    <string name="rulerLineDlgTitle">定規パラメータの設定</string>
+    <string name="rulerLineDlgApply">設定</string>
+    <string name="rulerLineDlgDiscard">キャンセル</string>
+    <string name="rulerLineOrigin">中心点</string>
+    <string name="rulerLineHandle">制御点</string>
+    <string name="rulerLineAngle">角度</string>
+    <string name="rulerLineLength">距離</string>
+
+    <string name="rulerEllipseDlgTitle">定規パラメータの設定</string>
+    <string name="rulerEllipseDlgApply">設定</string>
+    <string name="rulerEllipseDlgDiscard">キャンセル</string>
+    <string name="rulerEllipseOrigin">中心点</string>
+    <string name="rulerEllipseScale">倍率</string>
+    <string name="rulerEllipseAngle">角度</string>
+    <string name="rulerEllipseFree0">自由LT</string>
+    <string name="rulerEllipseFree1">自由RT</string>
+    <string name="rulerEllipseFree2">自由LB</string>
+    <string name="rulerEllipseFree3">自由RB</string>
+
     <string name="NaviView_TransMode">操作イベント透過</string>
     <string name="NaviView_TransModeTrue">下にあるUI操作を許可する</string>
     <string name="NaviView_TransModeFalse">UI操作は禁止してナビ枠操作を利用・移動する</string>
@@ -1681,6 +1711,20 @@
     <string name="CmOpType_selFileTool"		>ファイルツールを選択</string>
     <string name="CmOpType_settingBrush"	>ブラシ設定画面を起動</string>
     <string name="CmOpType_settingColor"	>カラー設定画面を起動</string>
+    <string name="CmOpType_moveRulerOrigin"	>原点位置つまみ移動</string>
+    <string name="CmOpType_moveRulerHandle"	>方向/半径指定つまみ移動</string>
+    <string name="CmOpType_rollRulerHandle"	>つまみ回転(ライン/楕円共用)</string>
+    <string name="CmOpType_swapRulerOrgHdl"	>つまみ入れ替え</string>
+    <string name="CmOpType_toggleRulerHit"	>ストロークヒット範囲ON/OFF</string>
+    <string name="CmOpType_toggleRulerCtrl"	>つまみ表示ON/OFF</string>
+    <string name="CmOpType_toggleRulerBand"	>ピンチ操作定規ON/OFF</string>
+    <string name="CmOpType_moveRulerFreeLT"	>楕円:自由変形つまみLT</string>
+    <string name="CmOpType_moveRulerFreeRT"	>楕円:自由変形つまみRT</string>
+    <string name="CmOpType_moveRulerFreeLB"	>楕円:自由変形つまみLB</string>
+    <string name="CmOpType_moveRulerFreeRB"	>楕円:自由変形つまみRB</string>
+    <string name="CmOpType_changeRulerScale">楕円:倍率変更XY</string>
+    <string name="CmOpType_changeRulerScaleX">楕円:倍率変更X</string>
+    <string name="CmOpType_changeRulerScaleY">楕円:倍率変更Y</string>
     
     <string name="CmOpTypeFlag_click"			>クリック</string>
     <string name="CmOpTypeFlag_hoveringClick"	>ホバークリック</string>
