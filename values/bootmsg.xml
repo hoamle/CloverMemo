@@ -643,4 +643,30 @@ It is very comprehensive, support full keyboard and gamepad\n
 \n
     </string>
 
+    <string name="B12410">
+\n
+□ version 1.24.10\n
+\n
+- [EfT]Implemented Local Clover Box window\n
+\n
+    </string>
+
+    <string name="B12411">
+\n
+□ version 1.24.11\n
+\n
+- [EfT]Modified the specification of the reset parameter of the Clover in the Local Clover Box window at time of reselecting\n
+- [EfT]Mitigate the billing information check conditions of the EfT\n
+- [EfT]Added an option switch to vanished the frame completely when the EfT window frame transparent\n
+\n
+    </string>
+
+    <string name="B12420">
+\n
+□ version 1.24.20\n
+\n
+- Added display grid (you can setting this function from the option)\n
+\n
+    </string>
+
 </resources>

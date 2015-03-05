@@ -119,6 +119,11 @@
     <string name="MainOption_ImageViewMode_Name" >イメージ拡大方法</string>
     <string name="MainOption_ImageViewMode_Nearest" >補間なし(*要再起動)</string>
     <string name="MainOption_ImageViewMode_Linear" >線形補間(*要再起動)</string>
+    <string name="MainOption_CmImageGrid_Name" >グリッド表示</string>
+    <string name="MainOption_CmImageGrid_None" >なし</string>
+    <string name="MainOption_CmImageGrid_Step8" >8区切りで描画</string>
+    <string name="MainOption_CmImageGrid_Step10" >10区切りで描画</string>
+    <string name="MainOption_ScaleGridTurnOn_Name" >グリッド表示が始まる最低倍率</string>
     <string name="MainOption_FlipByTriFinger_Name" >簡易反転操作(指)</string>
     <string name="MainOption_FlipByTriFinger_On">3本指タッチで反転する</string>
     <string name="MainOption_FlipByTriFinger_Off">3本指タッチで反転は無効</string>
@@ -643,6 +648,7 @@
     <string name="MBtnView_DockTool">ツール</string>
     <string name="MBtnView_DockInfo">情報</string>
     <string name="MBtnView_DockTClover">Clover</string>
+    <string name="MBtnView_DockTClvBoxLocal">Local</string>
     <string name="MBtnView_DockTBrush">ブラシ</string>
     <string name="MBtnView_DockTPalMain">パレット</string>
     <string name="MBtnView_DockTLayerList">レイヤー</string>
@@ -878,6 +884,9 @@
     <string name="WinDockProp_UseTransBtn">ウインドウの一時透過ボタン</string>
     <string name="WinDockProp_UseTransBtnTrue">ウインドウの一時透過ボタンを表示する</string>
     <string name="WinDockProp_UseTransBtnFalse">ウインドウの一時透過ボタンを表示しない</string>
+    <string name="WinDockProp_UseInvisibleTransFrame">一時透過時にフレームを不可視に</string>
+    <string name="WinDockProp_UseInvisibleTransFrameTrue">フレームを表示しない</string>
+    <string name="WinDockProp_UseInvisibleTransFrameFalse">フレームを表示する</string>
     
     <string name="ToolDock_PalSpuit_Opacity">不透明度</string>
     <string name="ToolDock_PalSpuit_OpaGet">取得</string>
@@ -977,6 +986,12 @@
     <string name="ToolDock_PSEdit_BtnDelK">Kt削除</string>
     <string name="ToolDock_PSEdit_BtnPrmK">筆圧</string>
     <string name="ToolDock_PSEdit_BtnLine">ライン</string>
+    
+    <string name="ToolDock_ClvBoxLocal_PropCaption">ローカルCloverボックス設定</string>
+    <string name="ToolDock_ClvBoxLocal_UseSmallIcon">アイコンサイズ</string>
+    <string name="ToolDock_ClvBoxLocal_UseSmallIconTrue">小さなアイコンを利用</string>
+    <string name="ToolDock_ClvBoxLocal_UseSmallIconFalse">普通サイズのアイコンを利用</string>
+    <string name="ToolDock_ClvBoxLocal_IsFirstDropDialogDesc">このウインドウのCloverアイコンは画像データ内部に保存されます</string>
     
     <string name="PSEditBrush_BtnPick"		>つまむ</string>
     <string name="PSEditBrush_BtnMove"		>移動</string>

@@ -119,6 +119,11 @@
     <string name="MainOption_ImageViewMode_Name" >Image Magnification</string>
     <string name="MainOption_ImageViewMode_Nearest" >Nearest neighbor (requires reboot)</string>
     <string name="MainOption_ImageViewMode_Linear" >Linear (requires reboot)</string>
+    <string name="MainOption_CmImageGrid_Name" >Display Grid</string>
+    <string name="MainOption_CmImageGrid_None" >None</string>
+    <string name="MainOption_CmImageGrid_Step8" >Step 8</string>
+    <string name="MainOption_CmImageGrid_Step10" >Step 10</string>
+    <string name="MainOption_ScaleGridTurnOn_Name" >Grid becomes turned on at higher than this scale</string>
     <string name="MainOption_FlipByTriFinger_Name" >Horizontal Flip Shortcut (Gesture)</string>
     <string name="MainOption_FlipByTriFinger_On">Flip with three-fingered touch</string>
     <string name="MainOption_FlipByTriFinger_Off">Flip shortcut by three-fingered touch is disabled</string>
@@ -643,6 +648,7 @@
     <string name="MBtnView_DockTool">Tool</string>
     <string name="MBtnView_DockInfo">Info</string>
     <string name="MBtnView_DockTClover">Clover</string>
+    <string name="MBtnView_DockTClvBoxLocal">Local</string>
     <string name="MBtnView_DockTBrush">Brush</string>
     <string name="MBtnView_DockTPalMain">Palette</string>
     <string name="MBtnView_DockTLayerList">Layer</string>
@@ -878,6 +884,9 @@
     <string name="WinDockProp_UseTransBtn">Window trans-hide button</string>
     <string name="WinDockProp_UseTransBtnTrue">Display window trans-hide button</string>
     <string name="WinDockProp_UseTransBtnFalse">Not display window trans-hide button</string>
+    <string name="WinDockProp_UseInvisibleTransFrame">Invisible trans window frame</string>
+    <string name="WinDockProp_UseInvisibleTransFrameTrue">Not display trans window frame</string>
+    <string name="WinDockProp_UseInvisibleTransFrameFalse">Display trans window frame</string>
 
     <string name="ToolDock_PalSpuit_Opacity">Opacity</string>
     <string name="ToolDock_PalSpuit_OpaGet">RGBA</string>
@@ -977,6 +986,12 @@
     <string name="ToolDock_PSEdit_BtnDelK">Del.Knot</string>
     <string name="ToolDock_PSEdit_BtnPrmK">Press</string>
     <string name="ToolDock_PSEdit_BtnLine">Line</string>
+    
+    <string name="ToolDock_ClvBoxLocal_PropCaption">LocalCloverBox Setting</string>
+    <string name="ToolDock_ClvBoxLocal_UseSmallIcon">Clover icon size</string>
+    <string name="ToolDock_ClvBoxLocal_UseSmallIconTrue">Using small size icon</string>
+    <string name="ToolDock_ClvBoxLocal_UseSmallIconFalse">Using normal size icon</string>
+    <string name="ToolDock_ClvBoxLocal_IsFirstDropDialogDesc">The clover dropped in this window is saved to the image local</string>
     
     <string name="PSEditBrush_BtnPick">Pick</string>
     <string name="PSEditBrush_BtnMove">Move</string>

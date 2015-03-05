@@ -643,4 +643,30 @@
 \n
     </string>
 
+    <string name="B12410">
+\n
+□ version 1.24.10\n
+\n
+- [EfT]ローカルCloverボックスウインドウを実装\n
+\n
+    </string>
+
+    <string name="B12411">
+\n
+□ version 1.24.11\n
+\n
+- [EfT]ローカルCloverボックス上のCloverを選択したときパラメータがリセットされてしまう仕様を変更\n
+- [EfT]EfTの課金情報チェック条件を緩和\n
+- [EfT]EfTウインドウ枠を透過させた時のフレームを完全に消すオプションスイッチを追加\n
+\n
+    </string>
+
+    <string name="B12420">
+\n
+□ version 1.24.20\n
+\n
+- グリッド表示機能を追加（オプションから設定変更できます）\n
+\n
+    </string>
+
 </resources>
