@@ -17,7 +17,7 @@
     <string name="dialog_Purchase">Purchase</string>
     <string name="dialog_TryOut">Try out</string>
     <string name="dialog_Cancel">Cancel</string>
-    <string name="NotShowNextTime">Not show next time</string>
+    <string name="NotShowNextTime">Don't show next time</string>
     <string name="MainOption_TouchCorrect_Name">Touch correction</string>
     <string name="MainOption_TouchCorrect_On">Compensate for noise at the start of a touch stroke</string>
     <string name="MainOption_TouchCorrect_Off">Do not compensate for noise at the start of a touch stroke</string>
@@ -39,8 +39,8 @@
     <string name="MainOption_DispTileDelay_On">Skip tiles blend update, and defer to the next</string>
     <string name="MainOption_DispTileDelay_Off">Wait tiles blend update by using blocking</string>
     <string name="MainOption_FullScreen_Name">Full screen</string>
-    <string name="MainOption_FullScreen_On">Use full screen mode (requires reboot)</string>
-    <string name="MainOption_FullScreen_Off">Display notification bar (requires reboot)</string>
+    <string name="MainOption_FullScreen_On">Hide notification bar (requires reboot)</string>
+    <string name="MainOption_FullScreen_Off">Show notification bar (requires reboot)</string>
     <string name="MainOption_FullScreenMode_Name">Full screen mode</string>
     <string name="MainOption_FullScreenMode_NoStatus">Hide status-bar (requires reboot)</string>
     <string name="MainOption_FullScreenMode_Immersive">Full screen [KitKat] (requires reboot)</string>
